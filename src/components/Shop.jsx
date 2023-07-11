@@ -22,32 +22,32 @@ const Shop = () => {
                     uk-switcher="connect: #market_tab ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                   >
                     <li>
-                      {" "}
+                      
                       <a
                         href="#"
                         className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="mr-2 text-2xl max-md:hidden"
                           name="cart-outline"
-                        />{" "}
+                        />
                         My Products
-                      </a>{" "}
+                      </a>
                     </li>
                     <li>
-                      {" "}
+                      
                       <a
                         href="#"
                         className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="mr-2 text-2xl max-md:hidden"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                         Donwloads
-                      </a>{" "}
+                      </a>
                     </li>
                   </ul>
                   {/* right button icons */}
@@ -70,7 +70,7 @@ const Shop = () => {
                 >
                   <div className="bg-slate-200 py-2 px-3.5 rounded-md w-full flex items-center gap-3 dark:bg-dark2">
                     <button type="submit" className="flex">
-                      {" "}
+                      
                       <ion-icon className="text-2xl" name="search" />
                     </button>
                     <input
@@ -92,40 +92,40 @@ const Shop = () => {
                   uk-switcher="connect: #market_tab ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                 >
                   <li>
-                    {" "}
+                    
                     <a
                       href="#"
                       className="flex items-center px-3 py-3.5 -mb-px border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black"
                     >
-                      {" "}
+                      
                       <ion-icon className="mr-2 text-2xl" name="cart-outline" /> My
                       Products
-                    </a>{" "}
+                    </a>
                   </li>
                   <li>
-                    {" "}
+                    
                     <a
                       href="#"
                       className="flex items-center px-3 py-3.5 -mb-px border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black"
                     >
-                      {" "}
+                      
                       <ion-icon
                         className="mr-2 text-2xl"
                         name="cloud-download-outline"
-                      />{" "}
+                      />
                       Donwloads
-                    </a>{" "}
+                    </a>
                   </li>
                   <li>
-                    {" "}
+                    
                     <a
                       href="#"
                       className="flex items-center px-3 py-3.5 -mb-px border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black"
                     >
-                      {" "}
-                      <ion-icon className="mr-2 text-2xl" name="add-outline" />{" "}
+                      
+                      <ion-icon className="mr-2 text-2xl" name="add-outline" />
                       Upload
-                    </a>{" "}
+                    </a>
                   </li>
                 </ul>
                 {/* right button icons */}
@@ -149,7 +149,7 @@ const Shop = () => {
                 >
                   <div className="bg-slate-200 py-2 px-3.5 rounded-md w-full flex items-center gap-3">
                     <button type="submit" className="flex">
-                      {" "}
+                      
                       <ion-icon className="text-2xl" name="search" />
                     </button>
                     <input
@@ -175,114 +175,114 @@ const Shop = () => {
                   <div className="py-6 overflow-hidden uk-slider-container">
                     <ul className="uk-slider-items w-[calc(100%+0.10px)] capitalize text-sm font-semibold">
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Gamings{" "}
-                        </a>{" "}
+                          
+                          Gamings
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          headphones{" "}
-                        </a>{" "}
+                          
+                          headphones
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Parfums{" "}
-                        </a>{" "}
+                          
+                          Parfums
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Fruits{" "}
-                        </a>{" "}
+                          
+                          Fruits
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Gaming{" "}
-                        </a>{" "}
+                          
+                          Gaming
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Mobiles{" "}
-                        </a>{" "}
+                          
+                          Mobiles
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Laptops{" "}
-                        </a>{" "}
+                          
+                          Laptops
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Gaming{" "}
-                        </a>{" "}
+                          
+                          Gaming
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          headphones{" "}
-                        </a>{" "}
+                          
+                          headphones
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Parfums{" "}
-                        </a>{" "}
+                          
+                          Parfums
+                        </a>
                       </li>
                       <li className="w-auto pr-2.5">
-                        {" "}
+                        
                         <a
                           href="#"
                           className="px-4 py-2 rounded-lg bg-slate-200 inline-block hover:shadow dark:bg-dark2"
                         >
-                          {" "}
-                          Fruits{" "}
-                        </a>{" "}
+                          
+                          Fruits
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -291,16 +291,16 @@ const Shop = () => {
                     href="#"
                     uk-slider-item="previous"
                   >
-                    {" "}
-                    <ion-icon name="chevron-back" className="text-2xl" />{" "}
+                    
+                    <ion-icon name="chevron-back" className="text-2xl" />
                   </a>
                   <a
                     className="absolute right-0 -translate-y-1/2 top-1/2 flex items-center w-16 h-12 p-2.5 justify-end bg-gradient-to-l from-bgbody via-bgbody"
                     href="#"
                     uk-slider-item="next"
                   >
-                    {" "}
-                    <ion-icon name="chevron-forward" className="text-2xl" />{" "}
+                    
+                    <ion-icon name="chevron-forward" className="text-2xl" />
                   </a>
                 </div>
                 {/* product list  */}
@@ -320,19 +320,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        The Deep Cleanse{" "}
+                        
+                        The Deep Cleanse
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Jesse Steeve </a>{" "}
+                        
+                        by <a href="profile.html"> Jesse Steeve </a>
                       </p>
                     </div>
                   </div>
@@ -348,19 +348,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Regency High Gloss{" "}
+                        
+                        Regency High Gloss
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> John Michael </a>{" "}
+                        
+                        by <a href="profile.html"> John Michael </a>
                       </p>
                     </div>
                   </div>
@@ -376,19 +376,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Gaming Mouse{" "}
+                        
+                        Gaming Mouse
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Martin Gray </a>{" "}
+                        
+                        by <a href="profile.html"> Martin Gray </a>
                       </p>
                     </div>
                   </div>
@@ -404,19 +404,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Abstract Minimalism Bright{" "}
+                        
+                        Abstract Minimalism Bright
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Alexa stella </a>{" "}
+                        
+                        by <a href="profile.html"> Alexa stella </a>
                       </p>
                     </div>
                   </div>
@@ -432,19 +432,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Abstract art{" "}
+                        
+                        Abstract art
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Alexa stella </a>{" "}
+                        
+                        by <a href="profile.html"> Alexa stella </a>
                       </p>
                     </div>
                   </div>
@@ -460,19 +460,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Chill Lotion{" "}
+                        
+                        Chill Lotion
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Alexa stella </a>{" "}
+                        
+                        by <a href="profile.html"> Alexa stella </a>
                       </p>
                     </div>
                   </div>
@@ -488,19 +488,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        The Deep Cleanse{" "}
+                        
+                        The Deep Cleanse
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Jesse Steeve </a>{" "}
+                        
+                        by <a href="profile.html"> Jesse Steeve </a>
                       </p>
                     </div>
                   </div>
@@ -516,19 +516,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Regency High Gloss{" "}
+                        
+                        Regency High Gloss
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> John Michael </a>{" "}
+                        
+                        by <a href="profile.html"> John Michael </a>
                       </p>
                     </div>
                   </div>
@@ -544,19 +544,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Gaming Mouse{" "}
+                        
+                        Gaming Mouse
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Martin Gray </a>{" "}
+                        
+                        by <a href="profile.html"> Martin Gray </a>
                       </p>
                     </div>
                   </div>
@@ -572,19 +572,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        The Deep Cleanse{" "}
+                        
+                        The Deep Cleanse
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Jesse Steeve </a>{" "}
+                        
+                        by <a href="profile.html"> Jesse Steeve </a>
                       </p>
                     </div>
                   </div>
@@ -600,19 +600,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        Abstract art{" "}
+                        
+                        Abstract art
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Alexa stella </a>{" "}
+                        
+                        by <a href="profile.html"> Alexa stella </a>
                       </p>
                     </div>
                   </div>
@@ -628,19 +628,19 @@ const Shop = () => {
                           />
                         </div>
                         <div className="absolute right-0 top-0 m-2 bg-slate-100 rounded-full py-0.5 px-2 text-sm font-bold dark:bg-slate-800/60">
-                          {" "}
-                          $12{" "}
+                          
+                          $12
                         </div>
                       </div>
                     </a>
                     <div className="py-2">
                       <h4 className="text-black lg:font-medium mb-0.5 dark:text-white">
-                        {" "}
-                        The Deep Cleanse{" "}
+                        
+                        The Deep Cleanse
                       </h4>
                       <p className="md:text-sm text-xs lg:font-medium text-gray-500 dark:text-white">
-                        {" "}
-                        by <a href="profile.html"> Jesse Steeve </a>{" "}
+                        
+                        by <a href="profile.html"> Jesse Steeve </a>
                       </p>
                     </div>
                   </div>
@@ -671,7 +671,7 @@ const Shop = () => {
                     <ion-icon name="chevron-back-outline" /> Back
                   </a>
                   <h2 className="text-2xl font-bold text-black dark:text-white">
-                    {" "}
+                    
                     Downloads
                   </h2>
                 </div>
@@ -722,13 +722,13 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Gaming Mouse{" "}
+                          
+                          Gaming Mouse
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
-                            John Michael{" "}
+                            
+                            John Michael
                           </p>
                         </a>
                       </div>
@@ -737,11 +737,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -749,11 +749,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -761,47 +761,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -825,13 +825,13 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Abstract art{" "}
+                          
+                          Abstract art
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
-                            Jesse Steeve{" "}
+                            
+                            Jesse Steeve
                           </p>
                         </a>
                       </div>
@@ -840,11 +840,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -852,11 +852,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -864,47 +864,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -928,12 +928,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          The Deep Cleanse{" "}
+                          
+                          The Deep Cleanse
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             Jesse Steeve
                           </p>
                         </a>
@@ -943,11 +943,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -955,11 +955,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -967,47 +967,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1031,12 +1031,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Regency High Gloss{" "}
+                          
+                          Regency High Gloss
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             Martin Gray
                           </p>
                         </a>
@@ -1046,11 +1046,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1058,11 +1058,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1070,47 +1070,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1134,12 +1134,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Abstract Minimalism{" "}
+                          
+                          Abstract Minimalism
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             James Lewis
                           </p>
                         </a>
@@ -1149,11 +1149,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1161,11 +1161,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1173,47 +1173,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1237,12 +1237,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Gaming Mouse{" "}
+                          
+                          Gaming Mouse
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             John Michael
                           </p>
                         </a>
@@ -1252,11 +1252,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1264,11 +1264,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1276,47 +1276,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1340,12 +1340,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Gaming Mouse{" "}
+                          
+                          Gaming Mouse
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             John Michael
                           </p>
                         </a>
@@ -1355,11 +1355,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1367,11 +1367,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1379,47 +1379,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1443,12 +1443,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Abstract art{" "}
+                          
+                          Abstract art
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             Jesse Steeve
                           </p>
                         </a>
@@ -1458,11 +1458,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1470,11 +1470,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1482,47 +1482,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1546,12 +1546,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          The Deep Cleanse{" "}
+                          
+                          The Deep Cleanse
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             Jesse Steeve
                           </p>
                         </a>
@@ -1561,11 +1561,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1573,11 +1573,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1585,47 +1585,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1649,12 +1649,12 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Regency High Gloss{" "}
+                          
+                          Regency High Gloss
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
+                            
                             Martin Gray
                           </p>
                         </a>
@@ -1664,11 +1664,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1676,11 +1676,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1688,47 +1688,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1752,13 +1752,13 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Abstract Minimalism{" "}
+                          
+                          Abstract Minimalism
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
-                            James Lewis{" "}
+                            
+                            James Lewis
                           </p>
                         </a>
                       </div>
@@ -1767,11 +1767,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1779,11 +1779,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1791,47 +1791,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -1855,13 +1855,13 @@ const Shop = () => {
                       {/* description */}
                       <div className="flex-1 px-4">
                         <h4 className="text-black font-medium mb-1 dark:text-white">
-                          {" "}
-                          Gaming Mouse{" "}
+                          
+                          Gaming Mouse
                         </h4>
                         <a href="profile.html">
                           <p className="text-sm font-normal text-gray-500 dark:text-white">
-                            {" "}
-                            John Michael{" "}
+                            
+                            John Michael
                           </p>
                         </a>
                       </div>
@@ -1870,11 +1870,11 @@ const Shop = () => {
                         type="button"
                         className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-2xl"
                           name="cloud-download-outline"
-                        />{" "}
+                        />
                       </button>
                       {/* dropdown menu */}
                       <div>
@@ -1882,11 +1882,11 @@ const Shop = () => {
                           type="button"
                           className="hover:bg-secondery w-10 h-10 rounded-full grid place-items-center"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-2xl"
                             name="ellipsis-horizontal"
-                          />{" "}
+                          />
                         </button>
                         <div
                           className="w-[245px]"
@@ -1894,47 +1894,47 @@ const Shop = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="bookmark-outline"
-                              />{" "}
-                              Add to favorites{" "}
+                              />
+                              Add to favorites
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="albums-outline"
-                              />{" "}
-                              add to collections{" "}
+                              />
+                              add to collections
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share{" "}
+                              />
+                              Share
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="trash-outline"
-                              />{" "}
+                              />
                               Delete
                             </a>
                           </nav>
@@ -2009,31 +2009,31 @@ const Shop = () => {
             <div className="p-6">
               <div className="flex absolute right-2.5 top-4 text-black gap-1">
                 <button className="w-8 h-8 hover:bg-slate-100 rounded-full grid place-items-center">
-                  {" "}
+                  
                   <ion-icon
                     className="text-xl"
                     uk-tooltip="title: Share; pos: top; offset: 6"
                     name="share-outline"
-                  />{" "}
+                  />
                 </button>
                 <button className="w-8 h-8 hover:bg-slate-100 rounded-full grid place-items-center">
-                  {" "}
+                  
                   <ion-icon
                     className="text-xl"
                     uk-tooltip="title: Save; pos: top; offset: 6"
                     name="bookmarks-outline"
-                  />{" "}
+                  />
                 </button>
               </div>
               <div>
                 <div className="text-lg font-semibold text-black dark:text-white">
-                  {" "}
-                  Item Name{" "}
+                  
+                  Item Name
                 </div>
                 <p className="font-normal text-sm leading-6 mt-3">
-                  {" "}
+                  
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-                  mollitia? Eaque consequuntur asperiores eos Fugiat ullam{" "}
+                  mollitia? Eaque consequuntur asperiores eos Fugiat ullam
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-y-5 gap-3 text-xs font-medium mt-5">
@@ -2042,60 +2042,60 @@ const Shop = () => {
                   <div className="text-3xl font-semibold text-black"> $10 </div>
                 </div>
                 <div className="space-y-1.5">
-                  {" "}
-                  <div> Views</div>{" "}
+                  
+                  <div> Views</div>
                   <div className="text-2xl font-semibold text-black dark:text-white">
-                    {" "}
-                    1,286{" "}
+                    
+                    1,286
                   </div>
                 </div>
                 <div className="space-y-1.5">
-                  {" "}
-                  <div> Donwloads</div>{" "}
+                  
+                  <div> Donwloads</div>
                   <div className="text-2xl font-semibold text-black dark:text-white">
-                    {" "}
-                    364{" "}
+                    
+                    364
                   </div>
                 </div>
               </div>
               <div className="space-y-2 text-sm mt-7">
                 <div className="flex items-center gap-3">
-                  {" "}
-                  <ion-icon className="text-xl" name="tag-outline" />{" "}
-                  <div className="flex-1"> Category Landscape</div>{" "}
+                  
+                  <ion-icon className="text-xl" name="tag-outline" />
+                  <div className="flex-1"> Category Landscape</div>
                 </div>
                 <div className="flex items-center gap-3">
-                  {" "}
+                  
                   <ion-icon
                     className="text-xl"
                     name="navigate-circle-outline"
-                  />{" "}
-                  <div className="flex-1"> Published 4 days ago</div>{" "}
+                  />
+                  <div className="flex-1"> Published 4 days ago</div>
                 </div>
                 <div className="flex items-center gap-3">
-                  {" "}
-                  <ion-icon className="text-xl" name="camera-outline" />{" "}
-                  <div className="flex-1"> Featured in Editorial</div>{" "}
+                  
+                  <ion-icon className="text-xl" name="camera-outline" />
+                  <div className="flex-1"> Featured in Editorial</div>
                 </div>
                 <div className="flex items-center gap-3">
-                  {" "}
-                  <ion-icon className="text-xl" name="image-outline" />{" "}
-                  <div className="flex-1"> type Image </div>{" "}
+                  
+                  <ion-icon className="text-xl" name="image-outline" />
+                  <div className="flex-1"> type Image </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  {" "}
+                  
                   <ion-icon
                     className="text-xl"
                     name="shield-checkmark-outline"
-                  />{" "}
-                  <div className="flex-1"> Free to use under Instello License </div>{" "}
+                  />
+                  <div className="flex-1"> Free to use under Instello License </div>
                 </div>
               </div>
               <div className="font-medium mt-6 space-y-3">
                 <div className="text-sm"> Seller </div>
                 <a href="#" className="flex items-center gap-3 mb-4 mt-1">
                   <div className="relative w-8 h-8 shrink-0">
-                    {" "}
+                    
                     <img
                       src="assets/images/avatars/avatar-4.jpg"
                       alt=""
@@ -2111,8 +2111,8 @@ const Shop = () => {
                     type="button"
                     className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                   >
-                    {" "}
-                    Chat{" "}
+                    
+                    Chat
                   </button>
                 </a>
               </div>
@@ -2123,15 +2123,15 @@ const Shop = () => {
                   href="#"
                   className="bg-teal-100 rounded-md py-2 text-center flex-1 flex items-center justify-center gap-2 text-teal-500 font-semibold"
                 >
-                  {" "}
+                  
                   <ion-icon className="text-2xl" name="cart-outline" /> Buy
                 </a>
                 <a
                   href="#"
                   className="bg-red-100 rounded-md py-2 text-center px-3 flex"
                 >
-                  {" "}
-                  <ion-icon className="text-2xl text-red-500" name="heart" />{" "}
+                  
+                  <ion-icon className="text-2xl text-red-500" name="heart" />
                 </a>
               </div>
             </div>
@@ -2208,7 +2208,7 @@ const Shop = () => {
                     </div>
                     <div uk-scrollspy-class="uk-animation-slide-bottom-small">
                       <h3 className="text-black font-semibold text-xl dark:text-white">
-                        {" "}
+                        
                         Sell Premium Photes
                       </h3>
                     </div>
@@ -2224,8 +2224,8 @@ const Shop = () => {
                         className="bg-blue-600 text-white rounded-lg py-1.5 px-4 text-sm mt-2 dark:bg-slate-700"
                         uk-slideshow-item="next"
                       >
-                        {" "}
-                        Start selling{" "}
+                        
+                        Start selling
                       </button>
                     </div>
                   </div>
@@ -2365,8 +2365,8 @@ const Shop = () => {
                               <li>
                                 <div className="md:flex items-center gap-16 justify-between">
                                   <label className="md:w-48">
-                                    {" "}
-                                    Who can Comment ?{" "}
+                                    
+                                    Who can Comment ?
                                   </label>
                                   <div className="flex-1 max-md:mt-4">
                                     <select className="w-full !border-0 !rounded-md">
@@ -2385,7 +2385,7 @@ const Shop = () => {
                               aria-expanded="true"
                             >
                               <h4 className="font-semibold text-base text-black dark:text-white">
-                                {" "}
+                                
                                 Advanced settings
                               </h4>
                               <svg
@@ -2445,8 +2445,8 @@ const Shop = () => {
                             type="button"
                             className="button bg-blue-600 text-white px-10"
                           >
-                            {" "}
-                            Share{" "}
+                            
+                            Share
                           </button>
                         </div>
                       </div>
@@ -2465,8 +2465,8 @@ const Shop = () => {
                         className="text-5xl mb-6 text-blue-600 opacity-60 rotate-12"
                       />
                       <h3 className="text-black font-semibold text-xl dark:text-white">
-                        {" "}
-                        Almost Done{" "}
+                        
+                        Almost Done
                       </h3>
                     </div>
                     <div className="font-medium text-sm">
@@ -2480,9 +2480,9 @@ const Shop = () => {
                             defaultValue={3}
                           />
                           <span className="ml-3">
-                            {" "}
+                            
                             I agree this product is mine and i take resposibilty of
-                            this product for selling{" "}
+                            this product for selling
                           </span>
                         </label>
                       </div>
@@ -2492,8 +2492,8 @@ const Shop = () => {
                         type="button"
                         className="button bg-blue-600 text-white px-10"
                       >
-                        {" "}
-                        Share{" "}
+                        
+                        Share
                       </button>
                     </div>
                   </div>
@@ -2552,7 +2552,7 @@ const Shop = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -2584,7 +2584,7 @@ const Shop = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -2616,8 +2616,8 @@ const Shop = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -2665,7 +2665,7 @@ const Shop = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -2695,7 +2695,7 @@ const Shop = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -2704,7 +2704,7 @@ const Shop = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -2718,8 +2718,8 @@ const Shop = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2731,8 +2731,8 @@ const Shop = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2744,8 +2744,8 @@ const Shop = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2757,8 +2757,8 @@ const Shop = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2770,8 +2770,8 @@ const Shop = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2783,8 +2783,8 @@ const Shop = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -3032,11 +3032,11 @@ const Shop = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -3054,7 +3054,7 @@ const Shop = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -3078,7 +3078,7 @@ const Shop = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -3087,7 +3087,7 @@ const Shop = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -3103,8 +3103,8 @@ const Shop = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -3112,7 +3112,7 @@ const Shop = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

@@ -197,19 +197,19 @@ const Explore = () => {
                 />
                 <div className="flex-1">
                   <h4 className="text-black font-medium dark:text-white">
-                    {" "}
-                    Steeve{" "}
+                    
+                    Steeve
                   </h4>
                   <div className="text-gray-500 text-xs dark:text-white/80">
-                    {" "}
+                    
                     2 hours ago
                   </div>
                 </div>
                 {/* dropdown */}
                 <div className="-m-1">
                   <button type="button" className="button__ico w-8 h-8">
-                    {" "}
-                    <ion-icon className="text-xl" name="ellipsis-horizontal" />{" "}
+                    
+                    <ion-icon className="text-xl" name="ellipsis-horizontal" />
                   </button>
                   <div
                     className="w-[253px]"
@@ -217,57 +217,57 @@ const Explore = () => {
                   >
                     <nav>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="bookmark-outline"
-                        />{" "}
-                        Add to favorites{" "}
+                        />
+                        Add to favorites
                       </a>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="notifications-off-outline"
-                        />{" "}
-                        Mute Notification{" "}
+                        />
+                        Mute Notification
                       </a>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="flag-outline"
-                        />{" "}
-                        Report this post{" "}
+                        />
+                        Report this post
                       </a>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="share-outline"
-                        />{" "}
-                        Share your profile{" "}
+                        />
+                        Share your profile
                       </a>
                       <hr />
                       <a
                         href="#"
                         className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="stop-circle-outline"
-                        />{" "}
-                        Unfollow{" "}
+                        />
+                        Unfollow
                       </a>
                     </nav>
                   </div>
                 </div>
               </div>
               <p className="font-normal text-sm leading-6 mt-4">
-                {" "}
+                
                 Photography is the art of capturing light with a camera. it can be
-                fun, challenging. It can also be a hobby, a passion. 📷{" "}
+                fun, challenging. It can also be a hobby, a passion. 📷
               </p>
               <div className="shadow relative -mx-5 px-5 py-3 mt-3">
                 <div className="flex items-center gap-4 text-xs font-semibold">
@@ -276,8 +276,8 @@ const Explore = () => {
                       type="button"
                       className="button__ico text-red-500 bg-red-100 dark:bg-slate-700"
                     >
-                      {" "}
-                      <ion-icon className="text-lg" name="heart" />{" "}
+                      
+                      <ion-icon className="text-lg" name="heart" />
                     </button>
                     <a href="#">1,300</a>
                   </div>
@@ -286,21 +286,21 @@ const Explore = () => {
                       type="button"
                       className="button__ico bg-slate-100 dark:bg-slate-700"
                     >
-                      {" "}
+                      
                       <ion-icon
                         className="text-lg"
                         name="chatbubble-ellipses"
-                      />{" "}
+                      />
                     </button>
                     <span>260</span>
                   </div>
                   <button type="button" className="button__ico ml-auto">
-                    {" "}
-                    <ion-icon className="text-xl" name="share-outline" />{" "}
+                    
+                    <ion-icon className="text-xl" name="share-outline" />
                   </button>
                   <button type="button" className="button__ico">
-                    {" "}
-                    <ion-icon className="text-xl" name="bookmark-outline" />{" "}
+                    
+                    <ion-icon className="text-xl" name="bookmark-outline" />
                   </button>
                 </div>
               </div>
@@ -319,8 +319,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Steeve{" "}
+                      
+                      Steeve
                     </a>
                     <p className="mt-0.5">What a beautiful, I love it. 😍 </p>
                   </div>
@@ -336,8 +336,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Monroe{" "}
+                      
+                      Monroe
                     </a>
                     <p className="mt-0.5"> You captured the moment.😎 </p>
                   </div>
@@ -353,8 +353,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Alexa{" "}
+                      
+                      Alexa
                     </a>
                     <p className="mt-0.5"> This photo is amazing! </p>
                   </div>
@@ -370,7 +370,7 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
+                      
                       John
                     </a>
                     <p className="mt-0.5"> Wow, You are so talented 😍 </p>
@@ -387,8 +387,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Michael{" "}
+                      
+                      Michael
                     </a>
                     <p className="mt-0.5"> I love taking photos 🌳🐶</p>
                   </div>
@@ -404,8 +404,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Monroe{" "}
+                      
+                      Monroe
                     </a>
                     <p className="mt-0.5"> Awesome. 😊😢 </p>
                   </div>
@@ -421,8 +421,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Jesse{" "}
+                      
+                      Jesse
                     </a>
                     <p className="mt-0.5"> Well done 🎨📸 </p>
                   </div>
@@ -438,8 +438,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Steeve{" "}
+                      
+                      Steeve
                     </a>
                     <p className="mt-0.5">What a beautiful, I love it. 😍 </p>
                   </div>
@@ -455,8 +455,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Alexa{" "}
+                      
+                      Alexa
                     </a>
                     <p className="mt-0.5"> This photo is amazing! </p>
                   </div>
@@ -472,7 +472,7 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
+                      
                       John
                     </a>
                     <p className="mt-0.5"> Wow, You are so talented 😍 </p>
@@ -489,8 +489,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Michael{" "}
+                      
+                      Michael
                     </a>
                     <p className="mt-0.5"> I love taking photos 🌳🐶</p>
                   </div>
@@ -506,8 +506,8 @@ const Explore = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Monroe{" "}
+                      
+                      Monroe
                     </a>
                     <p className="mt-0.5"> Awesome. 😊😢 </p>
                   </div>
@@ -536,7 +536,7 @@ const Explore = () => {
                 type="submit"
                 className="hidden text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
               >
-                {" "}
+                
                 Replay
               </button>
             </div>
@@ -575,7 +575,7 @@ const Explore = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -607,7 +607,7 @@ const Explore = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -639,8 +639,8 @@ const Explore = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -688,7 +688,7 @@ const Explore = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -718,7 +718,7 @@ const Explore = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -727,7 +727,7 @@ const Explore = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -741,8 +741,8 @@ const Explore = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -754,8 +754,8 @@ const Explore = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -767,8 +767,8 @@ const Explore = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -780,8 +780,8 @@ const Explore = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -793,8 +793,8 @@ const Explore = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -806,8 +806,8 @@ const Explore = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1055,11 +1055,11 @@ const Explore = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -1077,7 +1077,7 @@ const Explore = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -1101,7 +1101,7 @@ const Explore = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -1110,7 +1110,7 @@ const Explore = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -1126,8 +1126,8 @@ const Explore = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -1135,7 +1135,7 @@ const Explore = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

@@ -17,114 +17,114 @@ const Reels = () => {
               <div className="py-4 overflow-hidden uk-slider-container">
                 <ul className="-ml-2 uk-slider-items w-[calc(100%+0.10px)] capitalize text-sm font-semibold">
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Top{" "}
-                    </a>{" "}
+                      
+                      Top
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      headphones{" "}
-                    </a>{" "}
+                      
+                      headphones
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Parfums{" "}
-                    </a>{" "}
+                      
+                      Parfums
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Fruits{" "}
-                    </a>{" "}
+                      
+                      Fruits
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Gaming{" "}
-                    </a>{" "}
+                      
+                      Gaming
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Mobiles{" "}
-                    </a>{" "}
+                      
+                      Mobiles
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Laptops{" "}
-                    </a>{" "}
+                      
+                      Laptops
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Gaming{" "}
-                    </a>{" "}
+                      
+                      Gaming
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      headphones{" "}
-                    </a>{" "}
+                      
+                      headphones
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Parfums{" "}
-                    </a>{" "}
+                      
+                      Parfums
+                    </a>
                   </li>
                   <li className="w-auto pr-2.5">
-                    {" "}
+                    
                     <a
                       href="#"
                       className="px-4 py-2 rounded-lg bg-white border inline-block hover:shadow dark:bg-dark2 dark:border-slate-700"
                     >
-                      {" "}
-                      Fruits{" "}
-                    </a>{" "}
+                      
+                      Fruits
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -133,16 +133,16 @@ const Reels = () => {
                 href="#"
                 uk-slider-item="previous"
               >
-                {" "}
-                <ion-icon name="chevron-back" className="text-2xl" />{" "}
+                
+                <ion-icon name="chevron-back" className="text-2xl" />
               </a>
               <a
                 className="absolute right-0 -translate-y-1/2 top-1/2 flex items-center w-16 h-12 p-2.5 justify-end bg-gradient-to-l from-[#f6f9fb] via-[#f6f9fb] dark:from-slate-900 dark:via-slate-900"
                 href="#"
                 uk-slider-item="next"
               >
-                {" "}
-                <ion-icon name="chevron-forward" className="text-2xl" />{" "}
+                
+                <ion-icon name="chevron-forward" className="text-2xl" />
               </a>
             </div>
             <div>
@@ -190,8 +190,8 @@ const Reels = () => {
                         </div>
                         <div className="font-normal pt-3 pb-2.5">
                           <div className="line-clamp-2 text-sm">
-                            {" "}
-                            #The Top 8 Online Learning Platforms You Should Try{" "}
+                            
+                            #The Top 8 Online Learning Platforms You Should Try
                           </div>
                         </div>
                       </a>
@@ -227,8 +227,8 @@ const Reels = () => {
                         </div>
                         <div className="font-normal pt-3 pb-2.5">
                           <div className="line-clamp-2 text-sm">
-                            {" "}
-                            #The Top 10 Online Shopping Sites You Should Know About{" "}
+                            
+                            #The Top 10 Online Shopping Sites You Should Know About
                           </div>
                         </div>
                       </a>
@@ -264,8 +264,8 @@ const Reels = () => {
                         </div>
                         <div className="font-normal pt-3 pb-2.5">
                           <div className="line-clamp-2 text-sm">
-                            {" "}
-                            #Health Benefits of Drinking Enough Water Every Day{" "}
+                            
+                            #Health Benefits of Drinking Enough Water Every Day
                           </div>
                         </div>
                       </a>
@@ -301,8 +301,8 @@ const Reels = () => {
                         </div>
                         <div className="font-normal pt-3 pb-2.5">
                           <div className="line-clamp-2 text-sm">
-                            {" "}
-                            #How to Choose the Best Drone for Your Photography Needs{" "}
+                            
+                            #How to Choose the Best Drone for Your Photography Needs
                           </div>
                         </div>
                       </a>
@@ -341,8 +341,8 @@ const Reels = () => {
                         </div>
                         <div className="font-normal pt-3 pb-2.5">
                           <div className="line-clamp-2 text-sm">
-                            {" "}
-                            #The Top 8 Online Learning Platforms You Should Try{" "}
+                            
+                            #The Top 8 Online Learning Platforms You Should Try
                           </div>
                         </div>
                       </a>
@@ -378,8 +378,8 @@ const Reels = () => {
                         </div>
                         <div className="font-normal pt-3 pb-2.5">
                           <div className="line-clamp-2 text-sm">
-                            {" "}
-                            #The Top 10 Online Shopping Sites You Should Know About{" "}
+                            
+                            #The Top 10 Online Shopping Sites You Should Know About
                           </div>
                         </div>
                       </a>
@@ -398,7 +398,7 @@ const Reels = () => {
                   className="absolute -translate-y-1/2 bg-white rounded-full bottom-1/2 -left-4 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
                   uk-slider-item="previous"
                 >
-                  {" "}
+                  
                   <ion-icon name="chevron-back" className="text-2xl" />
                 </button>
                 <button
@@ -406,7 +406,7 @@ const Reels = () => {
                   className="absolute -right-4 -translate-y-1/2 bg-white rounded-full bottom-1/2 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
                   uk-slider-item="next"
                 >
-                  {" "}
+                  
                   <ion-icon name="chevron-forward" className="text-2xl" />
                 </button>
               </div>
@@ -458,8 +458,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #The Top 8 Online Learning Platforms You Should Try{" "}
+                      
+                      #The Top 8 Online Learning Platforms You Should Try
                     </div>
                   </div>
                 </a>
@@ -493,7 +493,7 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
+                      
                       #Health Benefits of Drinking Enough Water Every Day
                     </div>
                   </div>
@@ -528,7 +528,7 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
+                      
                       #The Top 8 Online Learning Platforms You Should Try
                     </div>
                   </div>
@@ -563,8 +563,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #The Top 10 Online Shopping Sites You Should Know About{" "}
+                      
+                      #The Top 10 Online Shopping Sites You Should Know About
                     </div>
                   </div>
                 </a>
@@ -598,8 +598,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #The Top 8 Online Learning Platforms You Should Try{" "}
+                      
+                      #The Top 8 Online Learning Platforms You Should Try
                     </div>
                   </div>
                 </a>
@@ -633,8 +633,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #The Top 10 Online Shopping Sites You Should Know About{" "}
+                      
+                      #The Top 10 Online Shopping Sites You Should Know About
                     </div>
                   </div>
                 </a>
@@ -668,8 +668,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #Health Benefits of Drinking Enough Water Every Day{" "}
+                      
+                      #Health Benefits of Drinking Enough Water Every Day
                     </div>
                   </div>
                 </a>
@@ -703,8 +703,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #How to Choose the Best Drone for Your Photography Needs{" "}
+                      
+                      #How to Choose the Best Drone for Your Photography Needs
                     </div>
                   </div>
                 </a>
@@ -738,8 +738,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #The Top 8 Online Learning Platforms You Should Try{" "}
+                      
+                      #The Top 8 Online Learning Platforms You Should Try
                     </div>
                   </div>
                 </a>
@@ -773,7 +773,7 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
+                      
                       #Health Benefits of Drinking Enough Water Every Day
                     </div>
                   </div>
@@ -808,7 +808,7 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
+                      
                       #The Top 8 Online Learning Platforms You Should Try
                     </div>
                   </div>
@@ -843,8 +843,8 @@ const Reels = () => {
                   </div>
                   <div className="font-normal pt-3 pb-2.5">
                     <div className="line-clamp-2 text-sm">
-                      {" "}
-                      #The Top 10 Online Shopping Sites You Should Know About{" "}
+                      
+                      #The Top 10 Online Shopping Sites You Should Know About
                     </div>
                   </div>
                 </a>
@@ -898,7 +898,7 @@ const Reels = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -930,7 +930,7 @@ const Reels = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -962,8 +962,8 @@ const Reels = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -1011,7 +1011,7 @@ const Reels = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -1041,7 +1041,7 @@ const Reels = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1050,7 +1050,7 @@ const Reels = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1064,8 +1064,8 @@ const Reels = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1077,8 +1077,8 @@ const Reels = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1090,8 +1090,8 @@ const Reels = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1103,8 +1103,8 @@ const Reels = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1116,8 +1116,8 @@ const Reels = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1129,8 +1129,8 @@ const Reels = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1378,11 +1378,11 @@ const Reels = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -1400,7 +1400,7 @@ const Reels = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -1424,7 +1424,7 @@ const Reels = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -1433,7 +1433,7 @@ const Reels = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -1449,8 +1449,8 @@ const Reels = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -1458,7 +1458,7 @@ const Reels = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

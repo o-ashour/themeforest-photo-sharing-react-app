@@ -8,7 +8,7 @@ const Home = () => {
             {/* stories */}
             <div>
               <h3 className="font-extrabold text-2xl  text-black dark:text-white">
-                {" "}
+                
                 Stories
               </h3>
               <div
@@ -178,7 +178,7 @@ const Home = () => {
                     className="absolute -translate-y-1/2 bg-white shadow rounded-full top-1/2 -left-3.5 grid w-8 h-8 place-items-center dark:bg-dark3"
                     uk-slider-item="previous"
                   >
-                    {" "}
+                    
                     <ion-icon name="chevron-back" className="text-2xl" />
                   </button>
                   <button
@@ -186,8 +186,8 @@ const Home = () => {
                     className="absolute -right-2 -translate-y-1/2 bg-white shadow rounded-full top-1/2 grid w-8 h-8 place-items-center dark:bg-dark3"
                     uk-slider-item="next"
                   >
-                    {" "}
-                    <ion-icon name="chevron-forward" className="text-2xl" />{" "}
+                    
+                    <ion-icon name="chevron-forward" className="text-2xl" />
                   </button>
                 </div>
               </div>
@@ -206,8 +206,8 @@ const Home = () => {
                       uk-toggle="target: #create-status"
                     >
                       <div className="py-2.5 text-center dark:text-white">
-                        {" "}
-                        What do you have in mind?{" "}
+                        
+                        What do you have in mind?
                       </div>
                     </div>
                     <div
@@ -247,33 +247,33 @@ const Home = () => {
                   {/* post heading */}
                   <div className="flex gap-3 sm:p-4 p-2.5 text-sm font-medium">
                     <a href="profile.html">
-                      {" "}
+                      
                       <img
                         src="assets/images/avatars/avatar-3.jpg"
                         alt=""
                         className="w-9 h-9 rounded-full"
-                      />{" "}
+                      />
                     </a>
                     <div className="flex-1">
                       <a href="profile.html">
-                        {" "}
+                        
                         <h4 className="text-black dark:text-white">
-                          {" "}
-                          Monroe Parker{" "}
-                        </h4>{" "}
+                          
+                          Monroe Parker
+                        </h4>
                       </a>
                       <div className="text-xs text-gray-500 dark:text-white/80">
-                        {" "}
+                        
                         2 hours ago
                       </div>
                     </div>
                     <div className="-mr-1">
                       <button type="button" className="button__ico w-8 h-8">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl"
                           name="ellipsis-horizontal"
-                        />{" "}
+                        />
                       </button>
                       <div
                         className="w-[245px]"
@@ -281,48 +281,48 @@ const Home = () => {
                       >
                         <nav>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="bookmark-outline"
-                            />{" "}
-                            Add to favorites{" "}
+                            />
+                            Add to favorites
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="notifications-off-outline"
-                            />{" "}
-                            Mute Notification{" "}
+                            />
+                            Mute Notification
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="flag-outline"
-                            />{" "}
-                            Report this post{" "}
+                            />
+                            Report this post
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="share-outline"
-                            />{" "}
-                            Share your profile{" "}
+                            />
+                            Share your profile
                           </a>
                           <hr />
                           <a
                             href="#"
                             className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                           >
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="stop-circle-outline"
-                            />{" "}
-                            Unfollow{" "}
+                            />
+                            Unfollow
                           </a>
                         </nav>
                       </div>
@@ -343,8 +343,8 @@ const Home = () => {
                         type="button"
                         className="button__ico text-red-500 bg-red-100 dark:bg-slate-700"
                       >
-                        {" "}
-                        <ion-icon className="text-lg" name="heart" />{" "}
+                        
+                        <ion-icon className="text-lg" name="heart" />
                       </button>
                       <a href="#">1,380</a>
                     </div>
@@ -353,66 +353,66 @@ const Home = () => {
                         type="button"
                         className="button__ico bg-slate-200/70 dark:bg-slate-700"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-lg"
                           name="chatbubble-ellipses"
-                        />{" "}
+                        />
                       </button>
                       <span>260</span>
                     </div>
                     <button type="button" className="button__ico ml-auto">
-                      {" "}
+                      
                       <ion-icon
                         className="text-xl"
                         name="paper-plane-outline"
-                      />{" "}
+                      />
                     </button>
                     <button type="button" className="button__ico">
-                      {" "}
-                      <ion-icon className="text-xl" name="share-outline" />{" "}
+                      
+                      <ion-icon className="text-xl" name="share-outline" />
                     </button>
                   </div>
                   {/* comments */}
                   <div className="sm:p-4 p-2.5 border-t border-gray-100 font-normal space-y-3 relative dark:border-slate-700/40">
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-2.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Steeve{" "}
+                          
+                          Steeve
                         </a>
                         <p className="mt-0.5">
-                          What a beautiful photo! I love it. 😍{" "}
+                          What a beautiful photo! I love it. 😍
                         </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-3.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Monroe{" "}
+                          
+                          Monroe
                         </a>
                         <p className="mt-0.5"> You captured the moment.😎 </p>
                       </div>
@@ -477,7 +477,7 @@ const Home = () => {
                       type="submit"
                       className="text-sm rounded-full py-1.5 px-3.5 bg-secondery"
                     >
-                      {" "}
+                      
                       Replay
                     </button>
                   </div>
@@ -487,33 +487,33 @@ const Home = () => {
                   {/* post heading */}
                   <div className="flex gap-3 sm:p-4 p-2.5 text-sm font-medium">
                     <a href="profile.html">
-                      {" "}
+                      
                       <img
                         src="assets/images/avatars/avatar-2.jpg"
                         alt=""
                         className="w-9 h-9 rounded-full"
-                      />{" "}
+                      />
                     </a>
                     <div className="flex-1">
                       <a href="profile.html">
-                        {" "}
+                        
                         <h4 className="text-black dark:text-white">
-                          {" "}
-                          Martin Gray{" "}
-                        </h4>{" "}
+                          
+                          Martin Gray
+                        </h4>
                       </a>
                       <div className="text-xs text-gray-500 dark:text-white/80">
-                        {" "}
+                        
                         2 hours ago
                       </div>
                     </div>
                     <div className="-mr-1">
                       <button type="button" className="button__ico w-8 h-8">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl"
                           name="ellipsis-horizontal"
-                        />{" "}
+                        />
                       </button>
                       <div
                         className="w-[245px]"
@@ -521,48 +521,48 @@ const Home = () => {
                       >
                         <nav>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="bookmark-outline"
-                            />{" "}
-                            Add to favorites{" "}
+                            />
+                            Add to favorites
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="notifications-off-outline"
-                            />{" "}
-                            Mute Notification{" "}
+                            />
+                            Mute Notification
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="flag-outline"
-                            />{" "}
-                            Report this post{" "}
+                            />
+                            Report this post
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="share-outline"
-                            />{" "}
-                            Share your profile{" "}
+                            />
+                            Share your profile
                           </a>
                           <hr />
                           <a
                             href="#"
                             className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                           >
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="stop-circle-outline"
-                            />{" "}
-                            Unfollow{" "}
+                            />
+                            Unfollow
                           </a>
                         </nav>
                       </div>
@@ -606,7 +606,7 @@ const Home = () => {
                       className="absolute left-2 -translate-y-1/2 bg-black/40 backdrop-blur-3xl rounded-full top-1/2 grid w-7 h-7 place-items-center shadow"
                       uk-slideshow-item="previous"
                     >
-                      {" "}
+                      
                       <ion-icon
                         name="chevron-back"
                         className="text-xl text-white"
@@ -617,7 +617,7 @@ const Home = () => {
                       className="absolute right-2 -translate-y-1/2 bg-black/40 backdrop-blur-3xl rounded-full top-1/2 grid w-7 h-7 place-items-center shadow"
                       uk-slideshow-item="next"
                     >
-                      {" "}
+                      
                       <ion-icon
                         name="chevron-forward"
                         className="text-xl text-white"
@@ -631,8 +631,8 @@ const Home = () => {
                         type="button"
                         className="button__ico text-red-500 bg-red-100 dark:bg-slate-700"
                       >
-                        {" "}
-                        <ion-icon className="text-lg" name="heart" />{" "}
+                        
+                        <ion-icon className="text-lg" name="heart" />
                       </button>
                       <a href="#">1,280</a>
                     </div>
@@ -641,67 +641,67 @@ const Home = () => {
                         type="button"
                         className="button__ico bg-slate-200/70 dark:bg-slate-700"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-lg"
                           name="chatbubble-ellipses"
-                        />{" "}
+                        />
                       </button>
                       <span>638</span>
                     </div>
                     <button type="button" className="button__ico ml-auto">
-                      {" "}
+                      
                       <ion-icon
                         className="text-xl"
                         name="paper-plane-outline"
-                      />{" "}
+                      />
                     </button>
                     <button type="button" className="button__ico">
-                      {" "}
-                      <ion-icon className="text-xl" name="share-outline" />{" "}
+                      
+                      <ion-icon className="text-xl" name="share-outline" />
                     </button>
                   </div>
                   {/* comments */}
                   <div className="sm:p-4 p-2.5 border-t border-gray-100 font-normal space-y-3 relative dark:border-slate-700/40">
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-2.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Steeve{" "}
+                          
+                          Steeve
                         </a>
                         <p className="mt-0.5">
-                          {" "}
-                          Wow, You are so talented and creative. 😍{" "}
+                          
+                          Wow, You are so talented and creative. 😍
                         </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-3.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Monroe{" "}
+                          
+                          Monroe
                         </a>
                         <p className="mt-0.5"> This photo is amazing! 😍 </p>
                       </div>
@@ -766,7 +766,7 @@ const Home = () => {
                       type="submit"
                       className="text-sm rounded-full py-1.5 px-3.5 bg-secondery"
                     >
-                      {" "}
+                      
                       Replay
                     </button>
                   </div>
@@ -776,33 +776,33 @@ const Home = () => {
                   {/* post heading */}
                   <div className="flex gap-3 sm:p-4 p-2.5 text-sm font-medium">
                     <a href="profile.html">
-                      {" "}
+                      
                       <img
                         src="assets/images/avatars/avatar-5.jpg"
                         alt=""
                         className="w-9 h-9 rounded-full"
-                      />{" "}
+                      />
                     </a>
                     <div className="flex-1">
                       <a href="profile.html">
-                        {" "}
+                        
                         <h4 className="text-black dark:text-white">
-                          {" "}
-                          John Michael{" "}
-                        </h4>{" "}
+                          
+                          John Michael
+                        </h4>
                       </a>
                       <div className="text-xs text-gray-500 dark:text-white/80">
-                        {" "}
+                        
                         2 hours ago
                       </div>
                     </div>
                     <div className="-mr-1">
                       <button type="button" className="button__ico w-8 h-8">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl"
                           name="ellipsis-horizontal"
-                        />{" "}
+                        />
                       </button>
                       <div
                         className="w-[245px]"
@@ -810,48 +810,48 @@ const Home = () => {
                       >
                         <nav>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="bookmark-outline"
-                            />{" "}
-                            Add to favorites{" "}
+                            />
+                            Add to favorites
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="notifications-off-outline"
-                            />{" "}
-                            Mute Notification{" "}
+                            />
+                            Mute Notification
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="flag-outline"
-                            />{" "}
-                            Report this post{" "}
+                            />
+                            Report this post
                           </a>
                           <a href="#">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="share-outline"
-                            />{" "}
-                            Share your profile{" "}
+                            />
+                            Share your profile
                           </a>
                           <hr />
                           <a
                             href="#"
                             className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                           >
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl shrink-0"
                               name="stop-circle-outline"
-                            />{" "}
-                            Unfollow{" "}
+                            />
+                            Unfollow
                           </a>
                         </nav>
                       </div>
@@ -860,12 +860,12 @@ const Home = () => {
                   {/* slide images */}
                   <div className="sm:px-4 p-2.5 pt-0">
                     <p className="font-normal">
-                      {" "}
+                      
                       Photography is the art of capturing light with a camera. It
                       can be used to create images that tell stories, express
                       emotions, or document reality. it can be fun, challenging, or
                       rewarding. It can also be a hobby, a profession, or a passion.
-                      📷{" "}
+                      📷
                     </p>
                   </div>
                   {/* post icons */}
@@ -875,8 +875,8 @@ const Home = () => {
                         type="button"
                         className="button__ico text-red-500 bg-red-100 dark:bg-slate-700"
                       >
-                        {" "}
-                        <ion-icon className="text-lg" name="heart" />{" "}
+                        
+                        <ion-icon className="text-lg" name="heart" />
                       </button>
                       <a href="#">1,300</a>
                     </div>
@@ -885,90 +885,90 @@ const Home = () => {
                         type="button"
                         className="button__ico bg-slate-200/70 dark:bg-slate-700"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-lg"
                           name="chatbubble-ellipses"
-                        />{" "}
+                        />
                       </button>
                       <span>260</span>
                     </div>
                     <button type="button" className="button__ico ml-auto">
-                      {" "}
+                      
                       <ion-icon
                         className="text-xl"
                         name="paper-plane-outline"
-                      />{" "}
+                      />
                     </button>
                     <button type="button" className="button__ico">
-                      {" "}
-                      <ion-icon className="text-xl" name="share-outline" />{" "}
+                      
+                      <ion-icon className="text-xl" name="share-outline" />
                     </button>
                   </div>
                   {/* comments */}
                   <div className="sm:p-4 p-2.5 border-t border-gray-100 font-normal space-y-3 relative dark:border-slate-700/40">
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-2.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Steeve{" "}
+                          
+                          Steeve
                         </a>
                         <p className="mt-0.5">
-                          {" "}
+                          
                           I love taking photos of nature and animals. 🌳🐶
                         </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-3.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Monroe{" "}
+                          
+                          Monroe
                         </a>
                         <p className="mt-0.5">
-                          {" "}
-                          I enjoy people and emotions. 😊😢{" "}
+                          
+                          I enjoy people and emotions. 😊😢
                         </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3 relative">
                       <a href="profile.html">
-                        {" "}
+                        
                         <img
                           src="assets/images/avatars/avatar-5.jpg"
                           alt=""
                           className="w-6 h-6 mt-1 rounded-full"
-                        />{" "}
+                        />
                       </a>
                       <div className="flex-1">
                         <a
                           href="profile.html"
                           className="text-black font-medium inline-block dark:text-white"
                         >
-                          {" "}
-                          Jesse{" "}
+                          
+                          Jesse
                         </a>
                         <p className="mt-0.5"> Photography is my passion. 🎨📸 </p>
                       </div>
@@ -1023,7 +1023,7 @@ const Home = () => {
                       type="submit"
                       className="text-sm rounded-full py-1.5 px-3.5 bg-secondery"
                     >
-                      {" "}
+                      
                       Replay
                     </button>
                   </div>
@@ -1039,7 +1039,7 @@ const Home = () => {
                     <div className="w-6 h-6 rounded-full bg-slate-300/20" />
                   </div>
                   <div className="w-full h-52 rounded-lg bg-slate-300/10 my-3">
-                    {" "}
+                    
                   </div>
                   <div className="flex gap-3">
                     <div className="w-16 h-5 rounded-md bg-slate-300/20" />
@@ -1059,12 +1059,12 @@ const Home = () => {
                   <div className="bg-white rounded-xl shadow-sm p-5 px-6 border1 dark:bg-dark2">
                     <div className="flex justify-between text-black dark:text-white">
                       <h3 className="font-bold text-base">
-                        {" "}
-                        Peaple You might know{" "}
+                        
+                        Peaple You might know
                       </h3>
                       <button type="button">
-                        {" "}
-                        <ion-icon name="sync-outline" className="text-xl" />{" "}
+                        
+                        <ion-icon name="sync-outline" className="text-xl" />
                       </button>
                     </div>
                     <div className="space-y-4 capitalize text-xs font-normal mt-5 mb-2 text-gray-500 dark:text-white/80">
@@ -1079,7 +1079,7 @@ const Home = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="font-semibold text-sm text-black dark:text-white">
-                              {" "}
+                              
                               Johnson smith
                             </h4>
                           </a>
@@ -1089,8 +1089,8 @@ const Home = () => {
                           type="button"
                           className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                         >
-                          {" "}
-                          Follow{" "}
+                          
+                          Follow
                         </button>
                       </div>
                       <div className="flex items-center gap-3">
@@ -1104,7 +1104,7 @@ const Home = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="font-semibold text-sm text-black dark:text-white">
-                              {" "}
+                              
                               James Lewis
                             </h4>
                           </a>
@@ -1114,8 +1114,8 @@ const Home = () => {
                           type="button"
                           className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                         >
-                          {" "}
-                          Follow{" "}
+                          
+                          Follow
                         </button>
                       </div>
                       <div className="flex items-center gap-3">
@@ -1129,7 +1129,7 @@ const Home = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="font-semibold text-sm text-black dark:text-white">
-                              {" "}
+                              
                               John Michael
                             </h4>
                           </a>
@@ -1139,8 +1139,8 @@ const Home = () => {
                           type="button"
                           className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                         >
-                          {" "}
-                          Follow{" "}
+                          
+                          Follow
                         </button>
                       </div>
                       <div className="flex items-center gap-3">
@@ -1154,7 +1154,7 @@ const Home = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="font-semibold text-sm text-black dark:text-white">
-                              {" "}
+                              
                               Monroe Parker
                             </h4>
                           </a>
@@ -1164,8 +1164,8 @@ const Home = () => {
                           type="button"
                           className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                         >
-                          {" "}
-                          Follow{" "}
+                          
+                          Follow
                         </button>
                       </div>
                       <div className="flex items-center gap-3">
@@ -1179,7 +1179,7 @@ const Home = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="font-semibold text-sm text-black dark:text-white">
-                              {" "}
+                              
                               Martin Gray
                             </h4>
                           </a>
@@ -1189,8 +1189,8 @@ const Home = () => {
                           type="button"
                           className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                         >
-                          {" "}
-                          Follow{" "}
+                          
+                          Follow
                         </button>
                       </div>
                     </div>
@@ -1200,8 +1200,8 @@ const Home = () => {
                     <div className="flex justify-between text-black dark:text-white">
                       <h3 className="font-bold text-base"> Premium Photos </h3>
                       <button type="button">
-                        {" "}
-                        <ion-icon name="sync-outline" className="text-xl" />{" "}
+                        
+                        <ion-icon name="sync-outline" className="text-xl" />
                       </button>
                     </div>
                     <div
@@ -1222,8 +1222,8 @@ const Home = () => {
                                   />
                                 </div>
                                 <div className="absolute right-0 top-0 m-2 bg-white/60 rounded-full py-0.5 px-2 text-sm font-semibold dark:bg-slate-800/60">
-                                  {" "}
-                                  $12{" "}
+                                  
+                                  $12
                                 </div>
                               </div>
                               <div className="mt-3 w-full"> Gaming Mouse </div>
@@ -1240,8 +1240,8 @@ const Home = () => {
                                   />
                                 </div>
                                 <div className="absolute right-0 top-0 m-2 bg-white/60 rounded-full py-0.5 px-2 text-sm font-semibold dark:bg-slate-800/60">
-                                  {" "}
-                                  $18{" "}
+                                  
+                                  $18
                                 </div>
                               </div>
                               <div className="mt-3 w-full"> Deep Cleanse </div>
@@ -1258,8 +1258,8 @@ const Home = () => {
                                   />
                                 </div>
                                 <div className="absolute right-0 top-0 m-2 bg-white/60 rounded-full py-0.5 px-2 text-sm font-semibold dark:bg-slate-800/60">
-                                  {" "}
-                                  $12{" "}
+                                  
+                                  $12
                                 </div>
                               </div>
                               <div className="mt-3 w-full"> Chill Lotion </div>
@@ -1271,7 +1271,7 @@ const Home = () => {
                           className="absolute bg-white rounded-full top-16 -left-4 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                           uk-slider-item="previous"
                         >
-                          {" "}
+                          
                           <ion-icon name="chevron-back" className="text-2xl" />
                         </button>
                         <button
@@ -1279,7 +1279,7 @@ const Home = () => {
                           className="absolute -right-4 bg-white rounded-full top-16 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                           uk-slider-item="next"
                         >
-                          {" "}
+                          
                           <ion-icon name="chevron-forward" className="text-2xl" />
                         </button>
                       </div>
@@ -1290,8 +1290,8 @@ const Home = () => {
                     <div className="flex justify-between text-black dark:text-white">
                       <h3 className="font-bold text-base"> Online Friends </h3>
                       <button type="button">
-                        {" "}
-                        <ion-icon name="sync-outline" className="text-xl" />{" "}
+                        
+                        <ion-icon name="sync-outline" className="text-xl" />
                       </button>
                     </div>
                     <div className="grid grid-cols-6 gap-3 mt-4">
@@ -1384,22 +1384,22 @@ const Home = () => {
                               </a>
                               <div className="mt-5 text-center w-full">
                                 <a href="profile.html">
-                                  {" "}
+                                  
                                   <h5 className="font-semibold">
-                                    {" "}
+                                    
                                     Martin Gray
-                                  </h5>{" "}
+                                  </h5>
                                 </a>
                                 <div className="text-xs text-gray-400 mt-0.5 font-medium">
-                                  {" "}
+                                  
                                   12K Followers
                                 </div>
                                 <button
                                   type="button"
                                   className="bg-secondery block font-semibold mt-4 py-1.5 rounded-lg text-sm w-full border1"
                                 >
-                                  {" "}
-                                  Follow{" "}
+                                  
+                                  Follow
                                 </button>
                               </div>
                             </div>
@@ -1417,22 +1417,22 @@ const Home = () => {
                               </a>
                               <div className="mt-5 text-center w-full">
                                 <a href="profile.html">
-                                  {" "}
+                                  
                                   <h5 className="font-semibold">
-                                    {" "}
+                                    
                                     Alexa Park
-                                  </h5>{" "}
+                                  </h5>
                                 </a>
                                 <div className="text-xs text-gray-400 mt-0.5 font-medium">
-                                  {" "}
+                                  
                                   12K Followers
                                 </div>
                                 <button
                                   type="button"
                                   className="bg-secondery block font-semibold mt-4 py-1.5 rounded-lg text-sm w-full border1"
                                 >
-                                  {" "}
-                                  Follow{" "}
+                                  
+                                  Follow
                                 </button>
                               </div>
                             </div>
@@ -1450,22 +1450,22 @@ const Home = () => {
                               </a>
                               <div className="mt-5 text-center w-full">
                                 <a href="profile.html">
-                                  {" "}
+                                  
                                   <h5 className="font-semibold">
-                                    {" "}
+                                    
                                     James Lewis
-                                  </h5>{" "}
+                                  </h5>
                                 </a>
                                 <div className="text-xs text-gray-400 mt-0.5 font-medium">
-                                  {" "}
+                                  
                                   15K Followers
                                 </div>
                                 <button
                                   type="button"
                                   className="bg-secondery block font-semibold mt-4 py-1.5 rounded-lg text-sm w-full border1"
                                 >
-                                  {" "}
-                                  Follow{" "}
+                                  
+                                  Follow
                                 </button>
                               </div>
                             </div>
@@ -1476,7 +1476,7 @@ const Home = () => {
                           className="absolute -translate-y-1/2 bg-slate-100 rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center dark:bg-dark3"
                           uk-slider-item="previous"
                         >
-                          {" "}
+                          
                           <ion-icon name="chevron-back" className="text-2xl" />
                         </button>
                         <button
@@ -1484,7 +1484,7 @@ const Home = () => {
                           className="absolute -right-4 -translate-y-1/2 bg-slate-100 rounded-full top-1/2 grid w-9 h-9 place-items-center dark:bg-dark3"
                           uk-slider-item="next"
                         >
-                          {" "}
+                          
                           <ion-icon name="chevron-forward" className="text-2xl" />
                         </button>
                       </div>
@@ -1495,8 +1495,8 @@ const Home = () => {
                     <div className="flex justify-between text-black dark:text-white">
                       <h3 className="font-bold text-base"> Trends for you </h3>
                       <button type="button">
-                        {" "}
-                        <ion-icon name="sync-outline" className="text-xl" />{" "}
+                        
+                        <ion-icon name="sync-outline" className="text-xl" />
                       </button>
                     </div>
                     <div className="space-y-3.5 capitalize text-xs font-normal mt-5 mb-2 text-gray-600 dark:text-white/80">
@@ -1518,8 +1518,8 @@ const Home = () => {
                           </svg>
                           <div className="flex-1">
                             <h4 className="font-semibold text-black dark:text-white text-sm">
-                              {" "}
-                              artificial intelligence{" "}
+                              
+                              artificial intelligence
                             </h4>
                             <div className="mt-0.5"> 1,245,62 post </div>
                           </div>
@@ -1543,7 +1543,7 @@ const Home = () => {
                           </svg>
                           <div className="flex-1">
                             <h4 className="font-semibold text-black dark:text-white text-sm">
-                              {" "}
+                              
                               Web developers
                             </h4>
                             <div className="mt-0.5"> 1,624 post </div>
@@ -1568,7 +1568,7 @@ const Home = () => {
                           </svg>
                           <div className="flex-1">
                             <h4 className="font-semibold text-black dark:text-white text-sm">
-                              {" "}
+                              
                               Ui Designers
                             </h4>
                             <div className="mt-0.5"> 820 post </div>
@@ -1593,8 +1593,8 @@ const Home = () => {
                           </svg>
                           <div className="flex-1">
                             <h4 className="font-semibold text-black dark:text-white text-sm">
-                              {" "}
-                              affiliate marketing{" "}
+                              
+                              affiliate marketing
                             </h4>
                             <div className="mt-0.5"> 480 post </div>
                           </div>
@@ -1636,7 +1636,7 @@ const Home = () => {
           <div className="space-y-5 mt-7">
             <div>
               <label htmlFor="" className="text-base">
-                What do you have in mind?{" "}
+                What do you have in mind?
               </label>
               <input type="text" className="w-full mt-3" />
             </div>
@@ -1667,13 +1667,13 @@ const Home = () => {
                   className="text-3xl text-sky-600  rounded-full bg-blue-50 dark:bg-transparent"
                 />
                 <p className="text-sm text-gray-500 font-medium">
-                  {" "}
-                  Your Status will be available <br /> for{" "}
-                  <span className="text-gray-800"> 24 Hours</span>{" "}
+                  
+                  Your Status will be available <br /> for
+                  <span className="text-gray-800"> 24 Hours</span>
                 </p>
               </div>
               <button type="button" className="button bg-blue-500 text-white px-8">
-                {" "}
+                
                 Create
               </button>
             </div>
@@ -1712,7 +1712,7 @@ const Home = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -1744,7 +1744,7 @@ const Home = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -1776,8 +1776,8 @@ const Home = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -1825,7 +1825,7 @@ const Home = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -1855,7 +1855,7 @@ const Home = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1864,7 +1864,7 @@ const Home = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1878,8 +1878,8 @@ const Home = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1891,8 +1891,8 @@ const Home = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1904,8 +1904,8 @@ const Home = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1917,8 +1917,8 @@ const Home = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1930,8 +1930,8 @@ const Home = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1943,8 +1943,8 @@ const Home = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2192,11 +2192,11 @@ const Home = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -2214,7 +2214,7 @@ const Home = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -2238,7 +2238,7 @@ const Home = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -2247,7 +2247,7 @@ const Home = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -2263,8 +2263,8 @@ const Home = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -2272,7 +2272,7 @@ const Home = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

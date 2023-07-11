@@ -15,12 +15,12 @@ const Upgrade = () => {
             <div className="lg:py-32 py-20">
               <div className="text-center">
                 <h1 className="lg:text-5xl lg:font-bold md:text-3xl text-xl font-semibold bg-gradient-to-tr from-orange-500 to-yellow-500 bg-clip-text text-transparent leading-relaxed">
-                  {" "}
+                  
                   With Instello Premium
                 </h1>
                 <p className="text-sm text-gray-500 mt-2 dark:text-white/80">
-                  {" "}
-                  Exclusive features and benefits on Instello are accessible to you.{" "}
+                  
+                  Exclusive features and benefits on Instello are accessible to you.
                 </p>
               </div>
               {/* pricing lebel with slider */}
@@ -42,11 +42,11 @@ const Upgrade = () => {
                         <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block dark:bg-dark3">
                           <div className="mb-4 text-sm"> Weekly </div>
                           <h2 className="text-3xl font-bold text-black relative px-2 dark:text-white">
-                            {" "}
+                            
                             <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                               $
-                            </span>{" "}
-                            12.99{" "}
+                            </span>
+                            12.99
                           </h2>
                           <ion-icon
                             name="checkmark-circle"
@@ -67,11 +67,11 @@ const Upgrade = () => {
                         <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block dark:bg-dark3">
                           <div className="mb-4 text-sm"> Monthly </div>
                           <h2 className="text-3xl font-bold text-black relative px-2 dark:text-white">
-                            {" "}
+                            
                             <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                               $
-                            </span>{" "}
-                            32.99{" "}
+                            </span>
+                            32.99
                           </h2>
                           <ion-icon
                             name="checkmark-circle"
@@ -91,11 +91,11 @@ const Upgrade = () => {
                         <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block dark:bg-dark3">
                           <div className="mb-4 text-sm"> Yearly </div>
                           <h2 className="text-3xl font-bold text-black relative px-2 dark:text-white">
-                            {" "}
+                            
                             <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                               $
-                            </span>{" "}
-                            62.99{" "}
+                            </span>
+                            62.99
                           </h2>
                           <ion-icon
                             name="checkmark-circle"
@@ -115,11 +115,11 @@ const Upgrade = () => {
                         <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block dark:bg-dark3">
                           <div className="mb-4 text-sm"> Forever </div>
                           <h2 className="text-3xl font-bold text-black relative px-2 dark:text-white">
-                            {" "}
+                            
                             <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                               $
-                            </span>{" "}
-                            92.99{" "}
+                            </span>
+                            92.99
                           </h2>
                           <ion-icon
                             name="checkmark-circle"
@@ -158,11 +158,11 @@ const Upgrade = () => {
                   <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block">
                     <div className="mb-4 text-sm"> Monthly </div>
                     <h2 className="text-3xl font-bold text-black relative px-2">
-                      {" "}
+                      
                       <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                         $
-                      </span>{" "}
-                      12.99{" "}
+                      </span>
+                      12.99
                     </h2>
                     <ion-icon
                       name="checkmark-circle"
@@ -180,11 +180,11 @@ const Upgrade = () => {
                   <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block">
                     <div className="mb-4 text-sm"> Yearly </div>
                     <h2 className="text-3xl font-bold text-black relative px-2">
-                      {" "}
+                      
                       <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                         $
-                      </span>{" "}
-                      32.99{" "}
+                      </span>
+                      32.99
                     </h2>
                     <ion-icon
                       name="checkmark-circle"
@@ -202,11 +202,11 @@ const Upgrade = () => {
                   <div className="relative p-4 bg-white shadow-sm rounded-xl cursor-pointer peer-checked:[&_.active]:block">
                     <div className="mb-4 text-sm"> Forever </div>
                     <h2 className="text-3xl font-bold text-black relative px-2">
-                      {" "}
+                      
                       <span className="text-xs absolute top-1.5 -left-1 font-normal text-gray-400">
                         $
-                      </span>{" "}
-                      92.99{" "}
+                      </span>
+                      92.99
                     </h2>
                     <ion-icon
                       name="checkmark-circle"
@@ -217,7 +217,7 @@ const Upgrade = () => {
               </div>
               <div className="md:p-8 p-5 bg-white shadow-sm rounded-xl mt-16 dark:bg-dark3">
                 <h1 className="text-base font-medium text-black dark:text-white">
-                  Why Choose Premium Membership{" "}
+                  Why Choose Premium Membership
                 </h1>
                 <div className=" text-sm text-gray-500 grid grid-cols-2 gap-10 mt-8 dark:text-white/80">
                   <div className="flex gap-5 max-md:items-center">
@@ -227,13 +227,13 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Stories{" "}
+                        
+                        Stories
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
+                        
                         Post moments your everyday life that disappear after 24
-                        hours{" "}
+                        hours
                       </p>
                     </div>
                   </div>
@@ -244,12 +244,12 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Images{" "}
+                        
+                        Images
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
-                        You can upload Unlimited photes and share with your friends{" "}
+                        
+                        You can upload Unlimited photes and share with your friends
                       </p>
                     </div>
                   </div>
@@ -260,13 +260,13 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Messages{" "}
+                        
+                        Messages
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
+                        
                         Send photos, videos, and messages privately to your friends
-                        or groups{" "}
+                        or groups
                       </p>
                     </div>
                   </div>
@@ -277,13 +277,13 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Shorts{" "}
+                        
+                        Shorts
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
+                        
                         Create and share short, entertaining videos with music,
-                        filters, and effects{" "}
+                        filters, and effects
                       </p>
                     </div>
                   </div>
@@ -294,12 +294,12 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Explore{" "}
+                        
+                        Explore
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
-                        Discover content and creators based on their interests{" "}
+                        
+                        Discover content and creators based on their interests
                       </p>
                     </div>
                   </div>
@@ -310,13 +310,13 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Bookmark{" "}
+                        
+                        Bookmark
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
+                        
                         Create collections of saved posts based on themes, topics,
-                        or categories.{" "}
+                        or categories.
                       </p>
                     </div>
                   </div>
@@ -327,12 +327,12 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
+                        
                         Privacy
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
-                        Make your account visible only to people who follow you{" "}
+                        
+                        Make your account visible only to people who follow you
                       </p>
                     </div>
                   </div>
@@ -343,11 +343,11 @@ const Upgrade = () => {
                     />
                     <div>
                       <h5 className="text-black text-base font-medium dark:text-white">
-                        {" "}
-                        Shopping{" "}
+                        
+                        Shopping
                       </h5>
                       <p className="mt-1 max-md:hidden">
-                        {" "}
+                        
                         Browse and buy products from your favorite brands and
                         creators
                       </p>
@@ -357,10 +357,10 @@ const Upgrade = () => {
               </div>
               <div className="py-10 flex justify-between">
                 <p className="max-w-xl mx-auto text-center text-sm text-gray-500dark:text-white/80">
-                  {" "}
+                  
                   Instello Premium is the ultimate way to enhance your Instello
                   experience and connect with your passions. Try it free for 30 days
-                  and cancel anytime.{" "}
+                  and cancel anytime.
                 </p>
               </div>
             </div>
@@ -398,7 +398,7 @@ const Upgrade = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -430,7 +430,7 @@ const Upgrade = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -462,8 +462,8 @@ const Upgrade = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -511,7 +511,7 @@ const Upgrade = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -541,7 +541,7 @@ const Upgrade = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -550,7 +550,7 @@ const Upgrade = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -564,8 +564,8 @@ const Upgrade = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -577,8 +577,8 @@ const Upgrade = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -590,8 +590,8 @@ const Upgrade = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -603,8 +603,8 @@ const Upgrade = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -616,8 +616,8 @@ const Upgrade = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -629,8 +629,8 @@ const Upgrade = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -878,11 +878,11 @@ const Upgrade = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -900,7 +900,7 @@ const Upgrade = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -924,7 +924,7 @@ const Upgrade = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -933,7 +933,7 @@ const Upgrade = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -949,8 +949,8 @@ const Upgrade = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -958,7 +958,7 @@ const Upgrade = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

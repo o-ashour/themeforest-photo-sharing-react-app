@@ -16,8 +16,8 @@ const Messages = () => {
                   <div className="p-4 border-b dark:border-slate-700">
                     <div className="flex mt-2 items-center justify-between">
                       <h2 className="text-2xl font-bold text-black ml-1 dark:text-white">
-                        {" "}
-                        Chats{" "}
+                        
+                        Chats
                       </h2>
                       {/* right action buttons */}
                       <div className="flex items-center gap-2.5">
@@ -33,28 +33,28 @@ const Messages = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-2xl shrink-0 -ml-1"
                                 name="checkmark-outline"
-                              />{" "}
-                              Mark all as read{" "}
+                              />
+                              Mark all as read
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-2xl shrink-0 -ml-1"
                                 name="notifications-outline"
-                              />{" "}
-                              notifications setting{" "}
+                              />
+                              notifications setting
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl shrink-0 -ml-1"
                                 name="volume-mute-outline"
-                              />{" "}
-                              Mute notifications{" "}
+                              />
+                              Mute notifications
                             </a>
                           </nav>
                         </div>
@@ -187,8 +187,8 @@ const Messages = () => {
                           </div>
                         </div>
                         <div className="font-medium overflow-hidden text-ellipsis text-sm whitespace-nowrap">
-                          {" "}
-                          Want to buy landscape photo? 🌄{" "}
+                          
+                          Want to buy landscape photo? 🌄
                         </div>
                       </div>
                     </a>
@@ -290,8 +290,8 @@ const Messages = () => {
                           </div>
                         </div>
                         <div className="font-medium overflow-hidden text-ellipsis text-sm whitespace-nowrap">
-                          {" "}
-                          Product photographer wanted? 📷{" "}
+                          
+                          Product photographer wanted? 📷
                         </div>
                       </div>
                     </a>
@@ -388,7 +388,7 @@ const Messages = () => {
                     >
                       <div className="text-base font-bold"> Monroe Parker</div>
                       <div className="text-xs text-green-500 font-semibold">
-                        {" "}
+                        
                         Online
                       </div>
                     </div>
@@ -458,12 +458,12 @@ const Messages = () => {
                     />
                     <div className="mt-8">
                       <div className="md:text-xl text-base font-medium text-black dark:text-white">
-                        {" "}
-                        Monroe Parker{" "}
+                        
+                        Monroe Parker
                       </div>
                       <div className="text-gray-500 text-sm   dark:text-white/80">
-                        {" "}
-                        @Monroepark{" "}
+                        
+                        @Monroepark
                       </div>
                     </div>
                     <div className="mt-3.5">
@@ -484,8 +484,8 @@ const Messages = () => {
                         className="w-9 h-9 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-secondery">
-                        {" "}
-                        Hi, I’m John{" "}
+                        
+                        Hi, I’m John
                       </div>
                     </div>
                     {/* sent */}
@@ -496,7 +496,7 @@ const Messages = () => {
                         className="w-5 h-5 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow">
-                        {" "}
+                        
                         I’m Lisa. welcome John
                       </div>
                     </div>
@@ -514,9 +514,9 @@ const Messages = () => {
                         className="w-9 h-9 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-secondery">
-                        {" "}
+                        
                         I’m selling a photo of a sunset. It’s a print on canvas,
-                        signed by the photographer. Do you like it? 😊{" "}
+                        signed by the photographer. Do you like it? 😊
                       </div>
                     </div>
                     {/* sent */}
@@ -527,8 +527,8 @@ const Messages = () => {
                         className="w-4 h-4 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow">
-                        {" "}
-                        Wow, it’s beautiful. How much ? 😍{" "}
+                        
+                        Wow, it’s beautiful. How much ? 😍
                       </div>
                     </div>
                     {/* sent media*/}
@@ -574,7 +574,7 @@ const Messages = () => {
                         className="w-9 h-9 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-secondery">
-                        {" "}
+                        
                         I’m glad you like it. I’m asking for $200 🤑
                       </div>
                     </div>
@@ -586,7 +586,7 @@ const Messages = () => {
                         className="w-5 h-5 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow">
-                        {" "}
+                        
                         $200? Too steep. Can you lower the price a bit? 😕
                       </div>
                     </div>
@@ -598,9 +598,9 @@ const Messages = () => {
                         className="w-9 h-9 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-secondery">
-                        {" "}
+                        
                         Well, I can’t go too low because I paid a lot. But I’m
-                        willing to negotiate. What’s your offer? 🤔{" "}
+                        willing to negotiate. What’s your offer? 🤔
                       </div>
                     </div>
                     {/* sent */}
@@ -611,7 +611,7 @@ const Messages = () => {
                         className="w-5 h-5 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow">
-                        {" "}
+                        
                         Sorry, can’t pay more than $150. 😅
                       </div>
                     </div>
@@ -629,7 +629,7 @@ const Messages = () => {
                         className="w-9 h-9 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-secondery">
-                        {" "}
+                        
                         $150? Too low. Photo worth more. 😬
                       </div>
                     </div>
@@ -641,8 +641,8 @@ const Messages = () => {
                         className="w-5 h-5 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow">
-                        {" "}
-                        Too high. I Can’t . How about $160? Final offer. 😬{" "}
+                        
+                        Too high. I Can’t . How about $160? Final offer. 😬
                       </div>
                     </div>
                     {/* received */}
@@ -653,7 +653,7 @@ const Messages = () => {
                         className="w-9 h-9 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-secondery">
-                        {" "}
+                        
                         Fine, fine. You’re hard to please. I’ll take $160, but only
                         because I like you. 😍
                       </div>
@@ -666,9 +666,9 @@ const Messages = () => {
                         className="w-5 h-5 rounded-full shadow"
                       />
                       <div className="px-4 py-2 rounded-[20px] max-w-sm bg-gradient-to-tr from-sky-500 to-blue-500 text-white shadow">
-                        {" "}
+                        
                         Great, thank you. I appreciate it. I love this photo and
-                        can’t wait to hang it. 😩{" "}
+                        can’t wait to hang it. 😩
                       </div>
                     </div>
                   </div>
@@ -735,84 +735,84 @@ const Messages = () => {
                         </h4>
                         <div className="grid grid-cols-5 overflow-y-auto max-h-44 p-3 text-center text-xl">
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😊{" "}
+                            
+                            😊
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🤩{" "}
+                            
+                            🤩
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
+                            
                             😎
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🥳{" "}
+                            
+                            🥳
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😂{" "}
+                            
+                            😂
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🥰{" "}
+                            
+                            🥰
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😡{" "}
+                            
+                            😡
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😊{" "}
+                            
+                            😊
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🤩{" "}
+                            
+                            🤩
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
+                            
                             😎
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🥳{" "}
+                            
+                            🥳
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😂{" "}
+                            
+                            😂
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🥰{" "}
+                            
+                            🥰
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😡{" "}
+                            
+                            😡
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🤔{" "}
+                            
+                            🤔
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😊{" "}
+                            
+                            😊
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🤩{" "}
+                            
+                            🤩
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
+                            
                             😎
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            🥳{" "}
+                            
+                            🥳
                           </div>
                           <div className="hover:bg-secondery p-1.5 rounded-md hover:scale-125 cursor-pointer duration-200">
-                            {" "}
-                            😂{" "}
+                            
+                            😂
                           </div>
                         </div>
                       </div>
@@ -852,7 +852,7 @@ const Messages = () => {
                     />
                     <div className="mt-8">
                       <div className="md:text-xl text-base font-medium text-black dark:text-white">
-                        {" "}
+                        
                         Monroe Parker
                       </div>
                       <div className="text-gray-500 text-sm mt-1 dark:text-white/80">
@@ -875,66 +875,66 @@ const Messages = () => {
                         <ion-icon
                           name="notifications-off-outline"
                           className="text-2xl"
-                        />{" "}
+                        />
                         Mute Notification
                         <label className="switch cursor-pointer ml-auto">
-                          {" "}
+                          
                           <input type="checkbox" defaultChecked="" />
                           <span className="switch-button !relative" />
                         </label>
                       </div>
                     </li>
                     <li>
-                      {" "}
+                      
                       <button
                         type="button"
                         className="flex items-center gap-5 rounded-md p-3 w-full hover:bg-secondery"
                       >
-                        {" "}
+                        
                         <ion-icon
                           name="flag-outline"
                           className="text-2xl"
-                        /> Report{" "}
+                        /> Report
                       </button>
                     </li>
                     <li>
-                      {" "}
+                      
                       <button
                         type="button"
                         className="flex items-center gap-5 rounded-md p-3 w-full hover:bg-secondery"
                       >
-                        {" "}
+                        
                         <ion-icon
                           name="settings-outline"
                           className="text-2xl"
-                        />{" "}
-                        Ignore messages{" "}
-                      </button>{" "}
+                        />
+                        Ignore messages
+                      </button>
                     </li>
                     <li>
-                      {" "}
+                      
                       <button
                         type="button"
                         className="flex items-center gap-5 rounded-md p-3 w-full hover:bg-secondery"
                       >
-                        {" "}
+                        
                         <ion-icon
                           name="stop-circle-outline"
                           className="text-2xl"
-                        />{" "}
-                        Block{" "}
-                      </button>{" "}
+                        />
+                        Block
+                      </button>
                     </li>
                     <li>
-                      {" "}
+                      
                       <button
                         type="button"
                         className="flex items-center gap-5 rounded-md p-3 w-full hover:bg-red-50 text-red-500"
                       >
-                        {" "}
-                        <ion-icon name="trash-outline" className="text-2xl" />{" "}
-                        Delete Chat{" "}
-                      </button>{" "}
+                        
+                        <ion-icon name="trash-outline" className="text-2xl" />
+                        Delete Chat
+                      </button>
                     </li>
                   </ul>
                   {/* close button */}
@@ -987,7 +987,7 @@ const Messages = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -1019,7 +1019,7 @@ const Messages = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -1051,8 +1051,8 @@ const Messages = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -1100,7 +1100,7 @@ const Messages = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -1130,7 +1130,7 @@ const Messages = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1139,7 +1139,7 @@ const Messages = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1153,8 +1153,8 @@ const Messages = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1166,8 +1166,8 @@ const Messages = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1179,8 +1179,8 @@ const Messages = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1192,8 +1192,8 @@ const Messages = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1205,8 +1205,8 @@ const Messages = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1218,8 +1218,8 @@ const Messages = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1467,11 +1467,11 @@ const Messages = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -1489,7 +1489,7 @@ const Messages = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -1513,7 +1513,7 @@ const Messages = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -1522,7 +1522,7 @@ const Messages = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -1538,8 +1538,8 @@ const Messages = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -1547,7 +1547,7 @@ const Messages = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

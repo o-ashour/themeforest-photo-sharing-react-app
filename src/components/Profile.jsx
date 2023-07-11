@@ -20,20 +20,20 @@ const Profile = () => {
                     type="button"
                     className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-white shadow p-1.5 rounded-full sm:flex hidden"
                   >
-                    {" "}
+                    
                     <ion-icon name="camera" className="text-2xl" />
                   </button>
                 </div>
                 <div className="max-w-2x flex-1">
                   <h3 className="md:text-xl text-base font-semibold text-black dark:text-white">
-                    {" "}
-                    Monroe Parker{" "}
+                    
+                    Monroe Parker
                   </h3>
                   <p className="sm:text-sm text-blue-600 mt-1 font-normal text-xs">
                     @Monroepak
                   </p>
                   <p className="text-sm mt-2 md:font-normal font-light">
-                    {" "}
+                    
                     I love beauty and emotion. 🥰 I’m passionate about photography
                     and learning. 📚 I explore genres and styles. 🌈 I think
                     photography is storytelling. 📖 I hope you like and feel my
@@ -45,12 +45,12 @@ const Profile = () => {
                   >
                     <a href="#" className="inline-block">
                       Travel
-                    </a>{" "}
-                    .{" "}
+                    </a>
+                    .
                     <a href="#" className="inline-block">
                       Business
-                    </a>{" "}
-                    .{" "}
+                    </a>
+                    .
                     <a href="#" className="inline-block">
                       Technolgy
                     </a>
@@ -100,7 +100,7 @@ const Profile = () => {
                           type="submit"
                           className="rounded-lg bg-slate-200/60 flex px-2 py-1.5 dark:bg-dark2"
                         >
-                          {" "}
+                          
                           <ion-icon
                             className="text-xl"
                             name="ellipsis-horizontal"
@@ -112,48 +112,48 @@ const Profile = () => {
                         >
                           <nav>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="pricetags-outline"
-                              />{" "}
-                              Unfollow{" "}
+                              />
+                              Unfollow
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="time-outline"
-                              />{" "}
-                              Mute story{" "}
+                              />
+                              Mute story
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="flag-outline"
-                              />{" "}
-                              Report{" "}
+                              />
+                              Report
                             </a>
                             <a href="#">
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="share-outline"
-                              />{" "}
-                              Share profile{" "}
+                              />
+                              Share profile
                             </a>
                             <hr />
                             <a
                               href="#"
                               className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                             >
-                              {" "}
+                              
                               <ion-icon
                                 className="text-xl"
                                 name="stop-circle-outline"
-                              />{" "}
-                              Block{" "}
+                              />
+                              Block
                             </a>
                           </nav>
                         </div>
@@ -172,46 +172,46 @@ const Profile = () => {
                     uk-switcher="connect: #story_tab ; animation: uk-animation-fade, uk-animation-slide-left-medium"
                   >
                     <li>
-                      {" "}
+                      
                       <a
                         href="#"
                         className="flex items-center p-4 py-2.5 -mb-px border-t-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="mr-2 text-2xl"
                           name="camera-outline"
-                        />{" "}
+                        />
                         Posts
-                      </a>{" "}
+                      </a>
                     </li>
                     <li>
-                      {" "}
+                      
                       <a
                         href="#"
                         className="flex items-center p-4 py-2.5 -mb-px border-t-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="mr-2 text-2xl"
                           name="play-outline"
-                        />{" "}
-                        Reels{" "}
-                      </a>{" "}
+                        />
+                        Reels
+                      </a>
                     </li>
                     <li>
-                      {" "}
+                      
                       <a
                         href="#"
                         className="flex items-center p-4 py-2.5 -mb-px border-t-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="mr-2 text-2xl"
                           name="pricetags-outline"
-                        />{" "}
-                        Tagged{" "}
-                      </a>{" "}
+                        />
+                        Tagged
+                      </a>
                     </li>
                   </ul>
                 </nav>
@@ -357,7 +357,7 @@ const Profile = () => {
                         className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
                         uk-slider-item="previous"
                       >
-                        {" "}
+                        
                         <ion-icon name="chevron-back" className="text-2xl" />
                       </button>
                       <button
@@ -365,7 +365,7 @@ const Profile = () => {
                         className="absolute -right-4 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
                         uk-slider-item="next"
                       >
-                        {" "}
+                        
                         <ion-icon name="chevron-forward" className="text-2xl" />
                       </button>
                     </div>
@@ -402,19 +402,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -435,19 +435,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -468,19 +468,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -501,19 +501,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -534,19 +534,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -567,19 +567,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -600,19 +600,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -633,19 +633,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -666,19 +666,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -699,19 +699,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -732,19 +732,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -765,19 +765,19 @@ const Profile = () => {
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm uk-transition-fade">
                               <div className="flex items-center justify-center gap-4 text-white w-full h-full">
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="heart-circle"
-                                  />{" "}
+                                  />
                                   152
                                 </div>
                                 <div className="flex items-center gap-2">
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="text-2xl"
                                     name="chatbubble-ellipses"
-                                  />{" "}
+                                  />
                                   290
                                 </div>
                               </div>
@@ -819,7 +819,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               14
                             </div>
                           </div>
@@ -837,7 +837,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               24
                             </div>
                           </div>
@@ -855,7 +855,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               32
                             </div>
                           </div>
@@ -873,7 +873,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               46
                             </div>
                           </div>
@@ -909,7 +909,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               24
                             </div>
                           </div>
@@ -927,7 +927,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               38
                             </div>
                           </div>
@@ -945,7 +945,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               33
                             </div>
                           </div>
@@ -963,7 +963,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               62
                             </div>
                           </div>
@@ -981,7 +981,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               42
                             </div>
                           </div>
@@ -999,7 +999,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               18
                             </div>
                           </div>
@@ -1017,7 +1017,7 @@ const Profile = () => {
                           />
                           <div className="w-full bottom-0 absolute left-0 bg-gradient-to-t from-black/60 pt-20">
                             <div className="flex items-center gap-2.5 text-white p-3">
-                              <ion-icon className="text-2xl" name="play-outline" />{" "}
+                              <ion-icon className="text-2xl" name="play-outline" />
                               29
                             </div>
                           </div>
@@ -1059,19 +1059,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Monroe Parker{" "}
+                              
+                              Monroe Parker
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 md:m-2.5 m-1">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1079,40 +1079,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1131,25 +1131,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1166,19 +1166,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Jesse Steeve{" "}
+                              
+                              Jesse Steeve
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1186,40 +1186,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1238,25 +1238,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1273,19 +1273,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Martin Gray{" "}
+                              
+                              Martin Gray
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1293,40 +1293,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1345,25 +1345,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1380,19 +1380,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              John Michael{" "}
+                              
+                              John Michael
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1400,40 +1400,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1452,25 +1452,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1487,19 +1487,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Alexa stella{" "}
+                              
+                              Alexa stella
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1507,40 +1507,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1559,25 +1559,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1594,19 +1594,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Monroe Parker{" "}
+                              
+                              Monroe Parker
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1614,40 +1614,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1666,25 +1666,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1701,19 +1701,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Jesse Steeve{" "}
+                              
+                              Jesse Steeve
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1721,40 +1721,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1773,25 +1773,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1808,19 +1808,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              Martin Gray{" "}
+                              
+                              Martin Gray
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1828,40 +1828,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1880,25 +1880,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -1915,19 +1915,19 @@ const Profile = () => {
                         <div className="flex-1">
                           <a href="profile.html">
                             <h4 className="text-black dark:text-white">
-                              {" "}
-                              John Michael{" "}
+                              
+                              John Michael
                             </h4>
                           </a>
                         </div>
                         {/* dropdown options */}
                         <div className="absolute top-0.5 right-0 m-2.5">
                           <button type="button" className="button__ico w-8 h-8">
-                            {" "}
+                            
                             <ion-icon
                               className="text-xl"
                               name="ellipsis-horizontal"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="w-[232px]"
@@ -1935,40 +1935,40 @@ const Profile = () => {
                           >
                             <nav>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="bookmark-outline"
-                                />{" "}
-                                Add favorites{" "}
+                                />
+                                Add favorites
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="flag-outline"
-                                />{" "}
-                                Report{" "}
+                                />
+                                Report
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="share-outline"
-                                />{" "}
-                                Share{" "}
+                                />
+                                Share
                               </a>
                               <hr />
                               <a
                                 href="#"
                                 className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                               >
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl shrink-0"
                                   name="stop-circle-outline"
-                                />{" "}
-                                Remove{" "}
+                                />
+                                Remove
                               </a>
                             </nav>
                           </div>
@@ -1987,25 +1987,25 @@ const Profile = () => {
                       {/* post icons */}
                       <div className="flex items-center md:gap-3 gap-1 md:py-2.5 md:px-3 p-1.5">
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="heart-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="chatbubble-ellipses-outline"
-                          />{" "}
+                          />
                         </button>
                         <button type="button" className="button__ico ml-auto">
-                          {" "}
+                          
                           <ion-icon
                             className="md:text-2xl text-lg"
                             name="bookmark-outline"
-                          />{" "}
+                          />
                         </button>
                       </div>
                     </div>
@@ -2077,19 +2077,19 @@ const Profile = () => {
                 />
                 <div className="flex-1">
                   <h4 className="text-black font-medium dark:text-white">
-                    {" "}
-                    Steeve{" "}
+                    
+                    Steeve
                   </h4>
                   <div className="text-gray-500 text-xs dark:text-white/80">
-                    {" "}
+                    
                     2 hours ago
                   </div>
                 </div>
                 {/* dropdown */}
                 <div className="-m-1">
                   <button type="button" className="button__ico w-8 h-8">
-                    {" "}
-                    <ion-icon className="text-xl" name="ellipsis-horizontal" />{" "}
+                    
+                    <ion-icon className="text-xl" name="ellipsis-horizontal" />
                   </button>
                   <div
                     className="w-[253px]"
@@ -2097,57 +2097,57 @@ const Profile = () => {
                   >
                     <nav>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="bookmark-outline"
-                        />{" "}
-                        Add to favorites{" "}
+                        />
+                        Add to favorites
                       </a>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="notifications-off-outline"
-                        />{" "}
-                        Mute Notification{" "}
+                        />
+                        Mute Notification
                       </a>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="flag-outline"
-                        />{" "}
-                        Report this post{" "}
+                        />
+                        Report this post
                       </a>
                       <a href="#">
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="share-outline"
-                        />{" "}
-                        Share your profile{" "}
+                        />
+                        Share your profile
                       </a>
                       <hr />
                       <a
                         href="#"
                         className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                       >
-                        {" "}
+                        
                         <ion-icon
                           className="text-xl shrink-0"
                           name="stop-circle-outline"
-                        />{" "}
-                        Unfollow{" "}
+                        />
+                        Unfollow
                       </a>
                     </nav>
                   </div>
                 </div>
               </div>
               <p className="font-normal text-sm leading-6 mt-4">
-                {" "}
+                
                 Photography is the art of capturing light with a camera. it can be
-                fun, challenging. It can also be a hobby, a passion. 📷{" "}
+                fun, challenging. It can also be a hobby, a passion. 📷
               </p>
               <div className="shadow relative -mx-5 px-5 py-3 mt-3">
                 <div className="flex items-center gap-4 text-xs font-semibold">
@@ -2156,8 +2156,8 @@ const Profile = () => {
                       type="button"
                       className="button__ico text-red-500 bg-red-100 dark:bg-slate-700"
                     >
-                      {" "}
-                      <ion-icon className="text-lg" name="heart" />{" "}
+                      
+                      <ion-icon className="text-lg" name="heart" />
                     </button>
                     <a href="#">1,300</a>
                   </div>
@@ -2166,21 +2166,21 @@ const Profile = () => {
                       type="button"
                       className="button__ico bg-slate-100 dark:bg-slate-700"
                     >
-                      {" "}
+                      
                       <ion-icon
                         className="text-lg"
                         name="chatbubble-ellipses"
-                      />{" "}
+                      />
                     </button>
                     <span>260</span>
                   </div>
                   <button type="button" className="button__ico ml-auto">
-                    {" "}
-                    <ion-icon className="text-xl" name="share-outline" />{" "}
+                    
+                    <ion-icon className="text-xl" name="share-outline" />
                   </button>
                   <button type="button" className="button__ico">
-                    {" "}
-                    <ion-icon className="text-xl" name="bookmark-outline" />{" "}
+                    
+                    <ion-icon className="text-xl" name="bookmark-outline" />
                   </button>
                 </div>
               </div>
@@ -2199,8 +2199,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Steeve{" "}
+                      
+                      Steeve
                     </a>
                     <p className="mt-0.5">What a beautiful, I love it. 😍 </p>
                   </div>
@@ -2216,8 +2216,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Monroe{" "}
+                      
+                      Monroe
                     </a>
                     <p className="mt-0.5"> You captured the moment.😎 </p>
                   </div>
@@ -2233,8 +2233,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Alexa{" "}
+                      
+                      Alexa
                     </a>
                     <p className="mt-0.5"> This photo is amazing! </p>
                   </div>
@@ -2250,7 +2250,7 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
+                      
                       John
                     </a>
                     <p className="mt-0.5"> Wow, You are so talented 😍 </p>
@@ -2267,8 +2267,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Michael{" "}
+                      
+                      Michael
                     </a>
                     <p className="mt-0.5"> I love taking photos 🌳🐶</p>
                   </div>
@@ -2284,8 +2284,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Monroe{" "}
+                      
+                      Monroe
                     </a>
                     <p className="mt-0.5"> Awesome. 😊😢 </p>
                   </div>
@@ -2301,8 +2301,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Jesse{" "}
+                      
+                      Jesse
                     </a>
                     <p className="mt-0.5"> Well done 🎨📸 </p>
                   </div>
@@ -2318,8 +2318,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Steeve{" "}
+                      
+                      Steeve
                     </a>
                     <p className="mt-0.5">What a beautiful, I love it. 😍 </p>
                   </div>
@@ -2335,8 +2335,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Alexa{" "}
+                      
+                      Alexa
                     </a>
                     <p className="mt-0.5"> This photo is amazing! </p>
                   </div>
@@ -2352,7 +2352,7 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
+                      
                       John
                     </a>
                     <p className="mt-0.5"> Wow, You are so talented 😍 </p>
@@ -2369,8 +2369,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Michael{" "}
+                      
+                      Michael
                     </a>
                     <p className="mt-0.5"> I love taking photos 🌳🐶</p>
                   </div>
@@ -2386,8 +2386,8 @@ const Profile = () => {
                       href="#"
                       className="text-black font-medium inline-block dark:text-white"
                     >
-                      {" "}
-                      Monroe{" "}
+                      
+                      Monroe
                     </a>
                     <p className="mt-0.5"> Awesome. 😊😢 </p>
                   </div>
@@ -2416,7 +2416,7 @@ const Profile = () => {
                 type="submit"
                 className="hidden text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
               >
-                {" "}
+                
                 Replay
               </button>
             </div>
@@ -2452,7 +2452,7 @@ const Profile = () => {
           <div className="space-y-5 mt-7">
             <div>
               <label htmlFor="" className="text-base">
-                What do you have in mind?{" "}
+                What do you have in mind?
               </label>
               <input type="text" className="w-full mt-3" />
             </div>
@@ -2483,13 +2483,13 @@ const Profile = () => {
                   className="text-3xl text-sky-600  rounded-full bg-blue-50 dark:bg-transparent"
                 />
                 <p className="text-sm text-gray-500 font-medium">
-                  {" "}
-                  Your Status will be available <br /> for{" "}
-                  <span className="text-gray-800"> 24 Hours</span>{" "}
+                  
+                  Your Status will be available <br /> for
+                  <span className="text-gray-800"> 24 Hours</span>
                 </p>
               </div>
               <button type="button" className="button bg-blue-500 text-white px-8">
-                {" "}
+                
                 Create
               </button>
             </div>
@@ -2528,7 +2528,7 @@ const Profile = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -2560,7 +2560,7 @@ const Profile = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -2592,8 +2592,8 @@ const Profile = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -2641,7 +2641,7 @@ const Profile = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -2671,7 +2671,7 @@ const Profile = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -2680,7 +2680,7 @@ const Profile = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -2694,8 +2694,8 @@ const Profile = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2707,8 +2707,8 @@ const Profile = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2720,8 +2720,8 @@ const Profile = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2733,8 +2733,8 @@ const Profile = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2746,8 +2746,8 @@ const Profile = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -2759,8 +2759,8 @@ const Profile = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -3008,11 +3008,11 @@ const Profile = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -3030,7 +3030,7 @@ const Profile = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -3054,7 +3054,7 @@ const Profile = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -3063,7 +3063,7 @@ const Profile = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -3079,8 +3079,8 @@ const Profile = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -3088,7 +3088,7 @@ const Profile = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

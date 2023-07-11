@@ -46,8 +46,8 @@ const Setting = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="md:text-xl text-base font-semibold text-black dark:text-white">
-                    {" "}
-                    Monroe Parker{" "}
+                    
+                    Monroe Parker
                   </h3>
                   <p className="text-sm text-blue-600 mt-1 font-normal">@Monroe</p>
                 </div>
@@ -65,74 +65,74 @@ const Setting = () => {
                     uk-switcher="connect: #setting_tab ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                   >
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
-                        General{" "}
-                      </a>{" "}
+                        
+                        General
+                      </a>
                     </li>
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
+                        
                         social links
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
+                        
                         notifications
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
+                        
                         manage
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
+                        
                         privacy
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
+                        
                         Alerts
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2.5">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block p-4 pt-2 border-b-2 border-transparent aria-expanded:text-blue-500 aria-expanded:border-blue-500"
                       >
-                        {" "}
+                        
                         password
-                      </a>{" "}
+                      </a>
                     </li>
                   </ul>
                 </nav>
@@ -141,16 +141,16 @@ const Setting = () => {
                   href="#"
                   uk-slider-item="previous"
                 >
-                  {" "}
-                  <ion-icon name="chevron-back" className="text-2xl ml-1" />{" "}
+                  
+                  <ion-icon name="chevron-back" className="text-2xl ml-1" />
                 </a>
                 <a
                   className="absolute right-0 -translate-y-1/2 top-1/2 flex items-center w-20 h-full p-2.5 justify-end rounded-xl bg-gradient-to-l from-white via-white dark:from-slate-800 dark:via-slate-800"
                   href="#"
                   uk-slider-item="next"
                 >
-                  {" "}
-                  <ion-icon name="chevron-forward" className="text-2xl mr-1" />{" "}
+                  
+                  <ion-icon name="chevron-forward" className="text-2xl mr-1" />
                 </a>
               </div>
             </div>
@@ -228,7 +228,7 @@ const Setting = () => {
                             type="submit"
                             className="px-4 py-1 rounded-full bg-slate-100/60 border dark:bg-slate-700 dark:border-slate-600 dark:text-white"
                           >
-                            {" "}
+                            
                             Change
                           </button>
                         </div>
@@ -239,14 +239,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save <span className="ripple-overlay" />
                       </button>
                     </div>
@@ -258,8 +258,8 @@ const Setting = () => {
                     <div className="font-normal text-gray-400">
                       <div>
                         <h4 className="text-xl font-medium text-black dark:text-white">
-                          {" "}
-                          Social Links{" "}
+                          
+                          Social Links
                         </h4>
                         <p className="mt-3 font-normal text-gray-600 dark:text-white">
                           We may still send you important notifications about your
@@ -350,14 +350,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save
                       </button>
                     </div>
@@ -368,8 +368,8 @@ const Setting = () => {
                   <div>
                     <div className="md:flex items-start gap-16">
                       <label className="md:w-32 text-right font-semibold">
-                        {" "}
-                        Notify me when{" "}
+                        
+                        Notify me when
                       </label>
                       <div className="flex-1 space-y-4 interactive-effect max-md:mt-5">
                         <div>
@@ -406,8 +406,8 @@ const Setting = () => {
                               defaultValue={3}
                             />
                             <span className="ml-3">
-                              {" "}
-                              Someone shared on my photo{" "}
+                              
+                              Someone shared on my photo
                             </span>
                           </label>
                         </div>
@@ -457,7 +457,7 @@ const Setting = () => {
                               defaultValue={3}
                             />
                             <span className="ml-3">
-                              {" "}
+                              
                               Someone sent me follow requset
                             </span>
                           </label>
@@ -469,14 +469,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save
                       </button>
                     </div>
@@ -488,8 +488,8 @@ const Setting = () => {
                     <div className="space-y-6">
                       <div className="md:flex items-start gap-10">
                         <label className="w-40 text-right font-semibold">
-                          {" "}
-                          Who can follow me ?{" "}
+                          
+                          Who can follow me ?
                         </label>
                         <div className="flex-1 space-y-2 interactive-effect max-md:mt-3">
                           <div>
@@ -527,8 +527,8 @@ const Setting = () => {
                       </div>
                       <div className="md:flex items-start gap-10">
                         <label className="md:w-40 text-right font-semibold">
-                          {" "}
-                          Who can message me ?{" "}
+                          
+                          Who can message me ?
                         </label>
                         <div className="flex-1 space-y-2 interactive-effect max-md:mt-3">
                           <div>
@@ -626,14 +626,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save
                       </button>
                     </div>
@@ -645,8 +645,8 @@ const Setting = () => {
                     <div className="space-y-6">
                       <div className="md:flex items-center gap-16 justify-between">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Who can follow me ?{" "}
+                          
+                          Who can follow me ?
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <select className="w-full !border-0 !rounded-md">
@@ -657,8 +657,8 @@ const Setting = () => {
                       </div>
                       <div className="md:flex items-center gap-16 justify-between">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Who can message me ?{" "}
+                          
+                          Who can message me ?
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <select className="w-full !border-0 !rounded-md">
@@ -670,7 +670,7 @@ const Setting = () => {
                       </div>
                       <div className="md:flex items-center gap-16 justify-between">
                         <label className="md:w-40 text-right">
-                          {" "}
+                          
                           Show my activities ?
                         </label>
                         <div className="flex-1 max-md:mt-4">
@@ -691,8 +691,8 @@ const Setting = () => {
                       </div>
                       <div className="md:flex items-center gap-16 justify-between">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Who can see my tags?{" "}
+                          
+                          Who can see my tags?
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <select className="w-full !border-0 !rounded-md">
@@ -704,8 +704,8 @@ const Setting = () => {
                       </div>
                       <div className="md:flex items-center gap-16 justify-between">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Allow search engines{" "}
+                          
+                          Allow search engines
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <select className="w-full !border-0 !rounded-md">
@@ -720,14 +720,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save
                       </button>
                     </div>
@@ -739,8 +739,8 @@ const Setting = () => {
                     <div className="font-normal text-gray-400 text-sm">
                       <div>
                         <h4 className="text-lg font-semibold text-black dark:text-white">
-                          {" "}
-                          Alerts preferences{" "}
+                          
+                          Alerts preferences
                         </h4>
                         <p className=" mt-3">
                           We may still send you important notifications about your
@@ -772,13 +772,13 @@ const Setting = () => {
                             </div>
                             <div className="flex-1 md:pr-8">
                               <h4 className="text-base font-medium mb-1.5 text-black dark:text-white">
-                                {" "}
+                                
                                 Email notifications
                               </h4>
                               <p className="">
-                                {" "}
+                                
                                 You can receive notifications about important
-                                updates and content directly to your email inbox.{" "}
+                                updates and content directly to your email inbox.
                               </p>
                             </div>
                             <input type="checkbox" defaultChecked="" />
@@ -805,13 +805,13 @@ const Setting = () => {
                             </div>
                             <div className="flex-1 md:pr-8">
                               <h4 className="text-base font-medium mb-1.5 text-black dark:text-white">
-                                {" "}
+                                
                                 web notifications
                               </h4>
                               <p className="">
-                                {" "}
+                                
                                 You can receive notifications through your
-                                notifications center{" "}
+                                notifications center
                               </p>
                             </div>
                             <input type="checkbox" />
@@ -838,11 +838,11 @@ const Setting = () => {
                             </div>
                             <div className="flex-1 md:pr-8">
                               <h4 className="text-base font-medium mb-1.5 text-black dark:text-white">
-                                {" "}
+                                
                                 Phone notifications
                               </h4>
                               <p className="">
-                                {" "}
+                                
                                 You can receive notifications on your phone, so you
                                 can stay up-to-date even when you’re on the go
                               </p>
@@ -858,14 +858,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save
                       </button>
                     </div>
@@ -877,8 +877,8 @@ const Setting = () => {
                     <div className="space-y-6">
                       <div className="md:flex items-center gap-16 justify-between max-md:space-y-3">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Current Password{" "}
+                          
+                          Current Password
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <input
@@ -900,8 +900,8 @@ const Setting = () => {
                       </div>
                       <div className="md:flex items-center gap-16 justify-between max-md:space-y-3">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Repeat password{" "}
+                          
+                          Repeat password
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <input
@@ -914,8 +914,8 @@ const Setting = () => {
                       <hr className="border-gray-100 dark:border-gray-700" />
                       <div className="md:flex items-center gap-16 justify-between">
                         <label className="md:w-40 text-right">
-                          {" "}
-                          Two-factor authentication{" "}
+                          
+                          Two-factor authentication
                         </label>
                         <div className="flex-1 max-md:mt-4">
                           <select className="w-full !border-0 !rounded-md">
@@ -930,14 +930,14 @@ const Setting = () => {
                         type="submit"
                         className="button lg:px-6 bg-secondery max-md:flex-1"
                       >
-                        {" "}
+                        
                         Cancle
                       </button>
                       <button
                         type="submit"
                         className="button lg:px-10 bg-primary text-white max-md:flex-1"
                       >
-                        {" "}
+                        
                         Save
                       </button>
                     </div>
@@ -979,7 +979,7 @@ const Setting = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -1011,7 +1011,7 @@ const Setting = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -1043,8 +1043,8 @@ const Setting = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -1092,7 +1092,7 @@ const Setting = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -1122,7 +1122,7 @@ const Setting = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1131,7 +1131,7 @@ const Setting = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1145,8 +1145,8 @@ const Setting = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1158,8 +1158,8 @@ const Setting = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1171,8 +1171,8 @@ const Setting = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1184,8 +1184,8 @@ const Setting = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1197,8 +1197,8 @@ const Setting = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1210,8 +1210,8 @@ const Setting = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -1459,11 +1459,11 @@ const Setting = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -1481,7 +1481,7 @@ const Setting = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -1505,7 +1505,7 @@ const Setting = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -1514,7 +1514,7 @@ const Setting = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -1530,8 +1530,8 @@ const Setting = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -1539,7 +1539,7 @@ const Setting = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>

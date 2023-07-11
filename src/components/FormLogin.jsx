@@ -42,29 +42,29 @@ const FormLogin = () => {
               />
               <a href="#" className="hidden">
                 <div className="text-sm text-right text-gray-400 py-4">
-                  {" "}
-                  Forget password{" "}
+                  
+                  Forget password
                 </div>
               </a>
               <button
                 type="submit"
                 className="font-medium w-full rounded-lg bg-slate-900 py-1.5 px-4 text-white h-[38px] active:scale-[0.97] transition-all duration-150"
               >
-                {" "}
-                <span>Sign in</span>{" "}
+                
+                <span>Sign in</span>
               </button>
               <div className="flex gap-3 justify-center text-2xl py-5 text-slate-500">
                 <a href="#">
-                  {" "}
-                  <ion-icon name="logo-facebook" />{" "}
+                  
+                  <ion-icon name="logo-facebook" />
                 </a>
                 <a href="#">
-                  {" "}
-                  <ion-icon name="logo-google" />{" "}
+                  
+                  <ion-icon name="logo-google" />
                 </a>
                 <a href="#">
-                  {" "}
-                  <ion-icon name="logo-apple" />{" "}
+                  
+                  <ion-icon name="logo-apple" />
                 </a>
               </div>
               <div className="space-x-2 text-sm text-center text-slate-400 dark:text-white/70">

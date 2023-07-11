@@ -46,112 +46,112 @@ const Components = () => {
                     uk-switcher="connect: #comp_tab ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                   >
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         accordion
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         alert
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         Countdown
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         drop
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         dropdown
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         modal
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         lightbox
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         scrollspy
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         slider
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         slideshow
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         tabs
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="w-auto pr-2">
-                      {" "}
+                      
                       <a
                         href="#"
                         className="inline-block px-4 py-2 rounded-lg aria-expanded:bg-pink-100/70 aria-expanded:text-pink-600 aria-expanded:dark:bg-slate-700/60 aria-expanded:dark:text-white"
                       >
                         tooltip
-                      </a>{" "}
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -160,16 +160,16 @@ const Components = () => {
                   href="#"
                   uk-slider-item="previous"
                 >
-                  {" "}
-                  <ion-icon name="chevron-back" className="text-2xl" />{" "}
+                  
+                  <ion-icon name="chevron-back" className="text-2xl" />
                 </a>
                 <a
                   className="absolute right-0 -translate-y-1/2 top-1/2 flex items-center w-20 h-12 p-2.5 justify-end bg-gradient-to-l from-white via-white dark:from-slate-800 dark:via-slate-800"
                   href="#"
                   uk-slider-item="next"
                 >
-                  {" "}
-                  <ion-icon name="chevron-forward" className="text-2xl" />{" "}
+                  
+                  <ion-icon name="chevron-forward" className="text-2xl" />
                 </a>
               </div>
             </div>
@@ -179,8 +179,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Accordion{" "}
+                    
+                    Accordion
                   </h4>
                   {/* button tab */}
                   <div
@@ -191,15 +191,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -445,7 +445,7 @@ const Components = () => {
                           </li>
                           {"\n"}
                           {"                                            "}
-                        </ul>{" "}
+                        </ul>
                         {"\n"}
                         {"    "}
                         {"\n"}
@@ -478,7 +478,7 @@ const Components = () => {
                         className="!top-[5px] "
                         uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                       >
-                        {" "}
+                        
                         <svg
                           className="w-5 h-5"
                           fill="currentColor"
@@ -491,7 +491,7 @@ const Components = () => {
                             d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                             clipRule="evenodd"
                           />
-                        </svg>{" "}
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -501,8 +501,8 @@ const Components = () => {
               {/* Navs */}
               <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                 <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                  {" "}
-                  Navs{" "}
+                  
+                  Navs
                 </h4>
                 {/* button tab */}
                 <div
@@ -513,15 +513,15 @@ const Components = () => {
                     type="button"
                     className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                   >
-                    {" "}
-                    Preview{" "}
+                    
+                    Preview
                   </button>
                   <button
                     type="button"
                     className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                   >
-                    {" "}
-                    Code{" "}
+                    
+                    Code
                   </button>
                 </div>
                 <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -538,8 +538,8 @@ const Components = () => {
                               href="#"
                               className="flex items-center gap-1.5 hover:bg-slate-100 dark:hover:bg-slate-700 px-3 py-2 rounded-md"
                             >
-                              {" "}
-                              <ion-icon name="grid" /> Home{" "}
+                              
+                              <ion-icon name="grid" /> Home
                             </a>
                           </li>
                           <li>
@@ -547,8 +547,8 @@ const Components = () => {
                               href="#"
                               className="flex items-center gap-1.5 hover:bg-slate-100 dark:hover:bg-slate-700 px-3 py-2 rounded-md"
                             >
-                              {" "}
-                              <ion-icon name="people" /> Downloads{" "}
+                              
+                              <ion-icon name="people" /> Downloads
                             </a>
                           </li>
                           <li className="uk-parent">
@@ -666,7 +666,7 @@ const Components = () => {
                         {"\n"}
                         {"                                            "}
                         <nav className="w-64 mx-auto p-4 bg-white shadow-md rounded-lg dark:bg-slate-600">
-                          {" "}
+                          
                           {"\n"}
                           {"                                                "}
                           <ul
@@ -680,8 +680,8 @@ const Components = () => {
                                 href="#"
                                 className="flex items-center gap-1.5 hover:bg-slate-100 dark:hover:bg-slate-700 px-3 py-2 rounded-md"
                               >
-                                {" "}
-                                <ion-icon name="grid" /> Home{" "}
+                                
+                                <ion-icon name="grid" /> Home
                               </a>
                             </li>
                             {"\n"}
@@ -691,8 +691,8 @@ const Components = () => {
                                 href="#"
                                 className="flex items-center gap-1.5 hover:bg-slate-100 dark:hover:bg-slate-700 px-3 py-2 rounded-md"
                               >
-                                {" "}
-                                <ion-icon name="people" /> Downloads{" "}
+                                
+                                <ion-icon name="people" /> Downloads
                               </a>
                             </li>
                             {"\n"}
@@ -704,7 +704,7 @@ const Components = () => {
                                 href="#"
                                 className="flex items-center gap-1.5 hover:bg-slate-100 dark:hover:bg-slate-700 px-3 py-2 rounded-md group"
                               >
-                                {" "}
+                                
                                 {"\n"}
                                 {
                                   "                                                            "
@@ -734,7 +734,7 @@ const Components = () => {
                                   {
                                     "                                                            "
                                   }
-                                </svg>{" "}
+                                </svg>
                                 {"\n"}
                                 {"                                                        "}
                               </a>
@@ -782,7 +782,7 @@ const Components = () => {
                               </ul>
                               {"\n"}
                               {"                                                    "}
-                            </li>{" "}
+                            </li>
                             {"\n"}
                             {"                                                    "}
                             <li className="uk-parent">
@@ -792,7 +792,7 @@ const Components = () => {
                                 href="#"
                                 className="flex items-center gap-1.5 hover:bg-slate-100 dark:hover:bg-slate-700 px-3 py-2 rounded-md group"
                               >
-                                {" "}
+                                
                                 {"\n"}
                                 {
                                   "                                                            "
@@ -822,7 +822,7 @@ const Components = () => {
                                   {
                                     "                                                            "
                                   }
-                                </svg>{" "}
+                                </svg>
                                 {"\n"}
                                 {"                                                        "}
                               </a>
@@ -870,13 +870,13 @@ const Components = () => {
                               </ul>
                               {"\n"}
                               {"                                                    "}
-                            </li>{" "}
+                            </li>
                             {"\n"}
                             {"                                                "}
                           </ul>
                           {"\n"}
                           {"                                            "}
-                        </nav>{" "}
+                        </nav>
                         {"\n"}
                         {"    "}
                         {"\n"}
@@ -909,7 +909,7 @@ const Components = () => {
                         className="!top-[5px] "
                         uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                       >
-                        {" "}
+                        
                         <svg
                           className="w-5 h-5"
                           fill="currentColor"
@@ -922,7 +922,7 @@ const Components = () => {
                             d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                             clipRule="evenodd"
                           />
-                        </svg>{" "}
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -932,8 +932,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Alert{" "}
+                    
+                    Alert
                   </h4>
                   {/* button tab */}
                   <div
@@ -944,15 +944,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -980,8 +980,8 @@ const Components = () => {
                                 </div>
                                 {/* text */}
                                 <div className="text-base font-semibold text-green-700">
-                                  {" "}
-                                  Successfull taost{" "}
+                                  
+                                  Successfull taost
                                 </div>
                                 {/* icon close */}
                                 <button
@@ -1012,8 +1012,8 @@ const Components = () => {
                                   </svg>
                                 </div>
                                 <div className="text-base font-semibold text-blue-700">
-                                  {" "}
-                                  Successfull taost{" "}
+                                  
+                                  Successfull taost
                                 </div>
                                 {/* icon close */}
                                 <button
@@ -1045,8 +1045,8 @@ const Components = () => {
                                 </div>
                                 {/* text */}
                                 <div className="text-base font-semibold text-yellow-700">
-                                  {" "}
-                                  Warning taost{" "}
+                                  
+                                  Warning taost
                                 </div>
                                 {/* icon close */}
                                 <button
@@ -1140,8 +1140,8 @@ const Components = () => {
                                     "                                                            "
                                   }
                                   <div className="text-base font-semibold text-green-700">
-                                    {" "}
-                                    Successfull taost{" "}
+                                    
+                                    Successfull taost
                                   </div>
                                   {"\n"}
                                   {"                                      "}
@@ -1242,8 +1242,8 @@ const Components = () => {
                                     "                                                            "
                                   }
                                   <div className="text-base font-semibold text-blue-700">
-                                    {" "}
-                                    Successfull taost{" "}
+                                    
+                                    Successfull taost
                                   </div>
                                   {"\n"}
                                   {"                                      "}
@@ -1351,8 +1351,8 @@ const Components = () => {
                                     "                                                            "
                                   }
                                   <div className="text-base font-semibold text-yellow-700">
-                                    {" "}
-                                    Warning taost{" "}
+                                    
+                                    Warning taost
                                   </div>
                                   {"\n"}
                                   {
@@ -1433,7 +1433,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -1446,7 +1446,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1457,8 +1457,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Countdown{" "}
+                    
+                    Countdown
                   </h4>
                   {/* button tab */}
                   <div
@@ -1469,15 +1469,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -1564,7 +1564,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -1577,7 +1577,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1588,8 +1588,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Drop{" "}
+                    
+                    Drop
                   </h4>
                   {/* button tab */}
                   <div
@@ -1600,15 +1600,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -1620,18 +1620,18 @@ const Components = () => {
                             className="flex items-center px-3 py-2 text-sm bg-white shadow rounded-md dark:text-white dark:bg-slate-700 group"
                             type="button"
                           >
-                            Click me{" "}
+                            Click me
                             <ion-icon
                               name="chevron-down-outline"
                               className="ml-2 text-lg duration-200 group-aria-expanded:rotate-180"
-                            />{" "}
+                            />
                           </button>
                           <div
                             className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                             uk-drop="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small"
                           >
                             <p className="text-gray-500 dark:text-white">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             </p>
                           </div>
                         </div>
@@ -1662,7 +1662,7 @@ const Components = () => {
                               <ion-icon
                                 name="chevron-down-outline"
                                 className="ml-2 text-lg duration-200 group-aria-expanded:rotate-180"
-                              />{" "}
+                              />
                             </button>
                             {"\n"}
                             {"    "}
@@ -1722,7 +1722,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -1735,7 +1735,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1744,8 +1744,8 @@ const Components = () => {
                 {/* Positions */}
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Positions{" "}
+                    
+                    Positions
                   </h4>
                   {/* button tab */}
                   <div
@@ -1756,15 +1756,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -1785,7 +1785,7 @@ const Components = () => {
                                 className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor{" "}
+                                do eiusmod tempor
                               </div>
                             </div>
                             <div>
@@ -2017,7 +2017,7 @@ const Components = () => {
                                 </div>
                                 {"\n"}
                                 {"                                                    "}
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                                    "}
                               <div>
@@ -2156,7 +2156,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -2169,7 +2169,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -2181,8 +2181,8 @@ const Components = () => {
                 {/* basic */}
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Dropdown{" "}
+                    
+                    Dropdown
                   </h4>
                   {/* button tab */}
                   <div
@@ -2193,15 +2193,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -2213,7 +2213,7 @@ const Components = () => {
                             className="flex items-center px-3 py-2 text-sm bg-white rounded-md shadow dark:text-white dark:bg-slate-700 group"
                             type="button"
                           >
-                            Click me{" "}
+                            Click me
                             <ion-icon
                               name="chevron-down-outline"
                               className="ml-2 text-lg duration-200 group-aria-expanded:rotate-180"
@@ -2222,28 +2222,28 @@ const Components = () => {
                           <div uk-dropdown="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small">
                             <nav>
                               <a href="#">
-                                {" "}
-                                <ion-icon className="text-xl" name="person-outline" />{" "}
-                                Profile{" "}
+                                
+                                <ion-icon className="text-xl" name="person-outline" />
+                                Profile
                               </a>
                               <a href="#">
-                                {" "}
-                                <ion-icon className="text-xl" name="mail-outline" />{" "}
-                                Messages{" "}
+                                
+                                <ion-icon className="text-xl" name="mail-outline" />
+                                Messages
                               </a>
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon
                                   className="text-xl"
                                   name="bookmark-outline"
-                                />{" "}
-                                Billing{" "}
+                                />
+                                Billing
                               </a>
                               <hr />
                               <a href="#" className="text-red-400 hover:!bg-red-50">
-                                {" "}
+                                
                                 <ion-icon className="text-xl" name="log-out-outline" /> Sing
-                                out{" "}
+                                out
                               </a>
                             </nav>
                           </div>
@@ -2274,7 +2274,7 @@ const Components = () => {
                             <ion-icon
                               name="chevron-down-outline"
                               className="ml-2 text-lg duration-200 group-aria-expanded:rotate-180"
-                            />{" "}
+                            />
                             {"\n"}
                             {"                                            "}
                           </button>
@@ -2283,32 +2283,32 @@ const Components = () => {
                           {"\n"}
                           {"                                            "}
                           <div uk-dropdown="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small">
-                            {" "}
+                            
                             {"\n"}
                             {"                                                "}
                             <nav>
                               {"\n"}
                               {"                                                    "}
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon className="text-xl" name="person-outline" />
-                                {"  "}Profile{" "}
+                                {"  "}Profile
                               </a>
                               {"  "}
                               {"\n"}
                               {"                                                    "}
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon className="text-xl" name="mail-outline" />
-                                {"  "}Messages{" "}
+                                {"  "}Messages
                               </a>
                               {"  "}
                               {"\n"}
                               {"                                                    "}
                               <a href="#">
-                                {" "}
+                                
                                 <ion-icon className="text-xl" name="bookmark-outline" />
-                                {"  "}Billing{" "}
+                                {"  "}Billing
                               </a>
                               {"  "}
                               {"\n"}
@@ -2317,9 +2317,9 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <a href="#" className="text-red-400 hover:!bg-red-50">
-                                {" "}
+                                
                                 <ion-icon className="text-xl" name="log-out-outline" />
-                                {"  "}Sing out{" "}
+                                {"  "}Sing out
                               </a>
                               {"  "}
                               {"\n"}
@@ -2360,7 +2360,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -2373,7 +2373,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -2382,8 +2382,8 @@ const Components = () => {
                 {/* Positions */}
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Positions{" "}
+                    
+                    Positions
                   </h4>
                   {/* button tab */}
                   <div
@@ -2394,15 +2394,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -2421,28 +2421,28 @@ const Components = () => {
                               <div uk-dropdown="pos: bottom-left;offset:10; animation: uk-animation-slide-bottom-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2457,28 +2457,28 @@ const Components = () => {
                               <div uk-dropdown="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2493,28 +2493,28 @@ const Components = () => {
                               <div uk-dropdown="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2531,28 +2531,28 @@ const Components = () => {
                               <div uk-dropdown="pos: right-center; offset:10; animation: uk-animation-slide-right-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2567,28 +2567,28 @@ const Components = () => {
                               <div uk-dropdown="pos: left-center; offset:10; animation: uk-animation-slide-left-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2605,28 +2605,28 @@ const Components = () => {
                               <div uk-dropdown="pos: top-left ; animation: uk-animation-slide-top-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2641,28 +2641,28 @@ const Components = () => {
                               <div uk-dropdown="pos: top-center; animation: uk-animation-slide-top-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2677,28 +2677,28 @@ const Components = () => {
                               <div uk-dropdown="pos: top-right; animation: uk-animation-slide-top-small">
                                 <nav>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="person-outline"
-                                    />{" "}
-                                    Profile{" "}
+                                    />
+                                    Profile
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="mail-outline"
-                                    />{" "}
-                                    Messages{" "}
+                                    />
+                                    Messages
                                   </a>
                                   <a href="#">
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="text-xl"
                                       name="bookmark-outline"
-                                    />{" "}
-                                    Billing{" "}
+                                    />
+                                    Billing
                                   </a>
                                 </nav>
                               </div>
@@ -2739,7 +2739,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div uk-dropdown="pos: bottom-left;offset:10; animation: uk-animation-slide-bottom-small">
-                                  {" "}
+                                  
                                   {"\n"}
                                   {
                                     "                                                            "
@@ -2750,9 +2750,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2760,9 +2760,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2770,12 +2770,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2817,9 +2817,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2827,9 +2827,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2837,12 +2837,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2882,9 +2882,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2892,9 +2892,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2902,12 +2902,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2953,9 +2953,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2963,9 +2963,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2973,12 +2973,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -2993,7 +2993,7 @@ const Components = () => {
                                 </div>
                                 {"\n"}
                                 {"                                                    "}
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                                    "}
                               <div>
@@ -3018,9 +3018,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3028,9 +3028,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3038,12 +3038,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3089,9 +3089,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3099,9 +3099,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3109,12 +3109,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3154,9 +3154,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3164,9 +3164,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3174,12 +3174,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3219,9 +3219,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile{" "}
+                                      {"  "}Profile
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3229,9 +3229,9 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages{" "}
+                                      {"  "}Messages
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3239,12 +3239,12 @@ const Components = () => {
                                       "                                                                "
                                     }
                                     <a href="#">
-                                      {" "}
+                                      
                                       <ion-icon
                                         className="text-xl"
                                         name="bookmark-outline"
                                       />
-                                      {"  "}Billing{" "}
+                                      {"  "}Billing
                                     </a>
                                     {"  "}
                                     {"\n"}
@@ -3299,7 +3299,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -3312,7 +3312,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -3323,7 +3323,7 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
+                    
                     Modal
                   </h4>
                   {/* button tab */}
@@ -3335,15 +3335,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -3355,8 +3355,8 @@ const Components = () => {
                           className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                           type="button"
                         >
-                          {" "}
-                          Click{" "}
+                          
+                          Click
                         </button>
                         {/* This is the modal 11*/}
                         <div className="lg:p-20 p-10" id="modal" uk-modal="">
@@ -3429,8 +3429,8 @@ const Components = () => {
                             className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                             type="button"
                           >
-                            {" "}
-                            Click{" "}
+                            
+                            Click
                           </button>
                           {"\n"}
                           {"                                         "}
@@ -3496,7 +3496,7 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                    "}
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                            "}
                               {"\n"}
@@ -3543,7 +3543,7 @@ const Components = () => {
                             {"\n"}
                             {"\n"}
                             {"                                            "}
-                          </div>{" "}
+                          </div>
                           {"\n"}
                           {"    "}
                           {"\n"}
@@ -3576,7 +3576,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -3589,7 +3589,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -3598,8 +3598,8 @@ const Components = () => {
                 {/* modal scrolling */}
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Scrolling{" "}
+                    
+                    Scrolling
                   </h4>
                   {/* button tab */}
                   <div
@@ -3610,15 +3610,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -3630,8 +3630,8 @@ const Components = () => {
                           className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                           type="button"
                         >
-                          {" "}
-                          Click{" "}
+                          
+                          Click
                         </button>
                         {/* model scrolling */}
                         <div className="lg:p-20 p-10" id="scrolling" uk-modal="">
@@ -3788,8 +3788,8 @@ const Components = () => {
                             className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                             type="button"
                           >
-                            {" "}
-                            Click{" "}
+                            
+                            Click
                           </button>
                           {"\n"}
                           {"                                        "}
@@ -4055,7 +4055,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -4068,7 +4068,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -4079,8 +4079,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Lightbox{" "}
+                    
+                    Lightbox
                   </h4>
                   {/* button tab */}
                   <div
@@ -4091,15 +4091,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -4141,7 +4141,7 @@ const Components = () => {
                               className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                               data-caption="Caption"
                             >
-                              {" "}
+                              
                               {"\n"}
                               {"                                                    "}Open
                               Lightbox{"\n"}
@@ -4182,7 +4182,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -4195,7 +4195,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -4203,8 +4203,8 @@ const Components = () => {
                 </div>
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Multiple{" "}
+                    
+                    Multiple
                   </h4>
                   {/* button tab */}
                   <div
@@ -4215,15 +4215,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -4320,7 +4320,7 @@ const Components = () => {
                               </a>
                               {"\n"}
                               {"                                                "}
-                            </div>{" "}
+                            </div>
                             {"\n"}
                             {"                                            "}
                           </div>
@@ -4357,7 +4357,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -4370,7 +4370,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -4381,8 +4381,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Basic{" "}
+                    
+                    Basic
                   </h4>
                   {/* button tab */}
                   <div
@@ -4393,15 +4393,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -4514,7 +4514,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -4527,7 +4527,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -4535,8 +4535,8 @@ const Components = () => {
                 </div>
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Groups{" "}
+                    
+                    Groups
                   </h4>
                   {/* button tab */}
                   <div
@@ -4547,15 +4547,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -4573,10 +4573,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4584,7 +4584,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4595,10 +4595,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4606,7 +4606,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4617,10 +4617,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4628,7 +4628,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4639,10 +4639,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4650,7 +4650,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4661,10 +4661,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4672,7 +4672,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4683,10 +4683,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4694,7 +4694,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4705,10 +4705,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4716,7 +4716,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4727,10 +4727,10 @@ const Components = () => {
                               className="w-12 h-12 rounded-full shadow"
                             />
                             <div className="flex-1">
-                              {" "}
-                              Johm smith{" "}
+                              
+                              Johm smith
                               <span className="block text-xs font-medium dark:text-white/70">
-                                {" "}
+                                
                                 Desinger
                               </span>
                             </div>
@@ -4738,7 +4738,7 @@ const Components = () => {
                               href="#"
                               className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                             >
-                              {" "}
+                              
                               Message
                             </a>
                           </div>
@@ -4778,25 +4778,25 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div className="flex-1">
-                                {" "}
-                                Johm smith{" "}
+                                
+                                Johm smith
                                 <span className="block text-xs font-medium dark:text-white/70">
-                                  {" "}
+                                  
                                   Desinger
                                 </span>
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                                    "}
                               <a
                                 href="#"
                                 className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                               >
-                                {" "}
+                                
                                 Message
                               </a>
                               {"\n"}
                               {"                                                "}
-                            </div>{" "}
+                            </div>
                             {"\n"}
                             {"                                                "}
                             <div className="flex items-center gap-3 p-4 bg-white shadow rounded-md dark:bg-slate-700">
@@ -4810,20 +4810,20 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div className="flex-1">
-                                {" "}
-                                Johm smith{" "}
+                                
+                                Johm smith
                                 <span className="block text-xs font-medium dark:text-white/70">
-                                  {" "}
+                                  
                                   Desinger
                                 </span>
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                                    "}
                               <a
                                 href="#"
                                 className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                               >
-                                {" "}
+                                
                                 Message
                               </a>
                               {"\n"}
@@ -4842,20 +4842,20 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div className="flex-1">
-                                {" "}
-                                Johm smith{" "}
+                                
+                                Johm smith
                                 <span className="block text-xs font-medium dark:text-white/70">
-                                  {" "}
+                                  
                                   Desinger
                                 </span>
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                                    "}
                               <a
                                 href="#"
                                 className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                               >
-                                {" "}
+                                
                                 Message
                               </a>
                               {"\n"}
@@ -4874,20 +4874,20 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div className="flex-1">
-                                {" "}
-                                Johm smith{" "}
+                                
+                                Johm smith
                                 <span className="block text-xs font-medium dark:text-white/70">
-                                  {" "}
+                                  
                                   Desinger
                                 </span>
-                              </div>{" "}
+                              </div>
                               {"\n"}
                               {"                                                    "}
                               <a
                                 href="#"
                                 className="px-3 py-1 text-sm bg-gray-200 rounded-full dark:bg-slate-600"
                               >
-                                {" "}
+                                
                                 Message
                               </a>
                               {"\n"}
@@ -4930,7 +4930,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -4943,7 +4943,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -4951,8 +4951,8 @@ const Components = () => {
                 </div>
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Per Target{" "}
+                    
+                    Per Target
                   </h4>
                   {/* button tab */}
                   <div
@@ -4963,15 +4963,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -5140,7 +5140,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -5153,7 +5153,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -5164,7 +5164,7 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
+                    
                     Navigation In
                   </h4>
                   {/* button tab */}
@@ -5176,15 +5176,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -5242,7 +5242,7 @@ const Components = () => {
                             href="#"
                             uk-slider-item="previous"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-back" className="text-2xl" />
                           </a>
                           <a
@@ -5250,7 +5250,7 @@ const Components = () => {
                             href="#"
                             uk-slider-item="next"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-forward" className="text-2xl" />
                           </a>
                         </div>
@@ -5292,7 +5292,7 @@ const Components = () => {
                                 />
                                 {"\n"}
                                 {"                                                    "}
-                              </li>{" "}
+                              </li>
                               {"\n"}
                               {"                                                    "}
                               <li className="w-1/4">
@@ -5331,7 +5331,7 @@ const Components = () => {
                                 />
                                 {"\n"}
                                 {"                                                    "}
-                              </li>{" "}
+                              </li>
                               {"\n"}
                               {"                                                    "}
                               <li className="w-1/4">
@@ -5367,7 +5367,7 @@ const Components = () => {
                               href="#"
                               uk-slider-item="previous"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-back" className="text-2xl" />
                             </a>
                             {"\n"}
@@ -5377,7 +5377,7 @@ const Components = () => {
                               href="#"
                               uk-slider-item="next"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-forward" className="text-2xl" />
                             </a>
                             {"\n"} {"\n"}
@@ -5417,7 +5417,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -5430,7 +5430,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -5439,7 +5439,7 @@ const Components = () => {
                 {/* slider navigation out */}
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
+                    
                     Navigation out
                   </h4>
                   {/* button tab */}
@@ -5451,15 +5451,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -5519,7 +5519,7 @@ const Components = () => {
                             href="#"
                             uk-slider-item="previous"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-back" className="text-2xl" />
                           </a>
                           <a
@@ -5527,7 +5527,7 @@ const Components = () => {
                             href="#"
                             uk-slider-item="next"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-forward" className="text-2xl" />
                           </a>
                         </div>
@@ -5577,7 +5577,7 @@ const Components = () => {
                                   {
                                     "                                                        "
                                   }
-                                </li>{" "}
+                                </li>
                                 {"\n"}
                                 {"                                                        "}
                                 <li className="w-1/4">
@@ -5628,7 +5628,7 @@ const Components = () => {
                                   {
                                     "                                                        "
                                   }
-                                </li>{" "}
+                                </li>
                                 {"\n"}
                                 {"                                                        "}
                                 <li className="w-1/4">
@@ -5673,7 +5673,7 @@ const Components = () => {
                               href="#"
                               uk-slider-item="previous"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-back" className="text-2xl" />
                             </a>
                             {"\n"}
@@ -5683,7 +5683,7 @@ const Components = () => {
                               href="#"
                               uk-slider-item="next"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-forward" className="text-2xl" />
                             </a>
                             {"\n"}
@@ -5723,7 +5723,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -5736,7 +5736,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -5747,8 +5747,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Basic{" "}
+                    
+                    Basic
                   </h4>
                   {/* button tab */}
                   <div
@@ -5759,15 +5759,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -5810,7 +5810,7 @@ const Components = () => {
                             href="#"
                             uk-slideshow-item="previous"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-back" className="text-2xl" />
                           </a>
                           <a
@@ -5818,7 +5818,7 @@ const Components = () => {
                             href="#"
                             uk-slideshow-item="next"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-forward" className="text-2xl" />
                           </a>
                         </div>
@@ -5847,7 +5847,7 @@ const Components = () => {
                             {"\n"}
                             {"                                                "}
                             <ul className="uk-slideshow-items">
-                              {" "}
+                              
                               {"\n"}
                               {"                                                    "}
                               <li className="w-full overflow-hidden rounded-md">
@@ -5910,7 +5910,7 @@ const Components = () => {
                               href="#"
                               uk-slideshow-item="previous"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-back" className="text-2xl" />
                             </a>
                             {"\n"}
@@ -5920,14 +5920,14 @@ const Components = () => {
                               href="#"
                               uk-slideshow-item="next"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-forward" className="text-2xl" />
                             </a>
                             {"\n"}
                             {"                                                  "}
                             {"\n"}
                             {"                                            "}
-                          </div>{" "}
+                          </div>
                           {"\n"}
                           {"    "}
                           {"\n"}
@@ -5960,7 +5960,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -5973,7 +5973,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -5981,8 +5981,8 @@ const Components = () => {
                 </div>
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    min-height{" "}
+                    
+                    min-height
                   </h4>
                   {/* button tab */}
                   <div
@@ -5993,15 +5993,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -6044,7 +6044,7 @@ const Components = () => {
                             href="#"
                             uk-slideshow-item="previous"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-back" className="text-2xl" />
                           </a>
                           <a
@@ -6052,7 +6052,7 @@ const Components = () => {
                             href="#"
                             uk-slideshow-item="next"
                           >
-                            {" "}
+                            
                             <ion-icon name="chevron-forward" className="text-2xl" />
                           </a>
                         </div>
@@ -6081,7 +6081,7 @@ const Components = () => {
                             {"\n"}
                             {"                                                "}
                             <ul className="uk-slideshow-items">
-                              {" "}
+                              
                               {"\n"}
                               {"                                                    "}
                               <li className="w-full overflow-hidden rounded-md">
@@ -6145,7 +6145,7 @@ const Components = () => {
                               href="#"
                               uk-slideshow-item="previous"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-back" className="text-2xl" />
                             </a>
                             {"\n"}
@@ -6155,14 +6155,14 @@ const Components = () => {
                               href="#"
                               uk-slideshow-item="next"
                             >
-                              {" "}
+                              
                               <ion-icon name="chevron-forward" className="text-2xl" />
                             </a>
                             {"\n"}
                             {"                                                "}
                             {"\n"}
                             {"                                            "}
-                          </div>{" "}
+                          </div>
                           {"\n"}
                           {"    "}
                           {"\n"}
@@ -6195,7 +6195,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -6208,7 +6208,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -6219,8 +6219,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Basic{" "}
+                    
+                    Basic
                   </h4>
                   {/* button tab */}
                   <div
@@ -6231,15 +6231,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -6253,46 +6253,46 @@ const Components = () => {
                               uk-switcher="connect: #tabsOne ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                             >
                               <li>
-                                {" "}
+                                
                                 <a
                                   href="#"
                                   className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                                 >
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="mr-2 text-xl max-md:hidden"
                                     name="cart-outline"
-                                  />{" "}
-                                  First Tab{" "}
-                                </a>{" "}
+                                  />
+                                  First Tab
+                                </a>
                               </li>
                               <li>
-                                {" "}
+                                
                                 <a
                                   href="#"
                                   className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                                 >
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="mr-2 text-xl max-md:hidden"
                                     name="cloud-download-outline"
-                                  />{" "}
-                                  Second Tab{" "}
-                                </a>{" "}
+                                  />
+                                  Second Tab
+                                </a>
                               </li>
                               <li>
-                                {" "}
+                                
                                 <a
                                   href="#"
                                   className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                                 >
-                                  {" "}
+                                  
                                   <ion-icon
                                     className="mr-2 text-xl max-md:hidden"
                                     name="add-outline"
-                                  />{" "}
-                                  Third Tab{" "}
-                                </a>{" "}
+                                  />
+                                  Third Tab
+                                </a>
                               </li>
                             </ul>
                           </div>
@@ -6300,7 +6300,7 @@ const Components = () => {
                             <div>
                               <div className="p-6">
                                 <p className="font-normal">
-                                  {" "}
+                                  
                                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                                   sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                                   magna aliquam erat volutpat. Ut wisi enim ad minim laoreet
@@ -6311,7 +6311,7 @@ const Components = () => {
                             <div>
                               <div className="p-6">
                                 <p className="font-normal">
-                                  {" "}
+                                  
                                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                                   sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                                   magna aliquam erat volutpat. Ut wisi enim ad minim laoreet
@@ -6322,7 +6322,7 @@ const Components = () => {
                             <div>
                               <div className="p-6">
                                 <p className="font-normal">
-                                  {" "}
+                                  
                                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                                   sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                                   magna aliquam erat volutpat. Ut wisi enim ad minim laoreet
@@ -6363,56 +6363,56 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <li>
-                                  {" "}
+                                  
                                   <a
                                     href="#"
                                     className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                                   >
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="mr-2 text-xl max-md:hidden"
                                       name="cart-outline"
-                                    />{" "}
-                                    First Tab{" "}
-                                  </a>{" "}
+                                    />
+                                    First Tab
+                                  </a>
                                 </li>
                                 {"\n"}
                                 {"                                                        "}
                                 <li>
-                                  {" "}
+                                  
                                   <a
                                     href="#"
                                     className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                                   >
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="mr-2 text-xl max-md:hidden"
                                       name="cloud-download-outline"
-                                    />{" "}
-                                    Second Tab{" "}
-                                  </a>{" "}
+                                    />
+                                    Second Tab
+                                  </a>
                                 </li>
                                 {"\n"}
                                 {"                                                        "}
                                 <li>
-                                  {" "}
+                                  
                                   <a
                                     href="#"
                                     className="flex items-center md:p-4 p-2.5 border-b-2 border-transparent aria-expanded:text-black aria-expanded:border-black aria-expanded:dark:text-white aria-expanded:dark:border-white"
                                   >
-                                    {" "}
+                                    
                                     <ion-icon
                                       className="mr-2 text-xl max-md:hidden"
                                       name="add-outline"
-                                    />{" "}
-                                    Third Tab{" "}
-                                  </a>{" "}
+                                    />
+                                    Third Tab
+                                  </a>
                                 </li>
                                 {"\n"}
                                 {"                                                    "}
                                 {"\n"}
                                 {"                                                    "}
-                              </ul>{" "}
+                              </ul>
                               {"\n"}
                               {"                                                "}
                             </div>
@@ -6436,7 +6436,7 @@ const Components = () => {
                                     "                                                            "
                                   }
                                   <p className="font-normal">
-                                    {" "}
+                                    
                                     Lorem ipsum dolor sit amet, consectetuer adipiscing
                                     elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                                     dolore magna aliquam erat volutpat. Ut wisi enim ad
@@ -6460,13 +6460,13 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div className="p-6">
-                                  {" "}
+                                  
                                   {"\n"}
                                   {
                                     "                                                            "
                                   }
                                   <p className="font-normal">
-                                    {" "}
+                                    
                                     Lorem ipsum dolor sit amet, consectetuer adipiscing
                                     elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                                     dolore magna aliquam erat volutpat. Ut wisi enim ad
@@ -6495,7 +6495,7 @@ const Components = () => {
                                     "                                                            "
                                   }
                                   <p className="font-normal">
-                                    {" "}
+                                    
                                     Lorem ipsum dolor sit amet, consectetuer adipiscing
                                     elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                                     dolore magna aliquam erat volutpat. Ut wisi enim ad
@@ -6555,7 +6555,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -6568,7 +6568,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -6579,8 +6579,8 @@ const Components = () => {
               <div className="space-y-8">
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Basic{" "}
+                    
+                    Basic
                   </h4>
                   {/* button tab */}
                   <div
@@ -6591,15 +6591,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -6671,7 +6671,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -6684,7 +6684,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -6692,8 +6692,8 @@ const Components = () => {
                 </div>
                 <div className="relative bg-white border border-slate-200 p-1 rounded-xl shadow-sm overflow-hidden dark:border1 dark:bg-dark2">
                   <h4 className="text-lg font-medium text-black dark:text-white absolute top-4 left-4">
-                    {" "}
-                    Positions{" "}
+                    
+                    Positions
                   </h4>
                   {/* button tab */}
                   <div
@@ -6704,15 +6704,15 @@ const Components = () => {
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Preview{" "}
+                      
+                      Preview
                     </button>
                     <button
                       type="button"
                       className="px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-slate-700/80"
                     >
-                      {" "}
-                      Code{" "}
+                      
+                      Code
                     </button>
                   </div>
                   <div className="uk-switcher bg-slate-50 rounded-lg border border-gray-100 overflow-hidden mt-[60px] dark:border1 dark:bg-dark1">
@@ -6725,56 +6725,56 @@ const Components = () => {
                               uk-tooltip="title: Hello World; offset:10; pos: top-left"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                             >
-                              {" "}
+                              
                               Top Left
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: top-center"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                             >
-                              {" "}
+                              
                               Top Center
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: top-right"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                             >
-                              {" "}
+                              
                               Top Right
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: left"
                               className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                             >
-                              {" "}
+                              
                               Left
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: right"
                               className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                             >
-                              {" "}
-                              Right{" "}
+                              
+                              Right
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: bottom-left"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                             >
-                              {" "}
+                              
                               bottom Left
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: bottom"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                             >
-                              {" "}
+                              
                               bottom Center
                             </div>
                             <div
                               uk-tooltip="title: Hello World; offset:10; pos: bottom-right"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                             >
-                              {" "}
+                              
                               bottom Right
                             </div>
                           </div>
@@ -6805,7 +6805,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: top-left"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                               >
-                                {" "}
+                                
                                 Top Left
                               </div>
                               {"\n"}
@@ -6814,7 +6814,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: top-center"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                               >
-                                {" "}
+                                
                                 Top Center
                               </div>
                               {"\n"}
@@ -6823,7 +6823,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: top-right"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                               >
-                                {" "}
+                                
                                 Top Right
                               </div>
                               {"\n"}
@@ -6834,7 +6834,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: left"
                                 className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                               >
-                                {" "}
+                                
                                 Left
                               </div>
                               {"\n"}
@@ -6843,8 +6843,8 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: right"
                                 className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                               >
-                                {" "}
-                                Right{" "}
+                                
+                                Right
                               </div>
                               {"\n"}
                               {"                                                    "}
@@ -6854,7 +6854,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: bottom-left"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                               >
-                                {" "}
+                                
                                 bottom Left
                               </div>
                               {"\n"}
@@ -6863,7 +6863,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: bottom"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                               >
-                                {" "}
+                                
                                 bottom Center
                               </div>
                               {"\n"}
@@ -6872,7 +6872,7 @@ const Components = () => {
                                 uk-tooltip="title: Hello World; offset:10; pos: bottom-right"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                               >
-                                {" "}
+                                
                                 bottom Right
                               </div>
                               {"\n"}
@@ -6880,7 +6880,7 @@ const Components = () => {
                             </div>
                             {"\n"}
                             {"                                            "}
-                          </div>{" "}
+                          </div>
                           {"\n"}
                           {"    "}
                           {"\n"}
@@ -6913,7 +6913,7 @@ const Components = () => {
                           className="!top-[5px] "
                           uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
-                          {" "}
+                          
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -6926,7 +6926,7 @@ const Components = () => {
                               d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                               clipRule="evenodd"
                             />
-                          </svg>{" "}
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -6970,7 +6970,7 @@ const Components = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -7002,7 +7002,7 @@ const Components = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 uk-switcher-item="next"
               >
-                {" "}
+                
                 Next
               </a>
             </li>
@@ -7034,8 +7034,8 @@ const Components = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                {" "}
-                Share{" "}
+                
+                Share
               </button>
             </li>
           </ul>
@@ -7083,7 +7083,7 @@ const Components = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      {" "}
+                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -7113,7 +7113,7 @@ const Components = () => {
                         uk-switcher=""
                       >
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -7122,7 +7122,7 @@ const Components = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          {" "}
+                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -7136,8 +7136,8 @@ const Components = () => {
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
                             <label htmlFor="range1" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -7149,8 +7149,8 @@ const Components = () => {
                           </div>
                           <div>
                             <label htmlFor="range2" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -7162,8 +7162,8 @@ const Components = () => {
                           </div>
                           <div>
                             <label htmlFor="range3" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -7175,8 +7175,8 @@ const Components = () => {
                           </div>
                           <div>
                             <label htmlFor="range4" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -7188,8 +7188,8 @@ const Components = () => {
                           </div>
                           <div>
                             <label htmlFor="range5" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -7201,8 +7201,8 @@ const Components = () => {
                           </div>
                           <div>
                             <label htmlFor="range6" className="mb-2 inline-block">
-                              {" "}
-                              Example range{" "}
+                              
+                              Example range
                             </label>
                             <input
                               type="range"
@@ -7450,11 +7450,11 @@ const Components = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                {" "}
+                                
                                 Alt text helps people with visual impairments
                                 understand your photos. You can either write your
                                 own alt text or let it be created automatically for
-                                your photos.{" "}
+                                your photos.
                               </p>
                               <input
                                 type="text"
@@ -7472,7 +7472,7 @@ const Components = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            {" "}
+                            
                             Advanced settings
                           </h4>
                           <svg
@@ -7496,7 +7496,7 @@ const Components = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
+                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -7505,7 +7505,7 @@ const Components = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   Only you will see the total number of likes and
                                   views on this post. You can change this later by
                                   going to the ··· menu at the top of the post. To
@@ -7521,8 +7521,8 @@ const Components = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    {" "}
-                                    Turn off commenting{" "}
+                                    
+                                    Turn off commenting
                                   </h4>
                                 </div>
                                 <input type="checkbox" defaultChecked="" />
@@ -7530,7 +7530,7 @@ const Components = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  {" "}
+                                  
                                   You can change this later by going to the menu at
                                   the top of your post.
                                 </p>
