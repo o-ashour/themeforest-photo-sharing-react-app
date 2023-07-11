@@ -52,7 +52,6 @@ const FormRegister = () => {
               />
               <a href="#" className="hidden">
                 <div className="text-sm text-right text-gray-400 py-4">
-                  
                   Forget password
                 </div>
               </a>
@@ -60,7 +59,6 @@ const FormRegister = () => {
                 type="submit"
                 className="font-medium w-full rounded-lg bg-slate-900 py-1.5 px-4 text-white h-[38px] active:scale-[0.97] transition-all duration-150"
               >
-                
                 <span>Get Started</span>
               </button>
               <div className="space-x-2 text-sm text-center text-slate-400 dark:text-white/70">
@@ -80,7 +78,7 @@ const FormRegister = () => {
       {/* Uikit js you can use cdn  https://getuikit.com/docs/installation  or fine the latest  https://getuikit.com/docs/installation */}
       {/* Ion icon */}
     </div>
-  )
-}
+  );
+};
 
 export default FormRegister;

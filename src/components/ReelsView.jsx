@@ -138,11 +138,9 @@ const ReelsView = () => {
                       />
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           Johnson smith
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Suggested For You
                         </div>
                       </div>
@@ -158,11 +156,9 @@ const ReelsView = () => {
                       />
                       <div className="flex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           James Lewis
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Followed By Johnson
                         </div>
                       </div>
@@ -170,7 +166,6 @@ const ReelsView = () => {
                         type="button"
                         className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                       >
-                        
                         Follow
                       </button>
                     </a>
@@ -194,11 +189,9 @@ const ReelsView = () => {
                       </svg>
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           artificial intelligence
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           13,352K post
                         </div>
                       </div>
@@ -214,11 +207,9 @@ const ReelsView = () => {
                       />
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           Monroe Parker
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Parker . following
                         </div>
                       </div>
@@ -234,11 +225,9 @@ const ReelsView = () => {
                       />
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           Johnson smith
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Suggested For You
                         </div>
                       </div>
@@ -254,11 +243,9 @@ const ReelsView = () => {
                       />
                       <div className="flex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           James Lewis
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Followed By Johnson
                         </div>
                       </div>
@@ -266,7 +253,6 @@ const ReelsView = () => {
                         type="button"
                         className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                       >
-                        
                         Follow
                       </button>
                     </a>
@@ -290,11 +276,9 @@ const ReelsView = () => {
                       </svg>
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           Ui Designers
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           9,362K post
                         </div>
                       </div>
@@ -319,11 +303,9 @@ const ReelsView = () => {
                       </svg>
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           Affiliate marketing
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           4,248K post
                         </div>
                       </div>
@@ -339,11 +321,9 @@ const ReelsView = () => {
                       />
                       <div className="fldex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           Johnson smith
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Suggested For You
                         </div>
                       </div>
@@ -359,11 +339,9 @@ const ReelsView = () => {
                       />
                       <div className="flex-1 min-w-0">
                         <h4 className="font-medium text-sm text-black dark:text-white">
-                          
                           James Lewis
                         </h4>
                         <div className="text-xs text-gray-500 font-normal mt-0.5 dark:text-white-80">
-                          
                           Followed By Johnson
                         </div>
                       </div>
@@ -371,7 +349,6 @@ const ReelsView = () => {
                         type="button"
                         className="text-sm rounded-full py-1.5 px-4 font-semibold bg-secondery"
                       >
-                        
                         Follow
                       </button>
                     </a>
@@ -556,7 +533,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-2.jpg"
                           alt=""
@@ -565,12 +541,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1"> John Michael</b> who you
-                          might know, is on Instello.
+                          <b className="font-bold mr-1"> John Michael</b> who
+                          you might know, is on Instello.
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           2 hours ago
                         </div>
                       </div>
@@ -586,7 +560,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl pr-10 hover:bg-secondery bg-teal-500/5"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-3.jpg"
                           alt=""
@@ -595,12 +568,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
                           <b className="font-bold mr-1"> Alexa Gray</b> started
                           following you. Welcome him to your profile. 👋
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           4 hours ago
                         </div>
                         <div className="w-2.5 h-2.5 bg-teal-600 rounded-full absolute right-3 top-5" />
@@ -611,7 +582,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl pr-10 hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-7.jpg"
                           alt=""
@@ -620,12 +590,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1">Jesse Steeve</b> mentioned
-                          you in a story. Check it out and reply. 📣
+                          <b className="font-bold mr-1">Jesse Steeve</b>
+                          mentioned you in a story. Check it out and reply. 📣
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -638,7 +606,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-4.jpg"
                           alt=""
@@ -647,12 +614,11 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
                           <b className="font-bold mr-1"> Jesse Steeve</b> sarah
-                          tagged you <br /> in a photo of your birthday party. 📸
+                          tagged you <br /> in a photo of your birthday party.
+                          📸
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -662,7 +628,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl pr-10 hover:bg-secondery bg-teal-500/5"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-3.jpg"
                           alt=""
@@ -671,12 +636,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1"> Sarah Gray</b> sent you a
-                          message. He wants to chat with you. 💖
+                          <b className="font-bold mr-1"> Sarah Gray</b> sent you
+                          a message. He wants to chat with you. 💖
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           4 hours ago
                         </div>
                         <div className="w-2.5 h-2.5 bg-teal-600 rounded-full absolute right-3 top-5" />
@@ -687,7 +650,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-4.jpg"
                           alt=""
@@ -696,12 +658,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
                           <b className="font-bold mr-1"> James Lewis</b> Start
                           following you on instello
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -717,7 +677,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl pr-10 hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-6.jpg"
                           alt=""
@@ -726,12 +685,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1"> Alexa stella</b> commented
-                          on your photo “Wow, stunning shot!” 💬
+                          <b className="font-bold mr-1"> Alexa stella</b>
+                          commented on your photo “Wow, stunning shot!” 💬
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -741,7 +698,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl pr-10 hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-2.jpg"
                           alt=""
@@ -750,12 +706,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1"> John Michael</b> mentioned
-                          you in a story. Check it out and reply. 📣
+                          <b className="font-bold mr-1"> John Michael</b>
+                          mentioned you in a story. Check it out and reply. 📣
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -765,7 +719,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-5.jpg"
                           alt=""
@@ -774,12 +727,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1"> Jesse Steeve</b> who you
-                          might know, is on Instello.
+                          <b className="font-bold mr-1"> Jesse Steeve</b> who
+                          you might know, is on Instello.
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -795,7 +746,6 @@ const ReelsView = () => {
                       className="relative flex items-center gap-3 p-2 duration-200 rounded-xl pr-10 hover:bg-secondery"
                     >
                       <div className="relative w-12 h-12 shrink-0">
-                        
                         <img
                           src="assets/images/avatars/avatar-7.jpg"
                           alt=""
@@ -804,12 +754,10 @@ const ReelsView = () => {
                       </div>
                       <div className="flex-1 ">
                         <p>
-                          
-                          <b className="font-bold mr-1"> Martin Gray</b> liked your
-                          photo of the Eiffel Tower. 😍
+                          <b className="font-bold mr-1"> Martin Gray</b> liked
+                          your photo of the Eiffel Tower. 😍
                         </p>
                         <div className="text-xs text-gray-500 mt-1.5 dark:text-white/80">
-                          
                           8 hours ago
                         </div>
                       </div>
@@ -971,14 +919,16 @@ const ReelsView = () => {
             </nav>
             {/* profile */}
             <div>
-              <a id="profile-link" className="flex items-center gap-3 p-3 group">
+              <a
+                id="profile-link"
+                className="flex items-center gap-3 p-3 group"
+              >
                 <img
                   src="assets/images/avatars/avatar-7.jpg"
                   alt=""
                   className="rounded-full md:w-7 md:h-7 w-5 h-5 shrink-0"
                 />
                 <span className="font-semibold text-sm max-xl:hidden">
-                  
                   Monroe Parker
                 </span>
                 <ion-icon
@@ -999,18 +949,18 @@ const ReelsView = () => {
                       alt=""
                     />
                     <div className="mt-2 space-y-0.5">
-                      <div className="text-base font-semibold"> Monroe Parker </div>
-                      <div className="text-gray-400 dark:text-white/80">
+                      <div className="text-base font-semibold">
                         
+                        Monroe Parker
+                      </div>
+                      <div className="text-gray-400 dark:text-white/80">
                         @monroe
                       </div>
                     </div>
                   </a>
                   <div className="mt-3 flex gap-3.5">
                     <div>
-                      
                       <a href="profile.html">
-                        
                         <strong> 620K </strong>
                         <span className="text-gray-400 dark:text-white/80 ml-1">
                           Following
@@ -1018,9 +968,7 @@ const ReelsView = () => {
                       </a>
                     </div>
                     <div>
-                      
                       <a href="profile.html">
-                        
                         <strong> 38k </strong>
                         <span className="text-gray-400 dark:text-white/80 ml-1">
                           Followers
@@ -1032,49 +980,39 @@ const ReelsView = () => {
                 <hr className="opacity-60" />
                 <ul className="text-sm font-semibold p-2">
                   <li>
-                    
                     <a
                       href="setting.html"
                       className="flex gap-3 rounded-md p-2 hover:bg-secondery"
                     >
-                      
-                      <ion-icon
-                        name="person-outline"
-                        className="text-lg"
-                      /> Profile
+                      <ion-icon name="person-outline" className="text-lg" />
+                      Profile
                     </a>
                   </li>
                   <li>
-                    
                     <a
                       href="upgrade.html"
                       className="flex gap-3 rounded-md p-2 hover:bg-secondery"
                     >
-                      
                       <ion-icon name="bookmark-outline" className="text-lg" />
                       Upgrade
                     </a>
                   </li>
                   <li>
-                    
                     <a
                       href="setting.html"
                       className="flex gap-3 rounded-md p-2 hover:bg-secondery"
                     >
-                      
                       <ion-icon name="settings-outline" className="text-lg" />
                       Acount Setting
                     </a>
                   </li>
                   <li>
-                    
                     <a
                       href="form-login.html"
                       className="flex gap-3 rounded-md p-2 hover:bg-secondery"
                     >
-                      
-                      <ion-icon name="log-out-outline" className="text-lg" /> Log
-                      Out
+                      <ion-icon name="log-out-outline" className="text-lg" />
+                      Log Out
                     </a>
                   </li>
                 </ul>
@@ -1188,7 +1126,6 @@ const ReelsView = () => {
                     >
                       <nav>
                         <a href="#">
-                          
                           <ion-icon
                             className="text-xl"
                             name="pricetags-outline"
@@ -1196,12 +1133,10 @@ const ReelsView = () => {
                           Add to Timeline
                         </a>
                         <a href="#">
-                          
-                          <ion-icon className="text-xl" name="time-outline" /> Save
-                          to Watch later
+                          <ion-icon className="text-xl" name="time-outline" />
+                          Save to Watch later
                         </a>
                         <a href="#">
-                          
                           <ion-icon
                             className="text-xl"
                             name="bookmark-outline"
@@ -1209,13 +1144,11 @@ const ReelsView = () => {
                           Save to playlist
                         </a>
                         <a href="#">
-                          
                           <ion-icon className="text-xl" name="share-outline" />
                           Share
                         </a>
                         <hr />
                         <a href="#">
-                          
                           <ion-icon
                             className="text-xl"
                             name="heart-dislike-outline"
@@ -1223,7 +1156,6 @@ const ReelsView = () => {
                           Not interested
                         </a>
                         <a href="#">
-                          
                           <ion-icon className="text-xl" name="power-outline" />
                           Don't recommend user
                         </a>
@@ -1231,14 +1163,16 @@ const ReelsView = () => {
                           href="#"
                           className="text-red-400 hover:!bg-red-50 dark:hover:!bg-red-500/50"
                         >
-                          
                           <ion-icon className="text-xl" name="flag-outline" />
                           Report
                         </a>
                       </nav>
                     </div>
                   </div>
-                  <a href="profile.html" className="hover:scale-110 duration-200">
+                  <a
+                    href="profile.html"
+                    className="hover:scale-110 duration-200"
+                  >
                     <img
                       src="assets/images/avatars/avatar-3.jpg"
                       alt=""
@@ -1283,7 +1217,6 @@ const ReelsView = () => {
                 className="absolute top-0 m-3 right-1 text-blue-600"
                 data-uk-switcher-item="next"
               >
-                
                 Next
               </a>
             </li>
@@ -1315,7 +1248,6 @@ const ReelsView = () => {
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
                 data-uk-switcher-item="next"
               >
-                
                 Next
               </a>
             </li>
@@ -1347,7 +1279,6 @@ const ReelsView = () => {
                 type="button"
                 className="text-white bg-blue-600 rounded-lg py-1.5 px-5 text-sm absolute top-0 m-2.5 right-0 uk-animation-slide-right-small"
               >
-                
                 Share
               </button>
             </li>
@@ -1396,7 +1327,6 @@ const ReelsView = () => {
                       type="button"
                       className="text-white bg-blue-600 rounded-lg py-1.5 px-4 text-sm dark:bg-white/5"
                     >
-                      
                       Select forom the Computer
                     </button>
                   </div>
@@ -1426,7 +1356,6 @@ const ReelsView = () => {
                         data-uk-switcher=""
                       >
                         <li className="flex-1">
-                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1435,7 +1364,6 @@ const ReelsView = () => {
                           </a>
                         </li>
                         <li className="flex-1">
-                          
                           <a
                             href="#"
                             className="block px-4 py-1.5 rounded-md aria-expanded:bg-white aria-expanded:shadow aria-expanded:dark:bg-white/10"
@@ -1448,8 +1376,10 @@ const ReelsView = () => {
                         {/* filter slider */}
                         <div className="space-y-8 py-6 p-1 text-sm font-medium text-gray-700 dark:text-gray-200">
                           <div>
-                            <label htmlFor="range1" className="mb-2 inline-block">
-                              
+                            <label
+                              htmlFor="range1"
+                              className="mb-2 inline-block"
+                            >
                               Example range
                             </label>
                             <input
@@ -1461,8 +1391,10 @@ const ReelsView = () => {
                             />
                           </div>
                           <div>
-                            <label htmlFor="range2" className="mb-2 inline-block">
-                              
+                            <label
+                              htmlFor="range2"
+                              className="mb-2 inline-block"
+                            >
                               Example range
                             </label>
                             <input
@@ -1474,8 +1406,10 @@ const ReelsView = () => {
                             />
                           </div>
                           <div>
-                            <label htmlFor="range3" className="mb-2 inline-block">
-                              
+                            <label
+                              htmlFor="range3"
+                              className="mb-2 inline-block"
+                            >
                               Example range
                             </label>
                             <input
@@ -1487,8 +1421,10 @@ const ReelsView = () => {
                             />
                           </div>
                           <div>
-                            <label htmlFor="range4" className="mb-2 inline-block">
-                              
+                            <label
+                              htmlFor="range4"
+                              className="mb-2 inline-block"
+                            >
                               Example range
                             </label>
                             <input
@@ -1500,8 +1436,10 @@ const ReelsView = () => {
                             />
                           </div>
                           <div>
-                            <label htmlFor="range5" className="mb-2 inline-block">
-                              
+                            <label
+                              htmlFor="range5"
+                              className="mb-2 inline-block"
+                            >
                               Example range
                             </label>
                             <input
@@ -1513,8 +1451,10 @@ const ReelsView = () => {
                             />
                           </div>
                           <div>
-                            <label htmlFor="range6" className="mb-2 inline-block">
-                              
+                            <label
+                              htmlFor="range6"
+                              className="mb-2 inline-block"
+                            >
                               Example range
                             </label>
                             <input
@@ -1743,7 +1683,10 @@ const ReelsView = () => {
                           className="flex items-center justify-between py-2 px-3.5 group "
                           aria-expanded="true"
                         >
-                          <h4 className="font-medium text-sm"> Accessibility</h4>
+                          <h4 className="font-medium text-sm">
+                            
+                            Accessibility
+                          </h4>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -1763,11 +1706,10 @@ const ReelsView = () => {
                           <li>
                             <div className="p-4">
                               <p className="text-[13px] font-light">
-                                
                                 Alt text helps people with visual impairments
-                                understand your photos. You can either write your
-                                own alt text or let it be created automatically for
-                                your photos.
+                                understand your photos. You can either write
+                                your own alt text or let it be created
+                                automatically for your photos.
                               </p>
                               <input
                                 type="text"
@@ -1785,7 +1727,6 @@ const ReelsView = () => {
                           aria-expanded="true"
                         >
                           <h4 className="font-medium text-sm">
-                            
                             Advanced settings
                           </h4>
                           <svg
@@ -1809,7 +1750,6 @@ const ReelsView = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    
                                     Hide like and view counts on this post
                                   </h4>
                                 </div>
@@ -1818,13 +1758,12 @@ const ReelsView = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  
-                                  Only you will see the total number of likes and
-                                  views on this post. You can change this later by
-                                  going to the ··· menu at the top of the post. To
-                                  hide like counts on other people's posts, go to
-                                  your account settings. <a href="#"> Learn more</a>
-                                  .
+                                  Only you will see the total number of likes
+                                  and views on this post. You can change this
+                                  later by going to the ··· menu at the top of
+                                  the post. To hide like counts on other
+                                  people's posts, go to your account settings.
+                                  <a href="#"> Learn more</a>.
                                 </p>
                               </div>
                             </div>
@@ -1834,7 +1773,6 @@ const ReelsView = () => {
                               <label className="switch flex justify-between items-start gap-4 cursor-pointer min-h-[30px]">
                                 <div>
                                   <h4 className="font-medium text-sm">
-                                    
                                     Turn off commenting
                                   </h4>
                                 </div>
@@ -1843,9 +1781,8 @@ const ReelsView = () => {
                               </label>
                               <div>
                                 <p className="text-[13px] font-light mt-1.5">
-                                  
-                                  You can change this later by going to the menu at
-                                  the top of your post.
+                                  You can change this later by going to the menu
+                                  at the top of your post.
                                 </p>
                               </div>
                             </div>
@@ -1863,7 +1800,7 @@ const ReelsView = () => {
       {/* Uikit js you can use cdn  https://getuikit.com/docs/installation  or fine the latest  https://getuikit.com/docs/installation */}
       {/* Ion icon */}
     </>
-  )
-}
+  );
+};
 
 export default ReelsView;
