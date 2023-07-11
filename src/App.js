@@ -103,7 +103,7 @@ const App = () => {
                             </a>
                             <div
                                 className="sm:w-[397px] w-full bg-white shadow-lg md:!left-[73px] hidden !left-0 dark:bg-dark2 dark:border1 max-md:bottom-[57px]"
-                                uk-drop="animation: uk-animation-slide-left-small , uk-transform-origin-center-left ;animate-out: true; pos: left ; mode:click; offset: 9"
+                                data-uk-drop="animation: uk-animation-slide-left-small , uk-transform-origin-center-left ;animate-out: true; pos: left ; mode:click; offset: 9"
                             >
                                 <div className="md:h-screen overflow-y-auto h-[calc(100vh-120px)]">
                                     {/* header */}
@@ -516,7 +516,7 @@ const App = () => {
                             </a>
                             <div
                                 className="sm:w-[397px] w-full bg-white shadow-lg md:!left-[73px] hidden !left-0 dark:bg-dark2 dark:border1 max-md:bottom-[57px]"
-                                uk-drop="pos: left-center;animate-out: true; animation: uk-animation-slide-left-medium ; mode:click"
+                                data-uk-drop="pos: left-center;animate-out: true; animation: uk-animation-slide-left-medium ; mode:click"
                             >
                                 <div className="md:h-screen overflow-y-auto h-[calc(100vh-120px)]">
                                     {/* header */}
@@ -892,7 +892,7 @@ const App = () => {
                             {/* create a post */}
                             <a href="!#">
                                 <button
-                                    uk-toggle="target: #create-post"
+                                    data-uk-toggle="target: #create-post"
                                     className="flex items-center gap-3 w-full"
                                 >
                                     <svg
@@ -1003,7 +1003,7 @@ const App = () => {
                             </a>
                             <div
                                 className="bg-white sm:w-64 2xl:w-[calc(100%-16px)] w-full shadow-lg border rounded-xl overflow-hidden max-md:!top-auto max-md:bottom-16 border2 dark:bg-dark2 hidden"
-                                uk-drop="animation:uk-animation-slide-bottom-medium ;animate-out: true"
+                                data-uk-drop="animation:uk-animation-slide-bottom-medium ;animate-out: true"
                             >
                                 <div className="w-full h-1.5 bg-gradient-to-r to-purple-500 via-red-500 from-pink-500" />
                                 <div className="p-4 text-xs font-medium">
