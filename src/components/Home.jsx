@@ -14,15 +14,15 @@ const Home = () => {
               <div
                 className="relative"
                 tabIndex={-1}
-                uk-slider="autoplay: true;finite: true"
-                uk-lightbox=""
+                data-uk-slider="autoplay: true;finite: true"
+                data-uk-lightbox=""
               >
                 <div className="py-5 uk-slider-container">
                   <ul
                     className="uk-slider-items w-[calc(100%+14px)]"
-                    uk-scrollspy="target: > li; cls: uk-animation-scale-up; delay: 20;repeat:true"
+                    data-uk-scrollspy="target: > li; cls: uk-animation-scale-up; delay: 20;repeat:true"
                   >
-                    <li className="md:pr-3" uk-scrollspy-class="uk-animation-fade">
+                    <li className="md:pr-3" data-uk-scrollspy-class="uk-animation-fade">
                       <div className="md:w-20 md:h-20 w-12 h-12 rounded-full relative border-2 border-dashed grid place-items-center bg-slate-200 border-slate-300 dark:border-slate-700 dark:bg-dark2">
                         <ion-icon name="camera" className="text-2xl" />
                       </div>
@@ -176,7 +176,7 @@ const Home = () => {
                   <button
                     type="button"
                     className="absolute -translate-y-1/2 bg-white shadow rounded-full top-1/2 -left-3.5 grid w-8 h-8 place-items-center dark:bg-dark3"
-                    uk-slider-item="previous"
+                    data-uk-slider-item="previous"
                   >
                     
                     <ion-icon name="chevron-back" className="text-2xl" />
@@ -184,7 +184,7 @@ const Home = () => {
                   <button
                     type="button"
                     className="absolute -right-2 -translate-y-1/2 bg-white shadow rounded-full top-1/2 grid w-8 h-8 place-items-center dark:bg-dark3"
-                    uk-slider-item="next"
+                    data-uk-slider-item="next"
                   >
                     
                     <ion-icon name="chevron-forward" className="text-2xl" />
@@ -203,7 +203,7 @@ const Home = () => {
                   <div className="flex items-center gap-3">
                     <div
                       className="flex-1 bg-slate-100 hover:bg-opacity-80 transition-all rounded-lg cursor-pointer dark:bg-dark3"
-                      uk-toggle="target: #create-status"
+                      data-uk-toggle="target: #create-status"
                     >
                       <div className="py-2.5 text-center dark:text-white">
                         
@@ -212,7 +212,7 @@ const Home = () => {
                     </div>
                     <div
                       className="p-2 bg-sky-100 hover:bg-opacity-80 transition-all rounded-lg cursor-pointer"
-                      uk-toggle="target: #create-status"
+                      data-uk-toggle="target: #create-status"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +229,7 @@ const Home = () => {
                     </div>
                     <div
                       className="p-2 bg-pink-100 hover:bg-opacity-80 transition-all rounded-lg cursor-pointer"
-                      uk-toggle="target: #create-status"
+                      data-uk-toggle="target: #create-status"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -277,7 +277,7 @@ const Home = () => {
                       </button>
                       <div
                         className="w-[245px]"
-                        uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                        data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                       >
                         <nav>
                           <a href="#">
@@ -444,11 +444,11 @@ const Home = () => {
                       />
                       <div
                         className="!top-2 pr-2"
-                        uk-drop="pos: bottom-right; mode: click"
+                        data-uk-drop="pos: bottom-right; mode: click"
                       >
                         <div
                           className="flex items-center gap-2"
-                          uk-scrollspy="target: > svg; cls: uk-animation-slide-right-small; delay: 100 ;repeat: true"
+                          data-uk-scrollspy="target: > svg; cls: uk-animation-slide-right-small; delay: 100 ;repeat: true"
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -517,7 +517,7 @@ const Home = () => {
                       </button>
                       <div
                         className="w-[245px]"
-                        uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                        data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                       >
                         <nav>
                           <a href="#">
@@ -572,9 +572,9 @@ const Home = () => {
                   <div
                     className="relative uk-visible-toggle sm:px-4"
                     tabIndex={-1}
-                    uk-slideshow="animation: push;finite: true;min-height: 200; max-height: 250"
+                    data-uk-slideshow="animation: push;finite: true;min-height: 200; max-height: 250"
                   >
-                    <ul className="uk-slideshow-items" uk-lightbox="">
+                    <ul className="uk-slideshow-items" data-uk-lightbox="">
                       <li className="w-full overflow-hidden sm:rounded-md">
                         <a
                           href="assets/images/avatars/avatar-lg-3.jpg"
@@ -604,7 +604,7 @@ const Home = () => {
                     <button
                       type="button"
                       className="absolute left-2 -translate-y-1/2 bg-black/40 backdrop-blur-3xl rounded-full top-1/2 grid w-7 h-7 place-items-center shadow"
-                      uk-slideshow-item="previous"
+                      data-uk-slideshow-item="previous"
                     >
                       
                       <ion-icon
@@ -615,7 +615,7 @@ const Home = () => {
                     <button
                       type="button"
                       className="absolute right-2 -translate-y-1/2 bg-black/40 backdrop-blur-3xl rounded-full top-1/2 grid w-7 h-7 place-items-center shadow"
-                      uk-slideshow-item="next"
+                      data-uk-slideshow-item="next"
                     >
                       
                       <ion-icon
@@ -733,11 +733,11 @@ const Home = () => {
                       />
                       <div
                         className="!top-2 pr-2"
-                        uk-drop="pos: bottom-right; mode: click"
+                        data-uk-drop="pos: bottom-right; mode: click"
                       >
                         <div
                           className="flex items-center gap-2"
-                          uk-scrollspy="target: > svg; cls: uk-animation-slide-right-small; delay: 100 ;repeat: true"
+                          data-uk-scrollspy="target: > svg; cls: uk-animation-slide-right-small; delay: 100 ;repeat: true"
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -806,7 +806,7 @@ const Home = () => {
                       </button>
                       <div
                         className="w-[245px]"
-                        uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                        data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                       >
                         <nav>
                           <a href="#">
@@ -990,11 +990,11 @@ const Home = () => {
                       />
                       <div
                         className="!top-2 pr-2"
-                        uk-drop="pos: bottom-right; mode: click"
+                        data-uk-drop="pos: bottom-right; mode: click"
                       >
                         <div
                           className="flex items-center gap-2"
-                          uk-scrollspy="target: > svg; cls: uk-animation-slide-right-small; delay: 100 ;repeat: true"
+                          data-uk-scrollspy="target: > svg; cls: uk-animation-slide-right-small; delay: 100 ;repeat: true"
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -1053,7 +1053,7 @@ const Home = () => {
               <div className="lg:max-w-[370px] md:max-w-[510px] mx-auto">
                 <div
                   className="xl:space-y-6 space-y-3 md:pb-12"
-                  uk-sticky="end: #js-oversized; offset: 50; media:992"
+                  data-uk-sticky="end: #js-oversized; offset: 50; media:992"
                 >
                   {/* peaple you might know */}
                   <div className="bg-white rounded-xl shadow-sm p-5 px-6 border1 dark:bg-dark2">
@@ -1207,7 +1207,7 @@ const Home = () => {
                     <div
                       className="relative capitalize font-medium text-sm text-center mt-4 mb-2"
                       tabIndex={-1}
-                      uk-slider="autoplay: true;finite: true"
+                      data-uk-slider="autoplay: true;finite: true"
                     >
                       <div className="overflow-hidden uk-slider-container">
                         <ul className="-ml-2 uk-slider-items w-[calc(100%+0.5rem)]">
@@ -1269,7 +1269,7 @@ const Home = () => {
                         <button
                           type="button"
                           className="absolute bg-white rounded-full top-16 -left-4 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
-                          uk-slider-item="previous"
+                          data-uk-slider-item="previous"
                         >
                           
                           <ion-icon name="chevron-back" className="text-2xl" />
@@ -1277,7 +1277,7 @@ const Home = () => {
                         <button
                           type="button"
                           className="absolute -right-4 bg-white rounded-full top-16 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
-                          uk-slider-item="next"
+                          data-uk-slider-item="next"
                         >
                           
                           <ion-icon name="chevron-forward" className="text-2xl" />
@@ -1365,7 +1365,7 @@ const Home = () => {
                     <div
                       className="relative capitalize font-normal text-sm mt-4 mb-2"
                       tabIndex={-1}
-                      uk-slider="autoplay: true;finite: true"
+                      data-uk-slider="autoplay: true;finite: true"
                     >
                       <div className="overflow-hidden uk-slider-container">
                         <ul className="-ml-2 uk-slider-items w-[calc(100%+0.5rem)]">
@@ -1474,7 +1474,7 @@ const Home = () => {
                         <button
                           type="button"
                           className="absolute -translate-y-1/2 bg-slate-100 rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center dark:bg-dark3"
-                          uk-slider-item="previous"
+                          data-uk-slider-item="previous"
                         >
                           
                           <ion-icon name="chevron-back" className="text-2xl" />
@@ -1482,7 +1482,7 @@ const Home = () => {
                         <button
                           type="button"
                           className="absolute -right-4 -translate-y-1/2 bg-slate-100 rounded-full top-1/2 grid w-9 h-9 place-items-center dark:bg-dark3"
-                          uk-slider-item="next"
+                          data-uk-slider-item="next"
                         >
                           
                           <ion-icon name="chevron-forward" className="text-2xl" />
@@ -1608,7 +1608,7 @@ const Home = () => {
           </div>
         </main>
       {/* create status */}
-      <div className="hidden lg:p-20" id="create-status" uk-modal="">
+      <div className="hidden lg:p-20" id="create-status" data-uk-modal="">
         <div className="uk-modal-dialog tt relative overflow-hidden mx-auto bg-white p-7 shadow-xl rounded-lg md:w-[520px] w-full dark:bg-dark2">
           <div className="text-center py-3 border-b -m-7 mb-0 dark:border-slate-700">
             <h2 className="text-sm font-medium"> Create Status </h2>
@@ -1684,11 +1684,11 @@ const Home = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="create-post"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto bg-white shadow-xl rounded-lg max-lg:w-full dark:bg-dark2">
           {/* This is a switcher for multiple tabs. Each switcher tab should have the same number of tabs. https://getuikit.com/docs/switcher*/}
-          <ul className="hidden" uk-switcher="connect: .posTabs">
+          <ul className="hidden" data-uk-switcher="connect: .posTabs">
             {/* tab 1 */}
             <li>
               <a href="#">...</a>
@@ -1710,7 +1710,7 @@ const Home = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -1721,7 +1721,7 @@ const Home = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1742,7 +1742,7 @@ const Home = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -1753,7 +1753,7 @@ const Home = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1793,9 +1793,9 @@ const Home = () => {
                 </label>
                 <div
                   className="space-y-4 absolute flex flex-col justify-center"
-                  uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
+                  data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
                 >
-                  <div uk-scrollspy-class="uk-animation-scale-up">
+                  <div data-uk-scrollspy-class="uk-animation-scale-up">
                     <svg
                       className="mx-auto text-gray-600 dark:text-white"
                       width={96}
@@ -1819,7 +1819,7 @@ const Home = () => {
                   </div>
                   <div
                     className=" mx-auto"
-                    uk-scrollspy-class="uk-animation-slide-bottom-small"
+                    data-uk-scrollspy-class="uk-animation-slide-bottom-small"
                   >
                     <button
                       type="button"
@@ -1852,7 +1852,7 @@ const Home = () => {
                       {/* tabs */}
                       <ul
                         className="flex p-0.5 text-center text-xs font-medium text-gray-700 border rounded-md bg-slate-100 dark:text-white dark:border-slate-700 dark:bg-white/5"
-                        uk-switcher=""
+                        data-uk-switcher=""
                       >
                         <li className="flex-1">
                           
@@ -1959,11 +1959,11 @@ const Home = () => {
                         <div>
                           <div
                             className="grid grid-cols-3 gap-4 mt-3 text-xs text-center font-light"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
                           >
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1976,7 +1976,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: contrast-150"
+                              data-uk-toggle="target: #addPostImage; cls: contrast-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1989,7 +1989,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2002,7 +2002,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2015,7 +2015,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2028,7 +2028,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: saturate-150"
+                              data-uk-toggle="target: #addPostImage; cls: saturate-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2041,7 +2041,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: sepia"
+                              data-uk-toggle="target: #addPostImage; cls: sepia"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2054,7 +2054,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2067,7 +2067,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2080,7 +2080,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2093,7 +2093,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2106,7 +2106,7 @@ const Home = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2136,7 +2136,7 @@ const Home = () => {
                     />
                     <ul
                       className="divide-y divide-gray-100 dark:divide-slate-700"
-                      uk-nav="multiple: true"
+                      data-uk-nav="multiple: true"
                     >
                       <li>
                         <div className="flex items-center justify-between py-2 px-3.5">

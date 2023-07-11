@@ -4,11 +4,11 @@ const FormLogin = () => {
     <div className="bg-white dark:bg-slate-900">
       <div className="flex flex-col h-screen justify-center items-center">
         <div className="max-w-sm mx-auto md:px-10 p-4 w-full">
-          <div uk-scrollspy="target: > * > *; cls: uk-animation-scale-up; delay: 100 ;repeat: true">
+          <div data-uk-scrollspy="target: > * > *; cls: uk-animation-scale-up; delay: 100 ;repeat: true">
             {/* logo */}
             <div
               className="flex justify-center mb-12"
-              uk-scrollspy="target: > *; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
+              data-uk-scrollspy="target: > *; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
             >
               <img
                 src="assets/images/logo.png"
@@ -20,7 +20,7 @@ const FormLogin = () => {
               method="#"
               action="#"
               className="space-y-3"
-              uk-scrollspy="target: > *; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
+              data-uk-scrollspy="target: > *; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
             >
               <input
                 className="!w-full"

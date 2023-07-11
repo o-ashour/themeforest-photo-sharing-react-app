@@ -38,12 +38,12 @@ const Components = () => {
               <div
                 className="relative"
                 tabIndex={-1}
-                uk-slider="finite: true;sets: true"
+                data-uk-slider="finite: true;sets: true"
               >
                 <div className="p-3 overflow-hidden uk-slider-container">
                   <ul
                     className="uk-slider-items w-[calc(100%+10px)] capitalize text-sm font-medium"
-                    uk-switcher="connect: #comp_tab ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
+                    data-uk-switcher="connect: #comp_tab ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                   >
                     <li className="w-auto pr-2">
                       
@@ -158,7 +158,7 @@ const Components = () => {
                 <a
                   className="absolute -translate-y-1/2 top-1/2 left-0 flex items-center w-20 h-12 p-2.5 justify-start bg-gradient-to-r from-white via-white dark:from-slate-800 dark:via-slate-800"
                   href="#"
-                  uk-slider-item="previous"
+                  data-uk-slider-item="previous"
                 >
                   
                   <ion-icon name="chevron-back" className="text-2xl" />
@@ -166,7 +166,7 @@ const Components = () => {
                 <a
                   className="absolute right-0 -translate-y-1/2 top-1/2 flex items-center w-20 h-12 p-2.5 justify-end bg-gradient-to-l from-white via-white dark:from-slate-800 dark:via-slate-800"
                   href="#"
-                  uk-slider-item="next"
+                  data-uk-slider-item="next"
                 >
                   
                   <ion-icon name="chevron-forward" className="text-2xl" />
@@ -185,7 +185,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -476,7 +476,7 @@ const Components = () => {
                       </div>
                       <div
                         className="!top-[5px] "
-                        uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                        data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                       >
                         
                         <svg
@@ -507,7 +507,7 @@ const Components = () => {
                 {/* button tab */}
                 <div
                   className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                  uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                  data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                 >
                   <button
                     type="button"
@@ -531,7 +531,7 @@ const Components = () => {
                       <nav className="w-64 mx-auto p-4 bg-white shadow-md rounded-lg dark:bg-slate-600">
                         <ul
                           className="space-y-0 text-sm !text-black font-medium dark:text-white"
-                          uk-nav="multiple: true"
+                          data-uk-nav="multiple: true"
                         >
                           <li>
                             <a
@@ -671,7 +671,7 @@ const Components = () => {
                           {"                                                "}
                           <ul
                             className="space-y-0 text-sm !text-black font-medium dark:text-white"
-                            uk-nav="multiple: true"
+                            data-uk-nav="multiple: true"
                           >
                             {"\n"}
                             {"                                                    "}
@@ -907,7 +907,7 @@ const Components = () => {
                       </div>
                       <div
                         className="!top-[5px] "
-                        uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                        data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                       >
                         
                         <svg
@@ -938,7 +938,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -960,7 +960,7 @@ const Components = () => {
                     <div className="p-10 relative">
                       <div className="relative z-20 py-10 px-6">
                         <div className="space-y-4">
-                          <div uk-alert="">
+                          <div data-uk-alert="">
                             <div className="p-2 border bg-green-50 border-green-500/30 rounded-xl dark:bg-slate-700">
                               <div className="inline- flex items-center justify-between gap-6">
                                 {/* icon */}
@@ -993,7 +993,7 @@ const Components = () => {
                               </div>
                             </div>
                           </div>
-                          <div uk-alert="">
+                          <div data-uk-alert="">
                             <div className="p-2 border bg-blue-50 border-blue-500/30 rounded-xl dark:bg-slate-700">
                               <div className="flex items-center justify-between gap-6">
                                 {/* icon */}
@@ -1025,7 +1025,7 @@ const Components = () => {
                               </div>
                             </div>
                           </div>
-                          <div uk-alert="">
+                          <div data-uk-alert="">
                             <div className="p-2 border bg-yellow-50 border-yellow-500/30 rounded-xl dark:bg-slate-700">
                               <div className="flex items-center justify-between gap-6">
                                 {/* icon */}
@@ -1080,7 +1080,7 @@ const Components = () => {
                             {"                                        "}
                             {"\n"}
                             {"                                                "}
-                            <div uk-alert="">
+                            <div data-uk-alert="">
                               {"\n"}
                               {"                                                    "}
                               <div className="p-2 border bg-green-50 border-green-500/30 rounded-xl dark:bg-slate-700">
@@ -1187,7 +1187,7 @@ const Components = () => {
                             {"        "}
                             {"\n"}
                             {"                                                "}
-                            <div uk-alert="">
+                            <div data-uk-alert="">
                               {"\n"}
                               {"                                                    "}
                               <div className="p-2 border bg-blue-50 border-blue-500/30 rounded-xl dark:bg-slate-700">
@@ -1287,7 +1287,7 @@ const Components = () => {
                             {"                                                "}
                             {"\n"}
                             {"                                                "}
-                            <div uk-alert="">
+                            <div data-uk-alert="">
                               {"\n"}
                               {"                                                    "}
                               <div className="p-2 border bg-yellow-50 border-yellow-500/30 rounded-xl dark:bg-slate-700">
@@ -1431,7 +1431,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -1463,7 +1463,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -1562,7 +1562,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -1594,7 +1594,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -1628,7 +1628,7 @@ const Components = () => {
                           </button>
                           <div
                             className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
-                            uk-drop="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small"
+                            data-uk-drop="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small"
                           >
                             <p className="text-gray-500 dark:text-white">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -1670,7 +1670,7 @@ const Components = () => {
                             {"                                                "}
                             <div
                               className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
-                              uk-drop="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small"
+                              data-uk-drop="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small"
                             >
                               {"\n"}
                               {
@@ -1720,7 +1720,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -1750,7 +1750,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -1781,7 +1781,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: bottom-left; offset:10; animation: uk-animation-slide-bottom-small"
+                                data-uk-drop="pos: bottom-left; offset:10; animation: uk-animation-slide-bottom-small"
                                 className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1796,7 +1796,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small"
+                                data-uk-drop="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small"
                                 className="p-4 text-center bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1811,7 +1811,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small"
+                                data-uk-drop="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small"
                                 className="p-4 text-right bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1828,7 +1828,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: right-center; offset:10; animation: uk-animation-slide-right-small"
+                                data-uk-drop="pos: right-center; offset:10; animation: uk-animation-slide-right-small"
                                 className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1843,7 +1843,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: left-center;offset:10; animation: uk-animation-slide-left-small"
+                                data-uk-drop="pos: left-center;offset:10; animation: uk-animation-slide-left-small"
                                 className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1860,7 +1860,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: top-left; offset:10; animation: uk-animation-slide-top-small"
+                                data-uk-drop="pos: top-left; offset:10; animation: uk-animation-slide-top-small"
                                 className="p-4 text-left bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1875,7 +1875,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: top-center; offset:10; animation: uk-animation-slide-top-small"
+                                data-uk-drop="pos: top-center; offset:10; animation: uk-animation-slide-top-small"
                                 className="p-4 text-center bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1890,7 +1890,7 @@ const Components = () => {
                                 Hover
                               </button>
                               <div
-                                uk-drop="pos: top-right; offset:10; animation: uk-animation-slide-top-small"
+                                data-uk-drop="pos: top-right; offset:10; animation: uk-animation-slide-top-small"
                                 className="p-4 text-right bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                               >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1934,7 +1934,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: bottom-left; offset:10; animation: uk-animation-slide-bottom-small"
+                                  data-uk-drop="pos: bottom-left; offset:10; animation: uk-animation-slide-bottom-small"
                                   className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -1957,7 +1957,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small"
+                                  data-uk-drop="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small"
                                   className="p-4 text-center bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -1980,7 +1980,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small"
+                                  data-uk-drop="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small"
                                   className="p-4 text-right bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -2009,7 +2009,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: right-center; offset:10; animation: uk-animation-slide-right-small"
+                                  data-uk-drop="pos: right-center; offset:10; animation: uk-animation-slide-right-small"
                                   className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -2032,7 +2032,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: left-center;offset:10; animation: uk-animation-slide-left-small"
+                                  data-uk-drop="pos: left-center;offset:10; animation: uk-animation-slide-left-small"
                                   className="p-4 bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -2061,7 +2061,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: top-left; offset:10; animation: uk-animation-slide-top-small"
+                                  data-uk-drop="pos: top-left; offset:10; animation: uk-animation-slide-top-small"
                                   className="p-4 text-left bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -2084,7 +2084,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: top-center; offset:10; animation: uk-animation-slide-top-small"
+                                  data-uk-drop="pos: top-center; offset:10; animation: uk-animation-slide-top-small"
                                   className="p-4 text-center bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -2107,7 +2107,7 @@ const Components = () => {
                                 {"\n"}
                                 {"                                                        "}
                                 <div
-                                  uk-drop="pos: top-right; offset:10; animation: uk-animation-slide-top-small"
+                                  data-uk-drop="pos: top-right; offset:10; animation: uk-animation-slide-top-small"
                                   className="p-4 text-right bg-white rounded-lg shadow-md w-60 dark:bg-slate-700"
                                 >
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -2154,7 +2154,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -2187,7 +2187,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-white shadow rounded-md p-0.5 font-medium text-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -2219,7 +2219,7 @@ const Components = () => {
                               className="ml-2 text-lg duration-200 group-aria-expanded:rotate-180"
                             />
                           </button>
-                          <div uk-dropdown="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small">
+                          <div data-uk-dropdown="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small">
                             <nav>
                               <a href="#">
                                 
@@ -2282,7 +2282,7 @@ const Components = () => {
                           {"                                "}
                           {"\n"}
                           {"                                            "}
-                          <div uk-dropdown="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small">
+                          <div data-uk-dropdown="offset:10;pos: bottom-right ; animation: uk-animation-slide-bottom-small">
                             
                             {"\n"}
                             {"                                                "}
@@ -2358,7 +2358,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -2388,7 +2388,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-100 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -2418,7 +2418,7 @@ const Components = () => {
                               >
                                 Hover
                               </button>
-                              <div uk-dropdown="pos: bottom-left;offset:10; animation: uk-animation-slide-bottom-small">
+                              <div data-uk-dropdown="pos: bottom-left;offset:10; animation: uk-animation-slide-bottom-small">
                                 <nav>
                                   <a href="#">
                                     
@@ -2454,7 +2454,7 @@ const Components = () => {
                               >
                                 Hover
                               </button>
-                              <div uk-dropdown="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small">
+                              <div data-uk-dropdown="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small">
                                 <nav>
                                   <a href="#">
                                     
@@ -2490,81 +2490,7 @@ const Components = () => {
                               >
                                 Hover
                               </button>
-                              <div uk-dropdown="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small">
-                                <nav>
-                                  <a href="#">
-                                    
-                                    <ion-icon
-                                      className="text-xl"
-                                      name="person-outline"
-                                    />
-                                    Profile
-                                  </a>
-                                  <a href="#">
-                                    
-                                    <ion-icon
-                                      className="text-xl"
-                                      name="mail-outline"
-                                    />
-                                    Messages
-                                  </a>
-                                  <a href="#">
-                                    
-                                    <ion-icon
-                                      className="text-xl"
-                                      name="bookmark-outline"
-                                    />
-                                    Billing
-                                  </a>
-                                </nav>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="flex justify-between">
-                            <div>
-                              <button
-                                className="px-3 py-2 text-sm bg-white shadow rounded-md dark:text-white dark:bg-slate-700"
-                                type="button"
-                              >
-                                Hover
-                              </button>
-                              <div uk-dropdown="pos: right-center; offset:10; animation: uk-animation-slide-right-small">
-                                <nav>
-                                  <a href="#">
-                                    
-                                    <ion-icon
-                                      className="text-xl"
-                                      name="person-outline"
-                                    />
-                                    Profile
-                                  </a>
-                                  <a href="#">
-                                    
-                                    <ion-icon
-                                      className="text-xl"
-                                      name="mail-outline"
-                                    />
-                                    Messages
-                                  </a>
-                                  <a href="#">
-                                    
-                                    <ion-icon
-                                      className="text-xl"
-                                      name="bookmark-outline"
-                                    />
-                                    Billing
-                                  </a>
-                                </nav>
-                              </div>
-                            </div>
-                            <div>
-                              <button
-                                className="px-3 py-2 text-sm bg-white shadow rounded-md dark:text-white dark:bg-slate-700"
-                                type="button"
-                              >
-                                Hover
-                              </button>
-                              <div uk-dropdown="pos: left-center; offset:10; animation: uk-animation-slide-left-small">
+                              <div data-uk-dropdown="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small">
                                 <nav>
                                   <a href="#">
                                     
@@ -2602,7 +2528,7 @@ const Components = () => {
                               >
                                 Hover
                               </button>
-                              <div uk-dropdown="pos: top-left ; animation: uk-animation-slide-top-small">
+                              <div data-uk-dropdown="pos: right-center; offset:10; animation: uk-animation-slide-right-small">
                                 <nav>
                                   <a href="#">
                                     
@@ -2638,7 +2564,45 @@ const Components = () => {
                               >
                                 Hover
                               </button>
-                              <div uk-dropdown="pos: top-center; animation: uk-animation-slide-top-small">
+                              <div data-uk-dropdown="pos: left-center; offset:10; animation: uk-animation-slide-left-small">
+                                <nav>
+                                  <a href="#">
+                                    
+                                    <ion-icon
+                                      className="text-xl"
+                                      name="person-outline"
+                                    />
+                                    Profile
+                                  </a>
+                                  <a href="#">
+                                    
+                                    <ion-icon
+                                      className="text-xl"
+                                      name="mail-outline"
+                                    />
+                                    Messages
+                                  </a>
+                                  <a href="#">
+                                    
+                                    <ion-icon
+                                      className="text-xl"
+                                      name="bookmark-outline"
+                                    />
+                                    Billing
+                                  </a>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="flex justify-between">
+                            <div>
+                              <button
+                                className="px-3 py-2 text-sm bg-white shadow rounded-md dark:text-white dark:bg-slate-700"
+                                type="button"
+                              >
+                                Hover
+                              </button>
+                              <div data-uk-dropdown="pos: top-left ; animation: uk-animation-slide-top-small">
                                 <nav>
                                   <a href="#">
                                     
@@ -2674,7 +2638,43 @@ const Components = () => {
                               >
                                 Hover
                               </button>
-                              <div uk-dropdown="pos: top-right; animation: uk-animation-slide-top-small">
+                              <div data-uk-dropdown="pos: top-center; animation: uk-animation-slide-top-small">
+                                <nav>
+                                  <a href="#">
+                                    
+                                    <ion-icon
+                                      className="text-xl"
+                                      name="person-outline"
+                                    />
+                                    Profile
+                                  </a>
+                                  <a href="#">
+                                    
+                                    <ion-icon
+                                      className="text-xl"
+                                      name="mail-outline"
+                                    />
+                                    Messages
+                                  </a>
+                                  <a href="#">
+                                    
+                                    <ion-icon
+                                      className="text-xl"
+                                      name="bookmark-outline"
+                                    />
+                                    Billing
+                                  </a>
+                                </nav>
+                              </div>
+                            </div>
+                            <div>
+                              <button
+                                className="px-3 py-2 text-sm bg-white shadow rounded-md dark:text-white dark:bg-slate-700"
+                                type="button"
+                              >
+                                Hover
+                              </button>
+                              <div data-uk-dropdown="pos: top-right; animation: uk-animation-slide-top-small">
                                 <nav>
                                   <a href="#">
                                     
@@ -2738,7 +2738,7 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                        "}
-                                <div uk-dropdown="pos: bottom-left;offset:10; animation: uk-animation-slide-bottom-small">
+                                <div data-uk-dropdown="pos: bottom-left;offset:10; animation: uk-animation-slide-bottom-small">
                                   
                                   {"\n"}
                                   {
@@ -2806,7 +2806,7 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                        "}
-                                <div uk-dropdown="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small">
+                                <div data-uk-dropdown="pos: bottom-center; offset:10; animation: uk-animation-slide-bottom-small">
                                   {"\n"}
                                   {
                                     "                                                            "
@@ -2871,143 +2871,7 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                        "}
-                                <div uk-dropdown="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small">
-                                  {"\n"}
-                                  {
-                                    "                                                            "
-                                  }
-                                  <nav>
-                                    {"\n"}
-                                    {
-                                      "                                                                "
-                                    }
-                                    <a href="#">
-                                      
-                                      <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile
-                                    </a>
-                                    {"  "}
-                                    {"\n"}
-                                    {
-                                      "                                                                "
-                                    }
-                                    <a href="#">
-                                      
-                                      <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages
-                                    </a>
-                                    {"  "}
-                                    {"\n"}
-                                    {
-                                      "                                                                "
-                                    }
-                                    <a href="#">
-                                      
-                                      <ion-icon
-                                        className="text-xl"
-                                        name="bookmark-outline"
-                                      />
-                                      {"  "}Billing
-                                    </a>
-                                    {"  "}
-                                    {"\n"}
-                                    {
-                                      "                                                            "
-                                    }
-                                  </nav>
-                                  {"\n"}
-                                  {
-                                    "                                                        "
-                                  }
-                                </div>
-                                {"\n"}
-                                {"                                                    "}
-                              </div>
-                              {"\n"}
-                              {"                                                "}
-                            </div>
-                            {"\n"}
-                            {"                                                "}
-                            <div className="flex justify-between">
-                              {"\n"}
-                              {"                                                    "}
-                              <div>
-                                {"\n"}
-                                {"                                                        "}
-                                <button
-                                  className="px-4 py-2 text-sm bg-gray-100 rounded-md dark:text-white dark:bg-slate-700"
-                                  type="button"
-                                >
-                                  Hover
-                                </button>
-                                {"\n"}
-                                {"                                                        "}
-                                <div uk-dropdown="pos: right-center; offset:10; animation: uk-animation-slide-right-small">
-                                  {"\n"}
-                                  {
-                                    "                                                            "
-                                  }
-                                  <nav>
-                                    {"\n"}
-                                    {
-                                      "                                                                "
-                                    }
-                                    <a href="#">
-                                      
-                                      <ion-icon className="text-xl" name="person-outline" />
-                                      {"  "}Profile
-                                    </a>
-                                    {"  "}
-                                    {"\n"}
-                                    {
-                                      "                                                                "
-                                    }
-                                    <a href="#">
-                                      
-                                      <ion-icon className="text-xl" name="mail-outline" />
-                                      {"  "}Messages
-                                    </a>
-                                    {"  "}
-                                    {"\n"}
-                                    {
-                                      "                                                                "
-                                    }
-                                    <a href="#">
-                                      
-                                      <ion-icon
-                                        className="text-xl"
-                                        name="bookmark-outline"
-                                      />
-                                      {"  "}Billing
-                                    </a>
-                                    {"  "}
-                                    {"\n"}
-                                    {
-                                      "                                                            "
-                                    }
-                                  </nav>
-                                  {"\n"}
-                                  {
-                                    "                                                        "
-                                  }
-                                </div>
-                                {"\n"}
-                                {"                                                    "}
-                              </div>
-                              {"\n"}
-                              {"                                                    "}
-                              <div>
-                                {"\n"}
-                                {"                                                        "}
-                                <button
-                                  className="px-4 py-2 text-sm bg-gray-100 rounded-md dark:text-white dark:bg-slate-700"
-                                  type="button"
-                                >
-                                  Hover
-                                </button>
-                                {"\n"}
-                                {"                                                        "}
-                                <div uk-dropdown="pos: left-center; offset:10; animation: uk-animation-slide-left-small">
+                                <div data-uk-dropdown="pos: bottom-right; offset:10; animation: uk-animation-slide-bottom-small">
                                   {"\n"}
                                   {
                                     "                                                            "
@@ -3078,7 +2942,7 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                        "}
-                                <div uk-dropdown="pos: top-left ; animation: uk-animation-slide-top-small">
+                                <div data-uk-dropdown="pos: right-center; offset:10; animation: uk-animation-slide-right-small">
                                   {"\n"}
                                   {
                                     "                                                            "
@@ -3143,7 +3007,78 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                        "}
-                                <div uk-dropdown="pos: top-center; animation: uk-animation-slide-top-small">
+                                <div data-uk-dropdown="pos: left-center; offset:10; animation: uk-animation-slide-left-small">
+                                  {"\n"}
+                                  {
+                                    "                                                            "
+                                  }
+                                  <nav>
+                                    {"\n"}
+                                    {
+                                      "                                                                "
+                                    }
+                                    <a href="#">
+                                      
+                                      <ion-icon className="text-xl" name="person-outline" />
+                                      {"  "}Profile
+                                    </a>
+                                    {"  "}
+                                    {"\n"}
+                                    {
+                                      "                                                                "
+                                    }
+                                    <a href="#">
+                                      
+                                      <ion-icon className="text-xl" name="mail-outline" />
+                                      {"  "}Messages
+                                    </a>
+                                    {"  "}
+                                    {"\n"}
+                                    {
+                                      "                                                                "
+                                    }
+                                    <a href="#">
+                                      
+                                      <ion-icon
+                                        className="text-xl"
+                                        name="bookmark-outline"
+                                      />
+                                      {"  "}Billing
+                                    </a>
+                                    {"  "}
+                                    {"\n"}
+                                    {
+                                      "                                                            "
+                                    }
+                                  </nav>
+                                  {"\n"}
+                                  {
+                                    "                                                        "
+                                  }
+                                </div>
+                                {"\n"}
+                                {"                                                    "}
+                              </div>
+                              {"\n"}
+                              {"                                                "}
+                            </div>
+                            {"\n"}
+                            {"                                                "}
+                            <div className="flex justify-between">
+                              {"\n"}
+                              {"                                                    "}
+                              <div>
+                                {"\n"}
+                                {"                                                        "}
+                                <button
+                                  className="px-4 py-2 text-sm bg-gray-100 rounded-md dark:text-white dark:bg-slate-700"
+                                  type="button"
+                                >
+                                  Hover
+                                </button>
+                                {"\n"}
+                                {"                                                        "}
+                                <div data-uk-dropdown="pos: top-left ; animation: uk-animation-slide-top-small">
                                   {"\n"}
                                   {
                                     "                                                            "
@@ -3208,7 +3143,72 @@ const Components = () => {
                                 </button>
                                 {"\n"}
                                 {"                                                        "}
-                                <div uk-dropdown="pos: top-right; animation: uk-animation-slide-top-small">
+                                <div data-uk-dropdown="pos: top-center; animation: uk-animation-slide-top-small">
+                                  {"\n"}
+                                  {
+                                    "                                                            "
+                                  }
+                                  <nav>
+                                    {"\n"}
+                                    {
+                                      "                                                                "
+                                    }
+                                    <a href="#">
+                                      
+                                      <ion-icon className="text-xl" name="person-outline" />
+                                      {"  "}Profile
+                                    </a>
+                                    {"  "}
+                                    {"\n"}
+                                    {
+                                      "                                                                "
+                                    }
+                                    <a href="#">
+                                      
+                                      <ion-icon className="text-xl" name="mail-outline" />
+                                      {"  "}Messages
+                                    </a>
+                                    {"  "}
+                                    {"\n"}
+                                    {
+                                      "                                                                "
+                                    }
+                                    <a href="#">
+                                      
+                                      <ion-icon
+                                        className="text-xl"
+                                        name="bookmark-outline"
+                                      />
+                                      {"  "}Billing
+                                    </a>
+                                    {"  "}
+                                    {"\n"}
+                                    {
+                                      "                                                            "
+                                    }
+                                  </nav>
+                                  {"\n"}
+                                  {
+                                    "                                                        "
+                                  }
+                                </div>
+                                {"\n"}
+                                {"                                                    "}
+                              </div>
+                              {"\n"}
+                              {"                                                    "}
+                              <div>
+                                {"\n"}
+                                {"                                                        "}
+                                <button
+                                  className="px-4 py-2 text-sm bg-gray-100 rounded-md dark:text-white dark:bg-slate-700"
+                                  type="button"
+                                >
+                                  Hover
+                                </button>
+                                {"\n"}
+                                {"                                                        "}
+                                <div data-uk-dropdown="pos: top-right; animation: uk-animation-slide-top-small">
                                   {"\n"}
                                   {
                                     "                                                            "
@@ -3297,7 +3297,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -3329,7 +3329,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -3351,7 +3351,7 @@ const Components = () => {
                     <div className="p-10 relative">
                       <div className="relative z-20 flex justify-center py-10">
                         <button
-                          uk-toggle="target: #modal"
+                          data-uk-toggle="target: #modal"
                           className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                           type="button"
                         >
@@ -3425,7 +3425,7 @@ const Components = () => {
                           {"\n"}
                           {"                                            "}
                           <button
-                            uk-toggle="target: #modal"
+                            data-uk-toggle="target: #modal"
                             className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                             type="button"
                           >
@@ -3574,7 +3574,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -3604,7 +3604,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -3626,7 +3626,7 @@ const Components = () => {
                     <div className="p-10 relative">
                       <div className="relative z-20 flex justify-center py-10">
                         <button
-                          uk-toggle="target: #scrolling"
+                          data-uk-toggle="target: #scrolling"
                           className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                           type="button"
                         >
@@ -3634,12 +3634,12 @@ const Components = () => {
                           Click
                         </button>
                         {/* model scrolling */}
-                        <div className="lg:p-20 p-10" id="scrolling" uk-modal="">
-                          <div className="relative mx-auto bg-white  rounded-lg shadow-xl uk-modal-dialog w-[400px]">
+                        <div className="lg:p-20 p-10" id="scrolling" data-uk-modal="">
+                          <div className="relative mx-auto bg-white  rounded-lg shadow-xl data-uk-modal-dialog w-[400px]">
                             <div className="px-6 py-4 border-b">
                               <h2 className="text-xl font-semibold">Headline</h2>
                             </div>
-                            <div className="p-6 overflow-y-auto h-96" uk-overflow-auto="">
+                            <div className="p-6 overflow-y-auto h-96" data-uk-overflow-auto="">
                               <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                 do eiusmod tempor incididunt ut labore et dolore magna
@@ -3784,7 +3784,7 @@ const Components = () => {
                           {"\n"}
                           {"                                            "}
                           <button
-                            uk-toggle="target: #scrolling"
+                            data-uk-toggle="target: #scrolling"
                             className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                             type="button"
                           >
@@ -3798,7 +3798,7 @@ const Components = () => {
                           {/* model scrolling */}
                           {"\n"}
                           {"                                            "}
-                          <div className="lg:p-20 p-10 uk-open" id="scrolling" uk-modal="">
+                          <div className="lg:p-20 p-10 uk-open" id="scrolling" data-uk-modal="">
                             {"\n"}
                             {"                                        "}
                             {"\n"}
@@ -3819,7 +3819,7 @@ const Components = () => {
                               {"                                                    "}
                               {"\n"}
                               {"                                                    "}
-                              <div className="p-6 overflow-y-auto h-96" uk-overflow-auto="">
+                              <div className="p-6 overflow-y-auto h-96" data-uk-overflow-auto="">
                                 {"\n"}
                                 {"                                        "}
                                 {"\n"}
@@ -4053,7 +4053,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -4085,7 +4085,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -4180,7 +4180,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -4209,7 +4209,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -4355,7 +4355,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -4387,7 +4387,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -4411,7 +4411,7 @@ const Components = () => {
                         <div className="grid gap-5 md:grid-cols-2 dark:text-white">
                           <div
                             className="p-5 bg-white shadow rounded-md dark:bg-slate-700"
-                            uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+                            data-uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
                           >
                             <h3 className="mb-2 text-base font-semibold">Left</h3>
                             <p className="text-sm">
@@ -4420,7 +4420,7 @@ const Components = () => {
                           </div>
                           <div
                             className="p-5 bg-white shadow rounded-md dark:bg-slate-700"
-                            uk-scrollspy="cls: uk-animation-slide-right; repeat: true"
+                            data-uk-scrollspy="cls: uk-animation-slide-right; repeat: true"
                           >
                             <h3 className="mb-2 text-base font-semibold">Right</h3>
                             <p className="text-sm">
@@ -4449,7 +4449,7 @@ const Components = () => {
                             {"                                                "}
                             <div
                               className="p-5 bg-gray-100 rounded-md dark:bg-slate-700"
-                              uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+                              data-uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
                             >
                               {"\n"}
                               {"                                                    "}
@@ -4466,7 +4466,7 @@ const Components = () => {
                             {"                                                "}
                             <div
                               className="p-5 bg-gray-100 rounded-md dark:bg-slate-700"
-                              uk-scrollspy="cls: uk-animation-slide-right; repeat: true"
+                              data-uk-scrollspy="cls: uk-animation-slide-right; repeat: true"
                             >
                               {"\n"}
                               {"                                                    "}
@@ -4512,7 +4512,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -4541,7 +4541,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -4564,7 +4564,7 @@ const Components = () => {
                       <div className="relative z-20 p-10 max-h-80 overflow-y-auto">
                         <div
                           className="space-y-3 text-sm font-semibold dark:text-white"
-                          uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
+                          data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
                         >
                           <div className="flex items-center gap-3 p-4 bg-white shadow rounded-md dark:bg-slate-700">
                             <img
@@ -4761,7 +4761,7 @@ const Components = () => {
                           {"                                            "}
                           <div
                             className="space-y-3 text-sm font-semibold dark:text-white"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100 ;repeat: true"
                           >
                             {"\n"}
                             {"                            "}
@@ -4928,7 +4928,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -4957,7 +4957,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -4980,11 +4980,11 @@ const Components = () => {
                       <div className="relative z-20">
                         <div
                           className="grid gap-5 md:grid-cols-2 dark:text-white"
-                          uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 400; repeat:true"
+                          data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 400; repeat:true"
                         >
                           <div
                             className="p-5 bg-white shadow rounded-md dark:bg-slate-700"
-                            uk-scrollspy-class="uk-animation-slide-top"
+                            data-uk-scrollspy-class="uk-animation-slide-top"
                           >
                             <h3 className="mb-2 text-base font-semibold">Top</h3>
                             <p className="text-sm">
@@ -4993,7 +4993,7 @@ const Components = () => {
                           </div>
                           <div
                             className="p-5 bg-white shadow rounded-md dark:bg-slate-700"
-                            uk-scrollspy-class="uk-animation-slide-right"
+                            data-uk-scrollspy-class="uk-animation-slide-right"
                           >
                             <h3 className="mb-2 text-base font-semibold">Right</h3>
                             <p className="text-sm">
@@ -5002,7 +5002,7 @@ const Components = () => {
                           </div>
                           <div
                             className="p-5 bg-white shadow rounded-md dark:bg-slate-700"
-                            uk-scrollspy-class="uk-animation-slide-left"
+                            data-uk-scrollspy-class="uk-animation-slide-left"
                           >
                             <h3 className="mb-2 text-base font-semibold">Left</h3>
                             <p className="text-sm">
@@ -5011,7 +5011,7 @@ const Components = () => {
                           </div>
                           <div
                             className="p-5 bg-white shadow rounded-md dark:bg-slate-700"
-                            uk-scrollspy-class="uk-animation-slide-bottom"
+                            data-uk-scrollspy-class="uk-animation-slide-bottom"
                           >
                             <h3 className="mb-2 text-base font-semibold">Bottom</h3>
                             <p className="text-sm">
@@ -5039,13 +5039,13 @@ const Components = () => {
                           {"                                            "}
                           <div
                             className="grid gap-5 md:grid-cols-2 dark:text-white"
-                            uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 400; repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 400; repeat:true"
                           >
                             {"\n"}
                             {"                                                "}
                             <div
                               className="p-5 bg-gray-100 rounded-md dark:bg-slate-700"
-                              uk-scrollspy-class="uk-animation-slide-top"
+                              data-uk-scrollspy-class="uk-animation-slide-top"
                             >
                               {"\n"}
                               {"                                                    "}
@@ -5062,7 +5062,7 @@ const Components = () => {
                             {"                                                "}
                             <div
                               className="p-5 bg-gray-100 rounded-md dark:bg-slate-700"
-                              uk-scrollspy-class="uk-animation-slide-right"
+                              data-uk-scrollspy-class="uk-animation-slide-right"
                             >
                               {"\n"}
                               {"                                                    "}
@@ -5077,7 +5077,7 @@ const Components = () => {
                             {"                                                "}
                             <div
                               className="p-5 bg-gray-100 rounded-md dark:bg-slate-700"
-                              uk-scrollspy-class="uk-animation-slide-left"
+                              data-uk-scrollspy-class="uk-animation-slide-left"
                             >
                               {"\n"}
                               {"                                                    "}
@@ -5092,7 +5092,7 @@ const Components = () => {
                             {"                                                "}
                             <div
                               className="p-5 bg-gray-100 rounded-md dark:bg-slate-700"
-                              uk-scrollspy-class="uk-animation-slide-bottom"
+                              data-uk-scrollspy-class="uk-animation-slide-bottom"
                             >
                               {"\n"}
                               {"                                                    "}
@@ -5138,7 +5138,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -5170,7 +5170,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -5195,7 +5195,7 @@ const Components = () => {
                         <div
                           className="relative"
                           tabIndex={0}
-                          uk-slider="finite: true; autoplay: true"
+                          data-uk-slider="finite: true; autoplay: true"
                         >
                           <ul className="-ml-2 uk-slider-items grid-small">
                             <li className="w-1/4">
@@ -5240,7 +5240,7 @@ const Components = () => {
                           <a
                             className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 left-2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slider-item="previous"
+                            data-uk-slider-item="previous"
                           >
                             
                             <ion-icon name="chevron-back" className="text-2xl" />
@@ -5248,7 +5248,7 @@ const Components = () => {
                           <a
                             className="absolute right-2 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slider-item="next"
+                            data-uk-slider-item="next"
                           >
                             
                             <ion-icon name="chevron-forward" className="text-2xl" />
@@ -5273,7 +5273,7 @@ const Components = () => {
                           <div
                             className="relative"
                             tabIndex={0}
-                            uk-slider="finite: true; autoplay: true"
+                            data-uk-slider="finite: true; autoplay: true"
                           >
                             {"\n"}
                             {"            "}
@@ -5365,7 +5365,7 @@ const Components = () => {
                             <a
                               className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 left-2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slider-item="previous"
+                              data-uk-slider-item="previous"
                             >
                               
                               <ion-icon name="chevron-back" className="text-2xl" />
@@ -5375,7 +5375,7 @@ const Components = () => {
                             <a
                               className="absolute right-2 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slider-item="next"
+                              data-uk-slider-item="next"
                             >
                               
                               <ion-icon name="chevron-forward" className="text-2xl" />
@@ -5415,7 +5415,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -5445,7 +5445,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -5470,7 +5470,7 @@ const Components = () => {
                         <div
                           className="relative"
                           tabIndex={0}
-                          uk-slider="finite: true; autoplay: true"
+                          data-uk-slider="finite: true; autoplay: true"
                         >
                           <div className="overflow-hidden uk-slider-container">
                             <ul className="-ml-2 uk-slider-items w-[calc(100%+0.5rem)]">
@@ -5517,7 +5517,7 @@ const Components = () => {
                           <a
                             className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slider-item="previous"
+                            data-uk-slider-item="previous"
                           >
                             
                             <ion-icon name="chevron-back" className="text-2xl" />
@@ -5525,7 +5525,7 @@ const Components = () => {
                           <a
                             className="absolute -right-4 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slider-item="next"
+                            data-uk-slider-item="next"
                           >
                             
                             <ion-icon name="chevron-forward" className="text-2xl" />
@@ -5550,7 +5550,7 @@ const Components = () => {
                           <div
                             className="relative"
                             tabIndex={0}
-                            uk-slider="finite: true; autoplay: true"
+                            data-uk-slider="finite: true; autoplay: true"
                           >
                             {"\n"}
                             {"\n"}
@@ -5671,7 +5671,7 @@ const Components = () => {
                             <a
                               className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slider-item="previous"
+                              data-uk-slider-item="previous"
                             >
                               
                               <ion-icon name="chevron-back" className="text-2xl" />
@@ -5681,7 +5681,7 @@ const Components = () => {
                             <a
                               className="absolute -right-4 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slider-item="next"
+                              data-uk-slider-item="next"
                             >
                               
                               <ion-icon name="chevron-forward" className="text-2xl" />
@@ -5721,7 +5721,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -5753,7 +5753,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -5777,28 +5777,28 @@ const Components = () => {
                         <div
                           className="relative uk-visible-toggle"
                           tabIndex={-1}
-                          uk-slideshow="finite: true; autoplay: true"
+                          data-uk-slideshow="finite: true; autoplay: true"
                         >
                           <ul className="uk-slideshow-items">
                             <li className="w-full overflow-hidden rounded-md">
                               <img
                                 src="assets/images/demos/photo1.jpg"
                                 alt=""
-                                uk-cover=""
+                                data-uk-cover=""
                               />
                             </li>
                             <li className="w-full overflow-hidden rounded-md">
                               <img
                                 src="assets/images/demos/photo2.jpg"
                                 alt=""
-                                uk-cover=""
+                                data-uk-cover=""
                               />
                             </li>
                             <li className="w-full overflow-hidden rounded-md">
                               <img
                                 src="assets/images/demos/photo3.jpg"
                                 alt=""
-                                uk-cover=""
+                                data-uk-cover=""
                               />
                             </li>
                           </ul>
@@ -5808,7 +5808,7 @@ const Components = () => {
                           <a
                             className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 left-2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slideshow-item="previous"
+                            data-uk-slideshow-item="previous"
                           >
                             
                             <ion-icon name="chevron-back" className="text-2xl" />
@@ -5816,7 +5816,7 @@ const Components = () => {
                           <a
                             className="absolute right-2 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slideshow-item="next"
+                            data-uk-slideshow-item="next"
                           >
                             
                             <ion-icon name="chevron-forward" className="text-2xl" />
@@ -5841,7 +5841,7 @@ const Components = () => {
                           <div
                             className="relative uk-visible-toggle"
                             tabIndex={-1}
-                            uk-slideshow="finite: true; autoplay: true"
+                            data-uk-slideshow="finite: true; autoplay: true"
                           >
                             {"\n"}
                             {"\n"}
@@ -5856,7 +5856,7 @@ const Components = () => {
                                 <img
                                   src="assets/images/demos/photo1.jpg"
                                   alt=""
-                                  uk-cover=""
+                                  data-uk-cover=""
                                 />
                                 {"\n"}
                                 {"                                                    "}
@@ -5869,7 +5869,7 @@ const Components = () => {
                                 <img
                                   src="assets/images/demos/photo2.jpg"
                                   alt=""
-                                  uk-cover=""
+                                  data-uk-cover=""
                                 />
                                 {"\n"}
                                 {"                                                    "}
@@ -5882,7 +5882,7 @@ const Components = () => {
                                 <img
                                   src="assets/images/demos/photo3.jpg"
                                   alt=""
-                                  uk-cover=""
+                                  data-uk-cover=""
                                 />
                                 {"\n"}
                                 {"                                                    "}
@@ -5908,7 +5908,7 @@ const Components = () => {
                             <a
                               className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 left-2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slideshow-item="previous"
+                              data-uk-slideshow-item="previous"
                             >
                               
                               <ion-icon name="chevron-back" className="text-2xl" />
@@ -5918,7 +5918,7 @@ const Components = () => {
                             <a
                               className="absolute right-2 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slideshow-item="next"
+                              data-uk-slideshow-item="next"
                             >
                               
                               <ion-icon name="chevron-forward" className="text-2xl" />
@@ -5958,7 +5958,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -5987,7 +5987,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -6011,28 +6011,28 @@ const Components = () => {
                         <div
                           className="relative"
                           tabIndex={-1}
-                          uk-slideshow="animation: push;min-height: 300; max-height: 400"
+                          data-uk-slideshow="animation: push;min-height: 300; max-height: 400"
                         >
                           <ul className="uk-slideshow-items">
                             <li className="w-full overflow-hidden rounded-md">
                               <img
                                 src="assets/images/demos/photo1.jpg"
                                 alt=""
-                                uk-cover=""
+                                data-uk-cover=""
                               />
                             </li>
                             <li className="w-full overflow-hidden rounded-md">
                               <img
                                 src="assets/images/demos/photo2.jpg"
                                 alt=""
-                                uk-cover=""
+                                data-uk-cover=""
                               />
                             </li>
                             <li className="w-full overflow-hidden rounded-md">
                               <img
                                 src="assets/images/demos/photo3.jpg"
                                 alt=""
-                                uk-cover=""
+                                data-uk-cover=""
                               />
                             </li>
                           </ul>
@@ -6042,7 +6042,7 @@ const Components = () => {
                           <a
                             className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slideshow-item="previous"
+                            data-uk-slideshow-item="previous"
                           >
                             
                             <ion-icon name="chevron-back" className="text-2xl" />
@@ -6050,7 +6050,7 @@ const Components = () => {
                           <a
                             className="absolute -right-4 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                             href="#"
-                            uk-slideshow-item="next"
+                            data-uk-slideshow-item="next"
                           >
                             
                             <ion-icon name="chevron-forward" className="text-2xl" />
@@ -6075,7 +6075,7 @@ const Components = () => {
                           <div
                             className="relative"
                             tabIndex={-1}
-                            uk-slideshow="animation: push;min-height: 300; max-height: 400"
+                            data-uk-slideshow="animation: push;min-height: 300; max-height: 400"
                           >
                             {"\n"}
                             {"\n"}
@@ -6143,7 +6143,7 @@ const Components = () => {
                             <a
                               className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slideshow-item="previous"
+                              data-uk-slideshow-item="previous"
                             >
                               
                               <ion-icon name="chevron-back" className="text-2xl" />
@@ -6153,7 +6153,7 @@ const Components = () => {
                             <a
                               className="absolute -right-4 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow dark:bg-dark3"
                               href="#"
-                              uk-slideshow-item="next"
+                              data-uk-slideshow-item="next"
                             >
                               
                               <ion-icon name="chevron-forward" className="text-2xl" />
@@ -6193,7 +6193,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -6225,7 +6225,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -6250,7 +6250,7 @@ const Components = () => {
                           <div className="relative border-b dark:border-slate-800">
                             <ul
                               className="flex gap-2 text-sm text-center text-gray-600 capitalize font-semibold dark:text-white/80 -mb-px"
-                              uk-switcher="connect: #tabsOne ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
+                              data-uk-switcher="connect: #tabsOne ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                             >
                               <li>
                                 
@@ -6356,7 +6356,7 @@ const Components = () => {
                               {"                                                    "}
                               <ul
                                 className="flex gap-2 text-sm text-center text-gray-600 capitalize font-semibold dark:text-white/80 -mb-px"
-                                uk-switcher="connect: #tabsOne ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
+                                data-uk-switcher="connect: #tabsOne ; animation: uk-animation-slide-right-medium, uk-animation-slide-left-medium"
                               >
                                 {"\n"}
                                 {"                                                        "}
@@ -6553,7 +6553,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -6585,7 +6585,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -6607,7 +6607,7 @@ const Components = () => {
                     <div className="p-10 relative">
                       <div className="relative z-20 flex justify-center py-6">
                         <button
-                          uk-tooltip="Hello World"
+                          data-uk-tooltip="Hello World"
                           className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                           type="button"
                         >
@@ -6630,7 +6630,7 @@ const Components = () => {
                           {"\n"}
                           {"                                            "}
                           <button
-                            uk-tooltip="Hello World"
+                            data-uk-tooltip="Hello World"
                             className="px-4 py-2 mb-3 text-sm bg-white shadow rounded-md dark:text-white dark:bg-gray-700"
                             type="button"
                           >
@@ -6669,7 +6669,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -6698,7 +6698,7 @@ const Components = () => {
                   {/* button tab */}
                   <div
                     className="inline-flex my-2 bg-slate-50 rounded-md p-0.5 font-medium text-sm shadow-sm absolute top-1.5 right-3 dark:bg-slate-700/40"
-                    uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
+                    data-uk-switcher="animation: uk-animation-slide-left-small, uk-animation-slide-right-small ;toggle: > *"
                   >
                     <button
                       type="button"
@@ -6722,56 +6722,56 @@ const Components = () => {
                         <div className="max-w-[480px] my-5 border-spacing-4 border-2 border-dashed border-pink-400 dark:border-gray-600 p-[5px] rounded-xl">
                           <div className="flex flex-wrap font-semibold capitalize gap-y-3 mr-[-10px] text-sm dark:text-white">
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: top-left"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: top-left"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                             >
                               
                               Top Left
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: top-center"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: top-center"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                             >
                               
                               Top Center
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: top-right"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: top-right"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                             >
                               
                               Top Right
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: left"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: left"
                               className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                             >
                               
                               Left
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: right"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: right"
                               className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                             >
                               
                               Right
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: bottom-left"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: bottom-left"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                             >
                               
                               bottom Left
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: bottom"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: bottom"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                             >
                               
                               bottom Center
                             </div>
                             <div
-                              uk-tooltip="title: Hello World; offset:10; pos: bottom-right"
+                              data-uk-tooltip="title: Hello World; offset:10; pos: bottom-right"
                               className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                             >
                               
@@ -6802,7 +6802,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: top-left"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: top-left"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                               >
                                 
@@ -6811,7 +6811,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: top-center"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: top-center"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                               >
                                 
@@ -6820,7 +6820,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: top-right"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: top-right"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                               >
                                 
@@ -6831,7 +6831,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: left"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: left"
                                 className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                               >
                                 
@@ -6840,7 +6840,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: right"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: right"
                                 className="w-[calc(50%-10px)] mr-2.5  py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                               >
                                 
@@ -6851,7 +6851,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: bottom-left"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: bottom-left"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-left"
                               >
                                 
@@ -6860,7 +6860,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: bottom"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: bottom"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-center"
                               >
                                 
@@ -6869,7 +6869,7 @@ const Components = () => {
                               {"\n"}
                               {"                                                    "}
                               <div
-                                uk-tooltip="title: Hello World; offset:10; pos: bottom-right"
+                                data-uk-tooltip="title: Hello World; offset:10; pos: bottom-right"
                                 className="w-[calc(33.333%-10px)] mr-2.5 py-3.5 px-4 cursor-pointer rounded-lg bg-white shadow dark:bg-gray-700 text-right"
                               >
                                 
@@ -6911,7 +6911,7 @@ const Components = () => {
                         </div>
                         <div
                           className="!top-[5px] "
-                          uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
+                          data-uk-drop="animation: uk-animation-slide-bottom-small;mode:click"
                         >
                           
                           <svg
@@ -6942,11 +6942,11 @@ const Components = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="create-post"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto bg-white shadow-xl rounded-lg max-lg:w-full dark:bg-dark2">
           {/* This is a switcher for multiple tabs. Each switcher tab should have the same number of tabs. https://getuikit.com/docs/switcher*/}
-          <ul className="hidden" uk-switcher="connect: .posTabs">
+          <ul className="hidden" data-uk-switcher="connect: .posTabs">
             {/* tab 1 */}
             <li>
               <a href="#">...</a>
@@ -6968,7 +6968,7 @@ const Components = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -6979,7 +6979,7 @@ const Components = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -7000,7 +7000,7 @@ const Components = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -7011,7 +7011,7 @@ const Components = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -7051,9 +7051,9 @@ const Components = () => {
                 </label>
                 <div
                   className="space-y-4 absolute flex flex-col justify-center"
-                  uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
+                  data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
                 >
-                  <div uk-scrollspy-class="uk-animation-scale-up">
+                  <div data-uk-scrollspy-class="uk-animation-scale-up">
                     <svg
                       className="mx-auto text-gray-600 dark:text-white"
                       width={96}
@@ -7077,7 +7077,7 @@ const Components = () => {
                   </div>
                   <div
                     className=" mx-auto"
-                    uk-scrollspy-class="uk-animation-slide-bottom-small"
+                    data-uk-scrollspy-class="uk-animation-slide-bottom-small"
                   >
                     <button
                       type="button"
@@ -7110,7 +7110,7 @@ const Components = () => {
                       {/* tabs */}
                       <ul
                         className="flex p-0.5 text-center text-xs font-medium text-gray-700 border rounded-md bg-slate-100 dark:text-white dark:border-slate-700 dark:bg-white/5"
-                        uk-switcher=""
+                        data-uk-switcher=""
                       >
                         <li className="flex-1">
                           
@@ -7217,11 +7217,11 @@ const Components = () => {
                         <div>
                           <div
                             className="grid grid-cols-3 gap-4 mt-3 text-xs text-center font-light"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
                           >
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7234,7 +7234,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: contrast-150"
+                              data-uk-toggle="target: #addPostImage; cls: contrast-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7247,7 +7247,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7260,7 +7260,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7273,7 +7273,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7286,7 +7286,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: saturate-150"
+                              data-uk-toggle="target: #addPostImage; cls: saturate-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7299,7 +7299,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: sepia"
+                              data-uk-toggle="target: #addPostImage; cls: sepia"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7312,7 +7312,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7325,7 +7325,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7338,7 +7338,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7351,7 +7351,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7364,7 +7364,7 @@ const Components = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -7394,7 +7394,7 @@ const Components = () => {
                     />
                     <ul
                       className="divide-y divide-gray-100 dark:divide-slate-700"
-                      uk-nav="multiple: true"
+                      data-uk-nav="multiple: true"
                     >
                       <li>
                         <div className="flex items-center justify-between py-2 px-3.5">

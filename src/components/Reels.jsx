@@ -13,7 +13,7 @@ const Reels = () => {
               <h1> Reels</h1>
             </div>
             {/* category list */}
-            <div className="relative" tabIndex={-1} uk-slider="finite: true">
+            <div className="relative" tabIndex={-1} data-uk-slider="finite: true">
               <div className="py-4 overflow-hidden uk-slider-container">
                 <ul className="-ml-2 uk-slider-items w-[calc(100%+0.10px)] capitalize text-sm font-semibold">
                   <li className="w-auto pr-2.5">
@@ -131,7 +131,7 @@ const Reels = () => {
               <a
                 className="absolute left-0 -translate-y-1/2 top-1/2 flex items-center w-16 h-12 p-2.5 justify-start bg-gradient-to-r from-[#f6f9fb] via-[#f6f9fb] dark:from-slate-900 dark:via-slate-900"
                 href="#"
-                uk-slider-item="previous"
+                data-uk-slider-item="previous"
               >
                 
                 <ion-icon name="chevron-back" className="text-2xl" />
@@ -139,7 +139,7 @@ const Reels = () => {
               <a
                 className="absolute right-0 -translate-y-1/2 top-1/2 flex items-center w-16 h-12 p-2.5 justify-end bg-gradient-to-l from-[#f6f9fb] via-[#f6f9fb] dark:from-slate-900 dark:via-slate-900"
                 href="#"
-                uk-slider-item="next"
+                data-uk-slider-item="next"
               >
                 
                 <ion-icon name="chevron-forward" className="text-2xl" />
@@ -149,16 +149,16 @@ const Reels = () => {
               <div
                 className="relative"
                 tabIndex={-1}
-                uk-slider="autoplay: true;finite: true"
+                data-uk-slider="autoplay: true;finite: true"
               >
                 <div className="overflow-hidden uk-slider-container p y-4">
                   <ul
                     className="-ml-2 uk-slider-items w-[calc(100%+0.875rem)]"
-                    uk-scrollspy="target: > li; cls: uk-animation-slide-right-small; delay: 50"
+                    data-uk-scrollspy="target: > li; cls: uk-animation-slide-right-small; delay: 50"
                   >
                     <li
                       className="lg:w-1/4 md:w-1/2 w-1/2 pr-3.5"
-                      uk-scrollspy-class="uk-animation-fade"
+                      data-uk-scrollspy-class="uk-animation-fade"
                     >
                       {/* single reels */}
                       <a href="reels-view.html">
@@ -309,7 +309,7 @@ const Reels = () => {
                     </li>
                     <li
                       className="lg:w-1/4 md:w-1/2 w-1/2 pr-3.5"
-                      uk-scrollspy-class="uk-animation-fade"
+                      data-uk-scrollspy-class="uk-animation-fade"
                     >
                       {/* single reels */}
                       <a href="reels-view.html">
@@ -396,7 +396,7 @@ const Reels = () => {
                 <button
                   type="button"
                   className="absolute -translate-y-1/2 bg-white rounded-full bottom-1/2 -left-4 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
-                  uk-slider-item="previous"
+                  data-uk-slider-item="previous"
                 >
                   
                   <ion-icon name="chevron-back" className="text-2xl" />
@@ -404,7 +404,7 @@ const Reels = () => {
                 <button
                   type="button"
                   className="absolute -right-4 -translate-y-1/2 bg-white rounded-full bottom-1/2 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
-                  uk-slider-item="next"
+                  data-uk-slider-item="next"
                 >
                   
                   <ion-icon name="chevron-forward" className="text-2xl" />
@@ -426,7 +426,7 @@ const Reels = () => {
               </div>
               <div
                 className="grid gap-3 lg:gap-4 lg:grid-cols-4 md:grid-cols-5 sm:grid-cols-3 grid-cols-2"
-                uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100;repeat:true"
+                data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100;repeat:true"
               >
                 {/* single reels */}
                 <a href="reels-view.html">
@@ -870,11 +870,11 @@ const Reels = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="create-post"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto bg-white shadow-xl rounded-lg max-lg:w-full dark:bg-dark2">
           {/* This is a switcher for multiple tabs. Each switcher tab should have the same number of tabs. https://getuikit.com/docs/switcher*/}
-          <ul className="hidden" uk-switcher="connect: .posTabs">
+          <ul className="hidden" data-uk-switcher="connect: .posTabs">
             {/* tab 1 */}
             <li>
               <a href="#">...</a>
@@ -896,7 +896,7 @@ const Reels = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -907,7 +907,7 @@ const Reels = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -928,7 +928,7 @@ const Reels = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -939,7 +939,7 @@ const Reels = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -979,9 +979,9 @@ const Reels = () => {
                 </label>
                 <div
                   className="space-y-4 absolute flex flex-col justify-center"
-                  uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
+                  data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
                 >
-                  <div uk-scrollspy-class="uk-animation-scale-up">
+                  <div data-uk-scrollspy-class="uk-animation-scale-up">
                     <svg
                       className="mx-auto text-gray-600 dark:text-white"
                       width={96}
@@ -1005,7 +1005,7 @@ const Reels = () => {
                   </div>
                   <div
                     className=" mx-auto"
-                    uk-scrollspy-class="uk-animation-slide-bottom-small"
+                    data-uk-scrollspy-class="uk-animation-slide-bottom-small"
                   >
                     <button
                       type="button"
@@ -1038,7 +1038,7 @@ const Reels = () => {
                       {/* tabs */}
                       <ul
                         className="flex p-0.5 text-center text-xs font-medium text-gray-700 border rounded-md bg-slate-100 dark:text-white dark:border-slate-700 dark:bg-white/5"
-                        uk-switcher=""
+                        data-uk-switcher=""
                       >
                         <li className="flex-1">
                           
@@ -1145,11 +1145,11 @@ const Reels = () => {
                         <div>
                           <div
                             className="grid grid-cols-3 gap-4 mt-3 text-xs text-center font-light"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
                           >
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1162,7 +1162,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: contrast-150"
+                              data-uk-toggle="target: #addPostImage; cls: contrast-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1175,7 +1175,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1188,7 +1188,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1201,7 +1201,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1214,7 +1214,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: saturate-150"
+                              data-uk-toggle="target: #addPostImage; cls: saturate-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1227,7 +1227,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: sepia"
+                              data-uk-toggle="target: #addPostImage; cls: sepia"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1240,7 +1240,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1253,7 +1253,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1266,7 +1266,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1279,7 +1279,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1292,7 +1292,7 @@ const Reels = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1322,7 +1322,7 @@ const Reels = () => {
                     />
                     <ul
                       className="divide-y divide-gray-100 dark:divide-slate-700"
-                      uk-nav="multiple: true"
+                      data-uk-nav="multiple: true"
                     >
                       <li>
                         <div className="flex items-center justify-between py-2 px-3.5">

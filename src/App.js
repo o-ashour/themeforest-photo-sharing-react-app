@@ -892,7 +892,7 @@ const App = () => {
                             {/* create a post */}
                             <a href="!#">
                                 <button
-                                    data-uk-toggle="target: #create-post"
+                                    data-data-uk-toggle="target: #create-post"
                                     className="flex items-center gap-3 w-full"
                                 >
                                     <svg

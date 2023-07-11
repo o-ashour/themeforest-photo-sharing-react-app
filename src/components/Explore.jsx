@@ -9,7 +9,7 @@ const Explore = () => {
             {/* search box */}
             <div
               className="z-10 p-5 max-lg:!top-10 lg:rounded-bl-2xl lg:rounded-br-2xl shadow-md bg-slate-100/60 backdrop-blur-3xl dark:bg-slate-800/60"
-              uk-sticky="cls-inactive: invisible h-0; start: 200; animation: uk-animation-slide-top"
+              data-uk-sticky="cls-inactive: invisible h-0; start: 200; animation: uk-animation-slide-top"
             >
               <div className="relative">
                 <svg
@@ -35,108 +35,108 @@ const Explore = () => {
             </div>
             <div
               className="gallery -mt-16"
-              uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100"
+              data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100"
             >
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-1.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-2.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-3.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-4.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-5.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-3.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-5.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-4.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-2.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-1.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-1.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-5.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-3.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-4.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div className="gallery__card">
-                <a href="#preview_modal" uk-toggle="">
+                <a href="#preview_modal" data-uk-toggle="">
                   <div className="card__image">
                     <img src="assets/images/post/post-2.jpg" alt="" />
                   </div>
@@ -152,7 +152,7 @@ const Explore = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="preview_modal"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto overflow-hidden shadow-xl rounded-lg lg:flex items-center ax-w-[86rem] w-full lg:h-[80vh]">
           {/* image previewer */}
@@ -213,7 +213,7 @@ const Explore = () => {
                   </button>
                   <div
                     className="w-[253px]"
-                    uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true"
+                    data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true"
                   >
                     <nav>
                       <a href="#">
@@ -547,11 +547,11 @@ const Explore = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="create-post"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto bg-white shadow-xl rounded-lg max-lg:w-full dark:bg-dark2">
           {/* This is a switcher for multiple tabs. Each switcher tab should have the same number of tabs. https://getuikit.com/docs/switcher*/}
-          <ul className="hidden" uk-switcher="connect: .posTabs">
+          <ul className="hidden" data-uk-switcher="connect: .posTabs">
             {/* tab 1 */}
             <li>
               <a href="#">...</a>
@@ -573,7 +573,7 @@ const Explore = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -584,7 +584,7 @@ const Explore = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -605,7 +605,7 @@ const Explore = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -616,7 +616,7 @@ const Explore = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -656,9 +656,9 @@ const Explore = () => {
                 </label>
                 <div
                   className="space-y-4 absolute flex flex-col justify-center"
-                  uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
+                  data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
                 >
-                  <div uk-scrollspy-class="uk-animation-scale-up">
+                  <div data-uk-scrollspy-class="uk-animation-scale-up">
                     <svg
                       className="mx-auto text-gray-600 dark:text-white"
                       width={96}
@@ -682,7 +682,7 @@ const Explore = () => {
                   </div>
                   <div
                     className=" mx-auto"
-                    uk-scrollspy-class="uk-animation-slide-bottom-small"
+                    data-uk-scrollspy-class="uk-animation-slide-bottom-small"
                   >
                     <button
                       type="button"
@@ -715,7 +715,7 @@ const Explore = () => {
                       {/* tabs */}
                       <ul
                         className="flex p-0.5 text-center text-xs font-medium text-gray-700 border rounded-md bg-slate-100 dark:text-white dark:border-slate-700 dark:bg-white/5"
-                        uk-switcher=""
+                        data-uk-switcher=""
                       >
                         <li className="flex-1">
                           
@@ -822,11 +822,11 @@ const Explore = () => {
                         <div>
                           <div
                             className="grid grid-cols-3 gap-4 mt-3 text-xs text-center font-light"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
                           >
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -839,7 +839,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: contrast-150"
+                              data-uk-toggle="target: #addPostImage; cls: contrast-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -852,7 +852,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -865,7 +865,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -878,7 +878,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -891,7 +891,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: saturate-150"
+                              data-uk-toggle="target: #addPostImage; cls: saturate-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -904,7 +904,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: sepia"
+                              data-uk-toggle="target: #addPostImage; cls: sepia"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -917,7 +917,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -930,7 +930,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -943,7 +943,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -956,7 +956,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -969,7 +969,7 @@ const Explore = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -999,7 +999,7 @@ const Explore = () => {
                     />
                     <ul
                       className="divide-y divide-gray-100 dark:divide-slate-700"
-                      uk-nav="multiple: true"
+                      data-uk-nav="multiple: true"
                     >
                       <li>
                         <div className="flex items-center justify-between py-2 px-3.5">

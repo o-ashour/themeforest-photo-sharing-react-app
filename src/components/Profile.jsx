@@ -108,7 +108,7 @@ const Profile = () => {
                         </button>
                         <div
                           className="w-[240px]"
-                          uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click;offset:10"
+                          data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click;offset:10"
                         >
                           <nav>
                             <a href="#">
@@ -165,11 +165,11 @@ const Profile = () => {
             </div>
             <div className="mt-10">
               {/* sticky tabs */}
-              <div uk-sticky="cls-active: bg-slate-100/60 z-30 backdrop-blur-lg px-4 dark:bg-slate-800/60; start: 500; animation: uk-animation-slide-top">
+              <div data-uk-sticky="cls-active: bg-slate-100/60 z-30 backdrop-blur-lg px-4 dark:bg-slate-800/60; start: 500; animation: uk-animation-slide-top">
                 <nav className="text-sm text-center text-gray-500 capitalize font-semibold dark:text-white">
                   <ul
                     className="flex gap-2 justify-center border-t dark:border-slate-700"
-                    uk-switcher="connect: #story_tab ; animation: uk-animation-fade, uk-animation-slide-left-medium"
+                    data-uk-switcher="connect: #story_tab ; animation: uk-animation-fade, uk-animation-slide-left-medium"
                   >
                     <li>
                       
@@ -247,17 +247,17 @@ const Profile = () => {
                     <div
                       className="relative mt-5"
                       tabIndex={-1}
-                      uk-slider="autoplay: true;finite: true"
+                      data-uk-slider="autoplay: true;finite: true"
                     >
                       <div className="overflow-hidden uk-slider-container py-10">
                         <ul
                           className="-ml-2 uk-slider-items w-[calc(100%+0.875rem)]"
-                          uk-scrollspy="target: > li; cls: uk-animation-slide-right-small; delay: 50"
+                          data-uk-scrollspy="target: > li; cls: uk-animation-slide-right-small; delay: 50"
                           uk-lightbox=""
                         >
                           <li
                             className="lg:w-1/5 sm:w-1/4 w-1/3 pr-3.5 max-lg:hidden"
-                            uk-scrollspy-class="uk-animation-fade"
+                            data-uk-scrollspy-class="uk-animation-fade"
                           >
                             <div className="flex flex-col items-center justify-center rounded-lg h-64 border-2 border-dashed border-teal-600">
                               <ion-icon
@@ -355,7 +355,7 @@ const Profile = () => {
                       <button
                         type="button"
                         className="absolute -translate-y-1/2 bg-white rounded-full top-1/2 -left-4 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
-                        uk-slider-item="previous"
+                        data-uk-slider-item="previous"
                       >
                         
                         <ion-icon name="chevron-back" className="text-2xl" />
@@ -363,7 +363,7 @@ const Profile = () => {
                       <button
                         type="button"
                         className="absolute -right-4 -translate-y-1/2 bg-white rounded-full top-1/2 grid w-9 h-9 place-items-center shadow  dark:bg-dark3"
-                        uk-slider-item="next"
+                        data-uk-slider-item="next"
                       >
                         
                         <ion-icon name="chevron-forward" className="text-2xl" />
@@ -387,9 +387,9 @@ const Profile = () => {
                     {/* Post list */}
                     <div
                       className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-3 mt-6"
-                      uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100"
+                      data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100"
                     >
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -422,7 +422,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -455,7 +455,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -488,7 +488,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -521,7 +521,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -554,7 +554,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -587,7 +587,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -620,7 +620,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -653,7 +653,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -686,7 +686,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -719,7 +719,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -752,7 +752,7 @@ const Profile = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
                           <div className="relative overflow-hidden rounded-lg uk-transition-toggle">
                             <div className="relative w-full lg:h-60 h-full aspect-[3/3]">
@@ -806,7 +806,7 @@ const Profile = () => {
                 <div className="pt-16">
                   <div
                     className="grid gap-3 lg:gap-4 lg:grid-cols-4 md:grid-cols-5 sm:grid-cols-3 grid-cols-2"
-                    uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100;repeat:true"
+                    data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100;repeat:true"
                   >
                     {/* single reels */}
                     <div className="lg:hover:scale-105 hover:shadow-lg hover:z-10 duration-500 delay-100">
@@ -1044,7 +1044,7 @@ const Profile = () => {
                 <div className="pt-16">
                   <div
                     className="grid lg:grid-cols-3 grid-cols-2 gap-4"
-                    uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100;repeat:true"
+                    data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100;repeat:true"
                   >
                     <div className="relative lg:rounded-xl rounded-md overflow-hidden shadow bg-white dark:bg-dark2">
                       {/* heading */}
@@ -1075,7 +1075,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1119,7 +1119,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-1.jpg"
@@ -1182,7 +1182,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1226,7 +1226,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-2.jpg"
@@ -1289,7 +1289,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1333,7 +1333,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-3.jpg"
@@ -1396,7 +1396,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1440,7 +1440,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-4.jpg"
@@ -1503,7 +1503,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1547,7 +1547,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-5.jpg"
@@ -1610,7 +1610,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1654,7 +1654,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-1.jpg"
@@ -1717,7 +1717,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1761,7 +1761,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-2.jpg"
@@ -1824,7 +1824,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1868,7 +1868,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-3.jpg"
@@ -1931,7 +1931,7 @@ const Profile = () => {
                           </button>
                           <div
                             className="w-[232px]"
-                            uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
+                            data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click"
                           >
                             <nav>
                               <a href="#">
@@ -1975,7 +1975,7 @@ const Profile = () => {
                         </div>
                       </div>
                       {/* post image */}
-                      <a href="#preview_modal" uk-toggle="">
+                      <a href="#preview_modal" data-uk-toggle="">
                         <div className="relative w-full h-48">
                           <img
                             src="assets/images/post/post-4.jpg"
@@ -2032,7 +2032,7 @@ const Profile = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="preview_modal"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto overflow-hidden shadow-xl rounded-lg lg:flex items-center ax-w-[86rem] w-full lg:h-[80vh]">
           {/* image previewer */}
@@ -2093,7 +2093,7 @@ const Profile = () => {
                   </button>
                   <div
                     className="w-[253px]"
-                    uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true"
+                    data-uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true"
                   >
                     <nav>
                       <a href="#">
@@ -2424,7 +2424,7 @@ const Profile = () => {
         </div>
       </div>
       {/* create status */}
-      <div className="hidden lg:p-20" id="create-status" uk-modal="">
+      <div className="hidden lg:p-20" id="create-status" data-uk-modal="">
         <div className="uk-modal-dialog tt relative overflow-hidden mx-auto bg-white p-7 shadow-xl rounded-lg md:w-[520px] w-full dark:bg-dark2">
           <div className="text-center py-3 border-b -m-7 mb-0 dark:border-slate-700">
             <h2 className="text-sm font-medium"> Create Status </h2>
@@ -2500,11 +2500,11 @@ const Profile = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="create-post"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto bg-white shadow-xl rounded-lg max-lg:w-full dark:bg-dark2">
           {/* This is a switcher for multiple tabs. Each switcher tab should have the same number of tabs. https://getuikit.com/docs/switcher*/}
-          <ul className="hidden" uk-switcher="connect: .posTabs">
+          <ul className="hidden" data-uk-switcher="connect: .posTabs">
             {/* tab 1 */}
             <li>
               <a href="#">...</a>
@@ -2526,7 +2526,7 @@ const Profile = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -2537,7 +2537,7 @@ const Profile = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -2558,7 +2558,7 @@ const Profile = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -2569,7 +2569,7 @@ const Profile = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -2609,9 +2609,9 @@ const Profile = () => {
                 </label>
                 <div
                   className="space-y-4 absolute flex flex-col justify-center"
-                  uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
+                  data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
                 >
-                  <div uk-scrollspy-class="uk-animation-scale-up">
+                  <div data-uk-scrollspy-class="uk-animation-scale-up">
                     <svg
                       className="mx-auto text-gray-600 dark:text-white"
                       width={96}
@@ -2635,7 +2635,7 @@ const Profile = () => {
                   </div>
                   <div
                     className=" mx-auto"
-                    uk-scrollspy-class="uk-animation-slide-bottom-small"
+                    data-uk-scrollspy-class="uk-animation-slide-bottom-small"
                   >
                     <button
                       type="button"
@@ -2668,7 +2668,7 @@ const Profile = () => {
                       {/* tabs */}
                       <ul
                         className="flex p-0.5 text-center text-xs font-medium text-gray-700 border rounded-md bg-slate-100 dark:text-white dark:border-slate-700 dark:bg-white/5"
-                        uk-switcher=""
+                        data-uk-switcher=""
                       >
                         <li className="flex-1">
                           
@@ -2775,11 +2775,11 @@ const Profile = () => {
                         <div>
                           <div
                             className="grid grid-cols-3 gap-4 mt-3 text-xs text-center font-light"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
                           >
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2792,7 +2792,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: contrast-150"
+                              data-uk-toggle="target: #addPostImage; cls: contrast-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2805,7 +2805,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2818,7 +2818,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2831,7 +2831,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2844,7 +2844,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: saturate-150"
+                              data-uk-toggle="target: #addPostImage; cls: saturate-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2857,7 +2857,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: sepia"
+                              data-uk-toggle="target: #addPostImage; cls: sepia"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2870,7 +2870,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2883,7 +2883,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2896,7 +2896,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2909,7 +2909,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2922,7 +2922,7 @@ const Profile = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -2952,7 +2952,7 @@ const Profile = () => {
                     />
                     <ul
                       className="divide-y divide-gray-100 dark:divide-slate-700"
-                      uk-nav="multiple: true"
+                      data-uk-nav="multiple: true"
                     >
                       <li>
                         <div className="flex items-center justify-between py-2 px-3.5">

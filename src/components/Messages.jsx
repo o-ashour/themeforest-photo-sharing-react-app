@@ -29,7 +29,7 @@ const Messages = () => {
                         </button>
                         <div
                           className="md:w-[270px] w-full"
-                          uk-dropdown="pos: bottom-left; offset:10; animation: uk-animation-slide-bottom-small"
+                          data-uk-dropdown="pos: bottom-left; offset:10; animation: uk-animation-slide-bottom-small"
                         >
                           <nav>
                             <a href="#">
@@ -68,7 +68,7 @@ const Messages = () => {
                         <button
                           type="button"
                           className="md:hidden"
-                          uk-toggle="target: #side-chat ; cls: max-md:-translate-x-full"
+                          data-uk-toggle="target: #side-chat ; cls: max-md:-translate-x-full"
                         >
                           <ion-icon name="chevron-down-outline" />
                         </button>
@@ -352,7 +352,7 @@ const Messages = () => {
                 <div
                   id="side-chat"
                   className="bg-slate-100/40 backdrop-blur w-full h-full dark:bg-slate-800/40 z-40 fixed inset-0 max-md:-translate-x-full md:hidden"
-                  uk-toggle="target: #side-chat ; cls: max-md:-translate-x-full"
+                  data-uk-toggle="target: #side-chat ; cls: max-md:-translate-x-full"
                 />
               </div>
               {/* message center */}
@@ -364,7 +364,7 @@ const Messages = () => {
                     <button
                       type="button"
                       className="md:hidden"
-                      uk-toggle="target: #side-chat ; cls: max-md:-translate-x-full"
+                      data-uk-toggle="target: #side-chat ; cls: max-md:-translate-x-full"
                     >
                       <ion-icon
                         name="chevron-back-outline"
@@ -373,7 +373,7 @@ const Messages = () => {
                     </button>
                     <div
                       className="relative cursor-pointer max-md:hidden"
-                      uk-toggle="target: .rightt ; cls: hidden"
+                      data-uk-toggle="target: .rightt ; cls: hidden"
                     >
                       <img
                         src="assets/images/avatars/avatar-6.jpg"
@@ -384,7 +384,7 @@ const Messages = () => {
                     </div>
                     <div
                       className="cursor-pointer"
-                      uk-toggle="target: .rightt ; cls: hidden"
+                      data-uk-toggle="target: .rightt ; cls: hidden"
                     >
                       <div className="text-base font-bold"> Monroe Parker</div>
                       <div className="text-xs text-green-500 font-semibold">
@@ -429,7 +429,7 @@ const Messages = () => {
                     <button
                       type="button"
                       className="hover:bg-slate-100 p-1.5 rounded-full"
-                      uk-toggle="target: .rightt ; cls: hidden"
+                      data-uk-toggle="target: .rightt ; cls: hidden"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -687,11 +687,11 @@ const Messages = () => {
                     </button>
                     <div
                       className="dropbar pt-36 h-60 bg-gradient-to-t via-white from-white via-30% from-30% dark:from-slate-900 dark:via-900"
-                      uk-drop="stretch: x; target: #message__wrap ;animation:  slide-bottom ;animate-out: true; pos: top-left; offset:10 ; mode: click ; duration: 200"
+                      data-uk-drop="stretch: x; target: #message__wrap ;animation:  slide-bottom ;animate-out: true; pos: top-left; offset:10 ; mode: click ; duration: 200"
                     >
                       <div
                         className="sm:w-full p-3 flex justify-center gap-5"
-                        uk-scrollspy="target: > button; cls: uk-animation-slide-bottom-small; delay: 100;repeat:true"
+                        data-uk-scrollspy="target: > button; cls: uk-animation-slide-bottom-small; delay: 100;repeat:true"
                       >
                         <button
                           type="button"
@@ -727,7 +727,7 @@ const Messages = () => {
                     </button>
                     <div
                       className="dropbar p-2"
-                      uk-drop="stretch: x; target: #message__wrap ;animation: uk-animation-scale-up uk-transform-origin-bottom-left ;animate-out: true; pos: top-left ; offset:2; mode: click ; duration: 200 "
+                      data-uk-drop="stretch: x; target: #message__wrap ;animation: uk-animation-scale-up uk-transform-origin-bottom-left ;animate-out: true; pos: top-left ; offset:2; mode: click ; duration: 200 "
                     >
                       <div className="sm:w-60 bg-white shadow-lg border rounded-xl  pr-0 dark:border-slate-700 dark:bg-dark3">
                         <h4 className="text-sm font-semibold p-3 pb-0">
@@ -941,7 +941,7 @@ const Messages = () => {
                   <button
                     type="button"
                     className="absolute top-0 right-0 m-4 p-2 bg-secondery rounded-full"
-                    uk-toggle="target: .rightt ; cls: hidden"
+                    data-uk-toggle="target: .rightt ; cls: hidden"
                   >
                     <ion-icon name="close" className="text-2xl flex" />
                   </button>
@@ -949,7 +949,7 @@ const Messages = () => {
                 {/* overly */}
                 <div
                   className="bg-slate-100/40 backdrop-blur absolute w-full h-full dark:bg-slate-800/40"
-                  uk-toggle="target: .rightt ; cls: hidden"
+                  data-uk-toggle="target: .rightt ; cls: hidden"
                 />
               </div>
             </div>
@@ -959,11 +959,11 @@ const Messages = () => {
       <div
         className="hidden lg:p-20 max-lg:!items-start"
         id="create-post"
-        uk-modal=""
+        data-uk-modal=""
       >
         <div className="uk-modal-dialog tt relative mx-auto bg-white shadow-xl rounded-lg max-lg:w-full dark:bg-dark2">
           {/* This is a switcher for multiple tabs. Each switcher tab should have the same number of tabs. https://getuikit.com/docs/switcher*/}
-          <ul className="hidden" uk-switcher="connect: .posTabs">
+          <ul className="hidden" data-uk-switcher="connect: .posTabs">
             {/* tab 1 */}
             <li>
               <a href="#">...</a>
@@ -985,7 +985,7 @@ const Messages = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -996,7 +996,7 @@ const Messages = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1017,7 +1017,7 @@ const Messages = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 right-1 text-blue-600"
-                uk-switcher-item="next"
+                data-uk-switcher-item="next"
               >
                 
                 Next
@@ -1028,7 +1028,7 @@ const Messages = () => {
               <a
                 href="#"
                 className="absolute top-0 m-3.5 left-0"
-                uk-switcher-item="previous"
+                data-uk-switcher-item="previous"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1068,9 +1068,9 @@ const Messages = () => {
                 </label>
                 <div
                   className="space-y-4 absolute flex flex-col justify-center"
-                  uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
+                  data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300;repeat:true"
                 >
-                  <div uk-scrollspy-class="uk-animation-scale-up">
+                  <div data-uk-scrollspy-class="uk-animation-scale-up">
                     <svg
                       className="mx-auto text-gray-600 dark:text-white"
                       width={96}
@@ -1094,7 +1094,7 @@ const Messages = () => {
                   </div>
                   <div
                     className=" mx-auto"
-                    uk-scrollspy-class="uk-animation-slide-bottom-small"
+                    data-uk-scrollspy-class="uk-animation-slide-bottom-small"
                   >
                     <button
                       type="button"
@@ -1127,7 +1127,7 @@ const Messages = () => {
                       {/* tabs */}
                       <ul
                         className="flex p-0.5 text-center text-xs font-medium text-gray-700 border rounded-md bg-slate-100 dark:text-white dark:border-slate-700 dark:bg-white/5"
-                        uk-switcher=""
+                        data-uk-switcher=""
                       >
                         <li className="flex-1">
                           
@@ -1234,11 +1234,11 @@ const Messages = () => {
                         <div>
                           <div
                             className="grid grid-cols-3 gap-4 mt-3 text-xs text-center font-light"
-                            uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
+                            data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 50;repeat:true"
                           >
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1251,7 +1251,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: contrast-150"
+                              data-uk-toggle="target: #addPostImage; cls: contrast-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1264,7 +1264,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1277,7 +1277,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1290,7 +1290,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1303,7 +1303,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: saturate-150"
+                              data-uk-toggle="target: #addPostImage; cls: saturate-150"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1316,7 +1316,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: sepia"
+                              data-uk-toggle="target: #addPostImage; cls: sepia"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1329,7 +1329,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: brightness-125"
+                              data-uk-toggle="target: #addPostImage; cls: brightness-125"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1342,7 +1342,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1355,7 +1355,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: grayscale"
+                              data-uk-toggle="target: #addPostImage; cls: grayscale"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1368,7 +1368,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: hue-rotate-60"
+                              data-uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1381,7 +1381,7 @@ const Messages = () => {
                             </div>
                             <div
                               className="group cursor-pointer"
-                              uk-toggle="target: #addPostImage; cls: invert"
+                              data-uk-toggle="target: #addPostImage; cls: invert"
                             >
                               <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
                                 <img
@@ -1411,7 +1411,7 @@ const Messages = () => {
                     />
                     <ul
                       className="divide-y divide-gray-100 dark:divide-slate-700"
-                      uk-nav="multiple: true"
+                      data-uk-nav="multiple: true"
                     >
                       <li>
                         <div className="flex items-center justify-between py-2 px-3.5">

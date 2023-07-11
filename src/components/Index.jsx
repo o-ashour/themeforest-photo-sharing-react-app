@@ -8,7 +8,7 @@ function Index() {
         <div className="max-w-5xl mx-auto">
           <div className="flex justify-between items-center">
             <div className="flex gap-2 items-center z-20 relative">
-              <button type="button" className="p-2.5 text-lg max-md:flex hidden group z" uk-toggle="target: #header-nav ; cls:max-md:hidden">
+              <button type="button" className="p-2.5 text-lg max-md:flex hidden group z" data-uk-toggle="target: #header-nav ; cls:max-md:hidden">
                 <ion-icon name="menu" className="group-aria-expanded:inline hidden"></ion-icon>
                 <ion-icon name="close" className="group-aria-expanded:hidden"></ion-icon>
               </button>
@@ -18,7 +18,7 @@ function Index() {
             </div>
 
             <div id="header-nav" className="max-md:hidden max-md:bg-white max-md:p-5 max-md:fixed max-md:top-0 max-md:shadow-md max-md:left-0 max-md:pt-14 max-md:w-full max-md:z-10">
-              <nav className="flex lg:items-center font-semibold text-slate-500 dark:text-white/70 lg:gap-1 max-md:border-t max-md:pt-2 max-md:flex max-md:flex-col" uk-scrollspy-nav="closest: a ; scroll: true">
+              <nav className="flex lg:items-center font-semibold text-slate-500 dark:text-white/70 lg:gap-1 max-md:border-t max-md:pt-2 max-md:flex max-md:flex-col" data-uk-scrollspy-nav="closest: a ; scroll: true">
                 <a className="lg:py-1.5 py-2.5 px-3 duration-500 hover:text-black" href="#home">
                   Home
                 </a>
@@ -93,7 +93,7 @@ function Index() {
 
             {/*<!-- features -->*/}
             <section>
-              <div className="grid md:grid-cols-3 grid-cols-2 gap-5 md:gap-y-10 md:mt-8 -mt-6 md:text-xl text-sm font-medium" id="features" uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100">
+              <div className="grid md:grid-cols-3 grid-cols-2 gap-5 md:gap-y-10 md:mt-8 -mt-6 md:text-xl text-sm font-medium" id="features" data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 100">
                 <div className="space-x-4 flex items-center">
                   <div className="rounded-full  bg-pink-200 md:p-1.5 p-1 inline-flex ring right-2 ring-pink-50 ring-offset-1 dark:ring-slate-600">
                     <ion-icon name="reader" className="md:text-4xl text-2xl text-white drop-shadow-md"></ion-icon>
@@ -154,7 +154,7 @@ function Index() {
               <div className="lg:text-3xl text-lg md:font-bold font-semibold text-black dark:text-white"> Check the Demos </div>
               <p className="max-w-3xl mx-auto text-gray-500 md:text-base text-sm leading-relaxed dark:text-white/80">  Explore our demo pages and different layout of designs </p>
             </div>
-            <div className="grid sm:grid-cols-2 gap-6 lg:mt-20 mt-10 text-center font-normal capitalize" uk-scrollspy="target: > a ; cls: uk-animation-slide-bottom-small ; delay: 160">
+            <div className="grid sm:grid-cols-2 gap-6 lg:mt-20 mt-10 text-center font-normal capitalize" data-uk-scrollspy="target: > a ; cls: uk-animation-slide-bottom-small ; delay: 160">
               <a href="home.html" target="_blank">
                 <div className="group">
                   <div className="md:rounded-xl rounded-md shadow-md overflow-hidden duration-300 group-hover:-translate-y-1 group-hover:scale-[1.01] group-hover:shadow-lg">
@@ -345,7 +345,7 @@ function Index() {
               <p className="max-w-3xl text-gray-500 text-sm sm:text-lg leading-relaxed dark:text-white/80 max-md:hidden"> a great solution ready for you to start building your apps? Use our templates and design system as the rock-solid foundation for your internal UI component library </p>
             </div>
 
-            <div className="relative mt-8" tabindex="-1" uk-slider="finite: true">
+            <div className="relative mt-8" tabindex="-1" data-uk-slider="finite: true">
               <div className="overflow-hidden uk-slider-container">
                 <ul className="-ml-2 uk-slider-items w-[calc(100%+0.875rem)]">
                   {/*<!-- single template -->*/}
@@ -398,8 +398,8 @@ function Index() {
                 </ul>
               </div>
 
-              <button type="button" className="absolute -translate-y-1/2 bg-white rounded-full bottom-1/2 -left-5 grid w-10 h-10 place-items-center shadow-md dark:bg-dark3" uk-slider-item="previous"> <ion-icon name="chevron-back" className="text-2xl"></ion-icon></button>
-              <button type="button" className="absolute -right-5 -translate-y-1/2 bg-white rounded-full bottom-1/2 grid w-10 h-10 place-items-center shadow-md dark:bg-dark3" uk-slider-item="next"> <ion-icon name="chevron-forward" className="text-2xl"></ion-icon></button>
+              <button type="button" className="absolute -translate-y-1/2 bg-white rounded-full bottom-1/2 -left-5 grid w-10 h-10 place-items-center shadow-md dark:bg-dark3" data-uk-slider-item="previous"> <ion-icon name="chevron-back" className="text-2xl"></ion-icon></button>
+              <button type="button" className="absolute -right-5 -translate-y-1/2 bg-white rounded-full bottom-1/2 grid w-10 h-10 place-items-center shadow-md dark:bg-dark3" data-uk-slider-item="next"> <ion-icon name="chevron-forward" className="text-2xl"></ion-icon></button>
             </div>
           </section>
         </div>
