@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
+import './css/theme.css';
 import App from './App';
 
 import "uikit/dist/css/uikit.min.css";

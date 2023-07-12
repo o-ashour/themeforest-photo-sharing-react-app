@@ -1,0 +1,14 @@
+:root {
+  --w-side:               290px;
+  --w-side-md:            240px;
+  --w-side-small:         73px;
+  --color-bgbody:         246 249 251;
+  --color-primary:        219 39 119;
+  --color-primary-soft:   252 231 243;
+  --color-secondery:      241 245 249;
+}
+
+.dark:root  {
+  --color-bgbody:         15 23 42;
+  --color-secondery:      51 65 80;
+}
